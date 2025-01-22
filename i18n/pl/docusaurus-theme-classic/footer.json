@@ -27,20 +27,20 @@
     "message": "Strona główna",
     "description": "The label of footer link with label=Website linking to https://4gaboards.com/"
   },
-  "link.item.label.Terms of Service": {
-    "message": "Warunki Korzystania z Usług",
-    "description": "The label of footer link with label=Terms of Service linking to https://4gaboards.com/terms-of-service"
-  },
-  "link.item.label.Privacy Policy": {
-    "message": "Polityka Prywatności",
-    "description": "The label of footer link with label=Privacy Policy linking to https://4gaboards.com/privacy-policy"
-  },
-  "link.item.label.Legal Info": {
-    "message": "Informacje Prawne",
-    "description": "The label of footer link with label=Legal Info linking to https://4gaboards.com/legal-info"
-  },
   "link.item.label.Contact": {
     "message": "Kontakt",
     "description": "The label of footer link with label=Contact linking to https://4gaboards.com/contact"
+  },
+  "link.item.label.For Users": {
+    "message": "Dla użytkowników",
+    "description": "The label of footer link with label=For Users linking to /docs/structure"
+  },
+  "link.item.label.For Administrators": {
+    "message": "Dla administratorów",
+    "description": "The label of footer link with label=For Administrators linking to /docs/admin-settings"
+  },
+  "link.item.label.For Developers": {
+    "message": "Dla developerów",
+    "description": "The label of footer link with label=For Developers linking to /docs/developers"
   }
 }

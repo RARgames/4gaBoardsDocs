@@ -85,8 +85,8 @@ plugins: [
       navbar: {
         title: 'Documentation',
         logo: {
-          alt: '4ga Boards Logo',
-          src: 'img/4ga.png',
+          alt: '4ga Boards Documentation',
+          src: 'img/4gaboards512w-white.webp',
         },
         items: [
           {
@@ -115,7 +115,7 @@ plugins: [
 
           },
           {
-            href: 'https://github.com/RARgames/4gaboards',
+            to: 'https://github.com/RARgames/4gaboards',
             label: 'GitHub',
             position: 'right',
           },
@@ -129,12 +129,13 @@ plugins: [
         style: 'dark',
         links: [
           {
-            title: 'Docs',
             items: [
               {
-                image: 'pictures/4gaboards512w-white',
-                label: 'Start',
-                to: 'docs/home',
+                html: `<div class="footer-custom-logo">
+                <img src="/img/4gaboards512w-white.webp" alt="4ga Boards Website" />
+              </div>`,
+                height: '80px',
+                width: '200px',
               },
             ],
           },
@@ -143,15 +144,15 @@ plugins: [
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/RARgames/4gaBoards',
+                to: 'https://github.com/RARgames/4gaBoards',
               },
               {
                 label: 'Website',
-                href: 'https://4gaboards.com/',
+                to: 'https://4gaboards.com/',
               },
               {
                 label: 'Contact',
-                href: 'https://4gaboards.com/contact',
+                to: 'https://4gaboards.com/contact',
               },
             ],
           },
@@ -159,16 +160,16 @@ plugins: [
             title: 'More',
             items: [
               {
-                label: 'Terms of Service',
-                href: 'https://4gaboards.com/terms-of-service',
+                label: 'For Users',
+                to: '/docs/structure',
               },
               {
-                label: 'Privacy Policy',
-                href: 'https://4gaboards.com/privacy-policy',
+                label: 'For Administrators',
+                to: '/docs/admin-settings',
               },
               {
-                label: 'Legal Info',
-                href: 'https://4gaboards.com/legal-info',
+                label: 'For Developers',
+                to: '/docs/developers',
               },
             ],
           },

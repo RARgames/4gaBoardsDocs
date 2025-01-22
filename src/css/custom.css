@@ -29,6 +29,11 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+.footer-custom-logo {
+  height: 70px;
+  width: 300px;
+}
+
 .hero--primary {
   background-color:  #22252a;
 }

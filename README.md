@@ -5,6 +5,8 @@
 npm run build
 npm run serve
 
+additional translations:
+npm run write-translations -- --locale pl
 
 
 copied from docussaurus
