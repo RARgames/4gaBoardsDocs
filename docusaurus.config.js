@@ -20,13 +20,8 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  // organizationName: 'facebook', // Usually your GitHub org/user name.
-  // projectName: 'docusaurus', // Usually your repo name.
-
-  onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'ignore',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -34,25 +29,16 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'pl'],
-    localeConfigs: {
-    en: {
-      label: 'English',
-      path: 'en', // Forces the language code to appear
-    },
-  }
   },
 
-plugins: [
-
-    // ... Your other themes.
+  plugins: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       ({
         hashed: true,
       }),
-      
-  ], 
-],
+    ], 
+  ],
 
   presets: [
     [
@@ -61,9 +47,6 @@ plugins: [
       ({
         docs: {
           sidebarPath: './sidebars.js',
-
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -80,7 +63,6 @@ plugins: [
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
-      // Replace with your project's social card
       image: 'img/4gaBoards_social_card.webp',
       navbar: {
         title: 'Documentation',

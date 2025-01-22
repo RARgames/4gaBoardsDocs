@@ -21,4 +21,4 @@ As an administrator, you have control over users information. When you click on 
 - Local User registration: Turn on if you want new users to be able to register using e-mail and password.
 - SSO User Registration: Turn on if you want to enable registration with Google account.
 
-![instance-settings.jpg](/img/instance-settings.jpg)
+![instance-settings.jpg](/img/instance-settings_en.jpg)

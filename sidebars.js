@@ -50,7 +50,7 @@ export default {
           href: 'https://github.com/RARgames/4gaBoards',
         },
         { type: 'link',
-          label: 'Main Website',
+          label: '4ga Boards Website',
           href: 'https://4gaboards.com/',
         },
         { type: 'link',
