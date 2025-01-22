@@ -13,6 +13,7 @@
   --dark-primary: #D8D4CE;
   --dark-h: #E0DCD7;
   --yellow: #FFBD00;
+  --gray: #8B8E92;
 
   --ifm-color-primary: var(--yellow);
   --ifm-color-primary-dark: var(--yellow);
@@ -30,12 +31,42 @@
 }
 
 .footer {
-  background: var(--dark-background0);
+  background: url(/img/4ga_footer.png) center center no-repeat;
+  background-size: contain;
+  min-height: 388.25px;
+  background-color: var(--dark-background0);
 }
 
 .footer-custom-logo {
   height: 70px;
   width: 300px;
+}
+
+.header-github svg {
+  width: 30px;
+  height: 30px;
+}
+
+.header-github {
+  display: flex;
+  align-items: center;
+  color: var(--dark-primary);
+  path {
+      fill: var(--gray);
+  }
+  white-space: nowrap;
+}
+
+.header-github:hover, .header-github:focus, .header-github:active {
+  color: var(--yellow);
+
+  path {
+      fill: var(--yellow);
+  }
+}
+
+.header-github p {
+  margin: 0 0 0 0.5rem;
 }
 
 .navbar {
