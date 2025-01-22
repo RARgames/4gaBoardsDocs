@@ -38,6 +38,7 @@ export default {
       label: 'For Developers',
       items: [
         'developers',
+        'developers2',
       ],
     },
     {
