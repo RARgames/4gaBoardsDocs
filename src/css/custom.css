@@ -14,19 +14,19 @@
   --ifm-color-primary-lighter: #ffbd00;
   --ifm-color-primary-lightest: #ffbd00;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* Custom */
+  --dark-background0: #22252a;
+  --dark-background1: #171D25;
+  --dark-background2: #0D1117;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #ffbd00;
-  --ifm-color-primary-dark: #ffbd00;
-  --ifm-color-primary-darker: #ffbd00;
-  --ifm-color-primary-darkest: #ffbd00;
-  --ifm-color-primary-light: #ffbd00;
-  --ifm-color-primary-lighter: #ffbd00;
-  --ifm-color-primary-lightest: #ffbd00;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+.main-wrapper {
+  background-color:  var(--dark-background1);
+}
+
+.footer {
+  background-color:  var(--dark-background0);
 }
 
 .footer-custom-logo {
@@ -34,8 +34,12 @@
   width: 300px;
 }
 
+.navbar {
+  background-color:  var(--dark-background0);
+}
+
 .hero--primary {
-  background-color:  #22252a;
+  background-color:  var(--dark-background2);
 }
 
 .hero__title {
