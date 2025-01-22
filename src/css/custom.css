@@ -6,27 +6,31 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #ffbd00;
-  --ifm-color-primary-dark: #ffbd00;
-  --ifm-color-primary-darker: #ffbd00;
-  --ifm-color-primary-darkest: #ffbd00;
-  --ifm-color-primary-light: #ffbd00;
-  --ifm-color-primary-lighter: #ffbd00;
-  --ifm-color-primary-lightest: #ffbd00;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   /* Custom */
   --dark-background0: #22252a;
   --dark-background1: #171D25;
   --dark-background2: #0D1117;
+  --dark-primary: #D8D4CE;
+  --dark-h: #E0DCD7;
+  --yellow: #FFBD00;
+
+  --ifm-color-primary: var(--yellow);
+  --ifm-color-primary-dark: var(--yellow);
+  --ifm-color-primary-darker: var(--yellow);
+  --ifm-color-primary-darkest: var(--yellow);
+  --ifm-color-primary-light: var(--yellow);
+  --ifm-color-primary-lighter: var(--yellow);
+  --ifm-color-primary-lightest: var(--yellow);
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
 .main-wrapper {
-  background-color:  var(--dark-background1);
+  background: var(--dark-background1);
 }
 
 .footer {
-  background-color:  var(--dark-background0);
+  background: var(--dark-background0);
 }
 
 .footer-custom-logo {
@@ -35,24 +39,24 @@
 }
 
 .navbar {
-  background-color:  var(--dark-background0);
+  background: var(--dark-background0);
 }
 
 .hero--primary {
-  background-color:  var(--dark-background2);
+  background: var(--dark-background2);
 }
 
 .hero__title {
-  color: #E0DCD7;
+  color: var(--dark-h);
 }
 
 .hero__subtitle {
-  color: #D8D4CE;
+  color: var(--dark-primary);
 }
 
 .button {
-  background-color: #ffbd00;
-  border-color: #ffbd00;
+  background: var(--yellow);
+  border-color: var(--yellow);
 }
 
 .container {
@@ -62,7 +66,6 @@
 .col--3 { 
   max-width: 15% !important;
   flex: 1 1 0;
-
  }
 
  .docMainContainer_TBSr .docItemCol_VOVn {
@@ -70,4 +73,3 @@
   max-width: 85% !important;
   margin: 0 1rem 0 2rem;
 }
-
