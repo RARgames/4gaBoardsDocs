@@ -14,13 +14,13 @@ To create a card you have two options:
 1. Click on the `+ Add Card` button at the bottom of an existing list. 
 2. Click the `ellipsis` icon at the top-right of the list and select `Add Card`. It will create card at the bottom of the list.
 
-![list_menu.png](@site/pictures/listmenu_en.png)
+![list_menu.png](/img/listmenu_en.png)
 
 After you write the title of the card, press `Enter` or "Add card" button to create it; alternatively, you can press `Ctrl` + `Enter` combination to create the card and immidiately open it. To abort creating a new card, press `Cancel` or click in an empty spot on the board (this option will not work if you have filled the title; in that case, click the `Cancel` button).
 
 The easiest way to move cards across the board is to drag and drop it in the desired place - just click and hold it! You can put card in both open and hidden lists. When dropping to the hidden list, it will be placed at the bottom of this list. To be sure which hidden list are you putting your card into, look if the title is pushed lower. In the example below, the card will be stored in "To test" list.
 
-![card_drop.png](@site/pictures/carddrop_en.png)
+![card_drop.png](/img/carddrop_en.png)
 
 There are two other ways to move a card: with card menu (see below) and in the card view, right below the title (see Card options).
 
@@ -28,7 +28,7 @@ To delete the card, you have to move your mouse above the card you want to delet
 
 ## Card menu
 
-![card_menu.png](@site/pictures/cardmenu_en.png) 
+![card_menu.png](/img/cardmenu_en.png) 
 
 After clicking the three dots in the card you will open a card menu. Here you can:
 
@@ -44,34 +44,34 @@ After clicking the three dots in the card you will open a card menu. Here you ca
 ## Card View overview
 When you click on the card, the card view will show up at the right side of your screen. Why not on the centre? The unique feature of 4ga Boards is that you can manipulate the lists and boards while the card view is open.
 
-![card_open_boardview.png](@site/pictures/cardopenboardview_en.png)
+![card_open_boardview.png](/img/cardopenboardview_en.png)
 
 It is quite convenient if you want to rearrange your cards while still writing the description, or to simply appraise you beautiful card cover picture. Isn't it beautiful? 
 
-![card_open_boardview_pumpkin.png](@site/pictures/cardopenboardviewpumpkin_en.png)
+![card_open_boardview_pumpkin.png](/img/cardopenboardviewpumpkin_en.png)
 
 Also, notice that cards have different appearance that is changing with the amount of options and details set.
 
 ## Card options
 The card view is the best way to change all the informations, options and details about your card. If the view gets cluttered, you can hide certain elements (description, tasks, attachments, comments) by clicking on the `-` icon next to them. Click the `+` icon to show them again. This section will explain all of them from the top to the bottom. 
 
-![card_view.png](@site/pictures/cardviewmain_en.png)
+![card_view.png](/img/cardviewmain_en.png)
 
 1. Title: you can click on it to change the cards title (`ENTER` to accept)
 2. Card view icons on the top-right corner: click the `bin` icon to delete card (it will open pop-up to confirm deleting), three dots icon will open the card menu explained before, the `X` button will close the card view.
 3. List selection: Below the title of the card, it shows in which list the card is situated. Clicking on it will open dropdown list. Here you can select in which list the card should be moved (it will appear at the top of the list).
 4. Members: Click on the plus icon to toggle assigning members to the card. Tick symbol indicates whether the member is assinged or not. 
 
-![card_members.png](@site/pictures/cardmembers_en.png)
+![card_members.png](/img/cardmembers_en.png)
 
 Note that only members that are added to the current board can be assigned to the card. If you don't see a member that should be available here and you are a project manager, add the member in [board options](/en/board-view).
 5. Labels: Click on the plus icon to add labels to your card. Tick symbol indicates whether or not the label is used. You can also manage your labels here: create new labels (click on `Create new label`) or editing existing ones (click on the `pencil` icon). 
 
-![card_labels.png](@site/pictures/cardlabels_en.png) ![card_labels_edit.png](@site/pictures/cardlabelsedit_en.png)
+![card_labels.png](/img/cardlabels_en.png) ![card_labels_edit.png](/img/cardlabelsedit_en.png)
 
 6. Due date: Here you can add (click on `+` icon)/edit (`pencil` icon) the due date for the card. If the due date is furhter than two weeks, it will appear grey; if it is in the range of two weeks - yellow; if overdue - red.
 
-![card_duedate.png](@site/pictures/cardduedate_en.png)
+![card_duedate.png](/img/cardduedate_en.png)
 
 7. Timer: Using timer you can track the time it takes you to complete the task. Click on the timer to start/pause it, and click `pencil` button to edit the time manually or reset timer. When the timer runs it appears green. 
 8. Notifications: Here you can subscribe or unsubscribe from the notifications on this card. While subscribed you will receive a notification (`bell` icon at the dashboard in the top-right corner) whenever someone adds comment to the card.
@@ -84,11 +84,11 @@ Note that only members that are added to the current board can be assigned to th
     - You can toogle tasks visibility on the board: to do this, click on the `triangle` icon near the cards taskbar visible on the list.
     - Tasks can be assigned with a member or a due date: to do this click on the `ellipsis` icon and choose appriopriate option ("Edit Due Date" or "Edit Members"). This informations will be displayed at the right side of the appriopriate task.
 
-![card_tasksviewed.png](@site/pictures/cardtasksviewed_en.png)
+![card_tasksviewed.png](/img/cardtasksviewed_en.png)
 
 11. Attachments: Here you can add attachments to your card by either `Ctrl` + `V`, dropping them on the card or clicking on `Add attachment` field and selecting from the disc. If the attachment is an image, you can use it as a cover that will appear in the list view. To do this, click on `Make cover` button near the desired image. To remove cover, use `Remove cover` button. To remove the attachment completely, hover over it, click on the `pencil` icon and select `Delete attachment`.
 
-![card_cover.png](@site/pictures/cardcover_en.png)
+![card_cover.png](/img/cardcover_en.png)
 
 12. Comments: here you can add (start writing in the box and press `Ctrl` + `Enter` or `Add comment` button), edit (`pencil` icon) or delete (`bin` icon) coments to the card , using the same text editor as in the description field.
 
@@ -97,7 +97,7 @@ Note that only members that are added to the current board can be assigned to th
 
 In 4ga Boards we are using very powerful markdown editor with unique features (marked by bold text). In the bottom-right corner of text editor box there are three small dots: drag them with a mouse to make the box bigger/smaller. The working view should look like this (notice the yellow text local changes - it shows that the text is still in edit mode and the changes are not yet registered on the server):
 
-![texteditor_en.png](@site/pictures/texteditor_en.png)
+![texteditor_en.png](/img/texteditor_en.png)
 
 
 

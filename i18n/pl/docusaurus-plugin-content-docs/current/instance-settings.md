@@ -5,7 +5,7 @@ sidebar_label: 'Ustawienia instancji'
 # Ustawienia instancji
 Jako administrator masz pełną kontrolę nad instancją, w tym nad dostępnymi metodami logowania i użytkownikami. Tylko administrator może też tworzyć nowe projekty. Aby dostać się do ustawień instancji należy kliknąć ikonę użytkowników na panelu z prawej górnej strony, bądź wybrać odpowiednią opcję z panelu bocznego ustawień.
 
-![settingsdashboard_en.png](@site/pictures/settingsdashboard_en.png)
+![settingsdashboard_en.png](/img/settingsdashboard_en.png)
 
 ## Użytkownicy
 
@@ -15,7 +15,7 @@ Możesz tu również dodać manualnie nowych użytkowników dzięki przyciskowi 
 
 Jako administrator masz również pełną kontrolę nad informacjami użytkowników. Jeśli klikniesz w ikonkę ołówka będziesz mieć dostęp do [ustawień danego użytkownika](./settings). Przydatne jeśli ktoś zapomni hasła!
 
-![instanceusers_pl.png](@site/pictures/instanceusers_pl.png)
+![instanceusers_pl.png](/img/instanceusers_pl.png)
 
 ## Opcje logowania
 Rejestracja użytkowników: Włącz lub wyłącz wszystkie metody rejestracji użytkowników. Jeśli wyłączysz wszystkie metody rejestracji, tylko administratorzy będą mogli tworzyć nowych użytkowników.
@@ -24,4 +24,4 @@ Lokalna rejestracja użytkowników: Włącz lub wyłącz lokalną rejestrację u
 
 Rejestracja przez SSO: Włącz lub wyłącz rejestrację użytkownika przez SSO. Ten sposób rejestracji pozwala użytkownikom na utworzenie konta przy pomocy konta zewnętrznego np. poprzez konto zewnętrzne (obecnie możliwa jest rejestracja przez konto Google).
 
-![instancesettings_pl.png](@site/pictures/instancesettings_pl.png)
+![instancesettings_pl.png](/img/instancesettings_pl.png)

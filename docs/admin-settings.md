@@ -31,11 +31,11 @@ For administrators:
 
 If you are an administrator and you are manager of the currently opened project, your top-right corner of the dashboard will look like this:
 
-![dashboard_right.png](@site/pictures/settingsdashboard_en.png)
+![dashboard_right.png](/img/settingsdashboard_en.png)
 
 If you click on your profile photo/name, you will open all the possible settings for your account:
 
-![dashboard_profileclicked.png](@site/pictures/settingsprofileclicked_en.png)
+![dashboard_profileclicked.png](/img/settingsprofileclicked_en.png)
 
 To access the settings, click on the cog icon.
 
@@ -43,5 +43,5 @@ To access instance settings click on the users icon (to the right of the cog set
 
 To quickly navigate the different settings, use the side panel - you can hide/show it using the bar&arrow icon next to 4ga Boards logo:
 
-![settings_panel_full.png](@site/pictures/settingssidebar_en.png)
+![settings_panel_full.png](/img/settingssidebar_en.png)
 

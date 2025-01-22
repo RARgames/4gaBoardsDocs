@@ -8,7 +8,7 @@ Hello! This guide aims to provide a comprehensive tutorial for you to get starte
 ## What exactly is 4ga Boards?
 4ga Boards is a convienient and easy to grasp management tool based on the kanban board technique. A kanban board is a visual tool used to manage and optimize workflows, which displays tasks as cards across columns that can represent different stages of a process. The main view of 4ga Boards, which you will probably see for the most time can be seen below.
 
-![mainview_gettingstarted_en.png](@site/pictures/mainviewgettingstarted_en.png)
+![mainview_gettingstarted_en.png](/img/mainviewgettingstarted_en.png)
 
 
 

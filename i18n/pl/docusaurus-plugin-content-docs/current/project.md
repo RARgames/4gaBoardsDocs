@@ -5,7 +5,7 @@ sidebar_label: 'Projekt'
 # Projekt
 Projekty są najwyższą chierarchicznie strukturą w programie 4ga Boards. Do każdego projektu można przejść z panelu głównego (3) albo używając [panelu bocznego](./sidebar) (2).
 
-![mainviewgettingstarted_pl.png](@site/pictures/projectsview_pl.png)
+![mainviewgettingstarted_pl.png](/img/projectsview_pl.png)
 
 Jeśli chcesz powrócić do widoku projektów, wystarczy że klikniesz w logo 4ga Boards w nagłówku (1). Dodatkowo jeśli posiadasz uprawnienia do zarządzania projektem, możesz je edytować w [ustawieniach projektu](./project-settings).
 
@@ -15,6 +15,6 @@ UWAGA: Jeśli nie widzisz opcji utworzenia projektu oznacza to że nie masz upra
 
 Aby otworzyć menu podręczne projektu (dostępne dla moderatora projektu) należy najechać myszką na nazwę projektu a następnie kliknąć w ikonkę trzech kropek. Za pomocą tego menu możliwa jest zmiana nazwy projektu, przejście do [ustawień projektu](./project-settings) oraz dodać nową [tablicę](./board).
 
-![projectsmenu_pl.png](@site/pictures/projectsmenu_pl.png)
+![projectsmenu_pl.png](/img/projectsmenu_pl.png)
 
 Kliknij w kafelek projektu albo jego nazwę w panelu bocznym aby przejść do [widoku tablicy](./board).
