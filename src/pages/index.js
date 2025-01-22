@@ -32,8 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Documentation for ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={` ${siteConfig.title}`}
+      description="Get Advantage of 4ga Boards by browsing through the documentation.">
       <HomepageHeader />
       <main style={{ padding: '20px' }}>
         <div style={{ display: 'flex', justifyContent: 'space-around', gap: '20px', flexWrap: 'wrap' }}>
