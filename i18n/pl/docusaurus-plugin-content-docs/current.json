@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Następna",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Getting Started": {
+    "message": "Wprowadzenie",
+    "description": "The label for category Getting Started in sidebar docs"
+  },
+  "sidebar.docs.category.For Users": {
+    "message": "Dla użytkowników",
+    "description": "The label for category For Users in sidebar docs"
+  },
+  "sidebar.docs.category.For Administrators": {
+    "message": "Dla administratorów",
+    "description": "The label for category For Administrators in sidebar docs"
+  },
+  "sidebar.docs.category.For Developers": {
+    "message": "Dla developerów",
+    "description": "The label for category For Developers in sidebar docs"
+  },
+  "sidebar.docs.category.Additional Resources": {
+    "message": "Pozostałe zasoby",
+    "description": "The label for category Additional Resources in sidebar docs"
+  },
+  "sidebar.docs.link.Github Repository": {
+    "message": "Repozytorium GitHub",
+    "description": "The label for link Github Repository in sidebar docs, linking to https://github.com/RARgames/4gaBoards"
+  },
+  "sidebar.docs.link.Main Website": {
+    "message": "Strona Główna",
+    "description": "The label for link Main Website in sidebar docs, linking to https://4gaboards.com/"
+  },
+  "sidebar.docs.link.Contact Form": {
+    "message": "Kontakt",
+    "description": "The label for link Contact Form in sidebar docs, linking to https://4gaboards.com/contact"
+  }
+}

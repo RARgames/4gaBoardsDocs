@@ -1,0 +1,64 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #ffbd00;
+  --ifm-color-primary-dark: #ffbd00;
+  --ifm-color-primary-darker: #ffbd00;
+  --ifm-color-primary-darkest: #ffbd00;
+  --ifm-color-primary-light: #ffbd00;
+  --ifm-color-primary-lighter: #ffbd00;
+  --ifm-color-primary-lightest: #ffbd00;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #ffbd00;
+  --ifm-color-primary-dark: #ffbd00;
+  --ifm-color-primary-darker: #ffbd00;
+  --ifm-color-primary-darkest: #ffbd00;
+  --ifm-color-primary-light: #ffbd00;
+  --ifm-color-primary-lighter: #ffbd00;
+  --ifm-color-primary-lightest: #ffbd00;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.hero--primary {
+  background-color:  #22252a;
+}
+
+.hero__title {
+  color: #E0DCD7;
+}
+
+.hero__subtitle {
+  color: #D8D4CE;
+}
+
+.button {
+  background-color: #ffbd00;
+  border-color: #ffbd00;
+}
+
+.container {
+  max-width: initial !important;
+}
+
+.col--3 { 
+  max-width: 15% !important;
+  flex: 1 1 0;
+
+ }
+
+ .docMainContainer_TBSr .docItemCol_VOVn {
+  flex: 1 1 0;
+  max-width: 85% !important;
+  margin: 0 1rem 0 2rem;
+}
+
