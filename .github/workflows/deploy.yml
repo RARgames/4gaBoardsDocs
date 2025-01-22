@@ -31,7 +31,7 @@ jobs:
           server: docs.4gaboards.com
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: build
+          local-dir: build/
           exclude: |
             **/.git*
             **/.git*/**
