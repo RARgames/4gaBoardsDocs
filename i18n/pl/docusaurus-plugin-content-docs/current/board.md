@@ -7,7 +7,7 @@ Sercem programu 4ga Boards jest tablica. Widok tablicy jest głównym widokiem n
 
 W nowoutworzonym projekcie nie ma jeszcze żadnym tablic - aby je utworzyć należy kliknąć w przycisk "+ Dodaj tablicę" w prawym górnym roku albo na dole panelu bocznego.
 
-![blankproject_pl.png](/img/blankproject_pl.png)
+![boardviewempty_pl.png](/img/boardviewempty_pl.png)
 
 Jeśli wchodzisz do już istniejącego i wypełnionego projektu będzie on wyglądał mniej więcej tak:
 
@@ -24,12 +24,14 @@ Możesz mieć wiele tablic w projekcie - wystarczy że dodasz je klikając na pr
 
 Otworzy się okienko w którym możesz nadać nazwę tablicy, użyć dostępnego szablonu list albo zaimportować dane z Trello w formacie .json. W przypadku opcji bezpośrednio z panelu bocznego będzie dostępna opcja wyboru projektu w którym nowa tablica ma się znaleźć (domyślnie jest to obecnie otwarty projekt).
 
-![boardadd_pl.png](/img/boardadd_pl.png)
+![boardcreate_pl.png](/img/boardcreate_pl.png)
 
-Obecnie możesz wybrać z dwóch dostępnych szablonów, szablon prosty: 
+Obecnie możesz wybrać z dwóch dostępnych szablonów, szablon prosty:
+
 ![boardsimple_pl.png](/img/boardsimple_pl.png)
 
 oraz szablon kanban:
+
 ![boardkanban_pl.png](/img/boardkanban_pl.png)
 
 
@@ -47,7 +49,7 @@ Każda tablica posiada osobny panel z ustawieniami, w którym (zaczynając od le
 4. Filtrować istniejące karty po przypisanych do nich tagach. W tym miejscu można także tworzyć, edytować i usuwać tagi.
 5. Zarządzać integracją z GitHubem (w trakcie implementacji)
 
-![boardfilter_pl.png](/img/boardfilter_pl.png)
+![boardfilter_pl.png](/img/boardfilters_pl.png)
 
 ## Uprawnienia tablicy
 Każdy użytkownik przypisany bądź zarządzający tablicą ma różne uprawnienia w zależności od roli:

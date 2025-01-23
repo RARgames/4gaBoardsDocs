@@ -19,15 +19,15 @@ Notice that selected board is highlighted in the sidebar view (in this example i
 There can be more than one board per project - simply click the "+Add Board" button that is located at the top-right corner of the screen to create new one inside the currently opened project. Alternatively you can add board using three-dot sidebar menu of a [project](./project) (it will create the board inside the selected project). The last option is to click the "+Add Board" button at the bottom of the sidebar. This will enable additional setting - choosing the project in which the board will be created from the dropdown list.
 This will open up a pop-up window in which you can name your board, prefill the lists in the board with templates or import your data from Trello (supporting .json file format).
 
-![board_create.png](/img/boardcreate_en.png)
+![boardcreate_en.png](/img/boardcreate_en.png)
 
 Currently there are two available templates, simple:
 
-![template_simple.png](/img/templatesimple_en.png)
+![template_simple.png](/img/boardsimple_en.png)
 
 And kanban:
 
-![template_kanban.png](/img/templatekanban_en.png)
+![template_kanban.png](/img/boardkanban_en.png)
 
 
 ## Board additional options

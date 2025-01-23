@@ -43,7 +43,7 @@ Po kliknięciu w trzy kropki przy karcie otworzy się menu kontekstowe karty. Dz
 ## Ogólny opis widoku edycji karty
 Po kliknięciu karty po prawej stronie ekranu pojawi się widok edycji karty. Dlaczego nie na środku? Jest to unikalna cecha 4GA Boards: w trakcie edycji karty możesz również manipulować swoją tablicą, tworzyć i przesuwać nowe karty, listy itd. Jest to znaczące usprawnienie pracy w porównaniu do innych programów opartych na tablicy kanban.
 
-![cardviewopenboard_pl.png](/img/cardviewopenboard_pl.png)
+![cardviewopenboard_pl.png](/img/cardopenboardview_pl.png)
 
 Możesz dzięki temu podejrzeć jak wygląda twoja karta w trakcie edycji. A może chcesz zobaczyć jak sprawdza się obrazek jako nowa okładka karty?
 
@@ -70,7 +70,7 @@ Zauważ, że tylko obecni członkowie tablicy mogą zostać dodani do karty. Je�
 
 5. Etykiety: Kliknij na ikonkę plusa aby dodać/usunąć tagi (etykiety) w karcie. W tym samym okienku możesz stworzyć nowe dla danej tablicy etykiety ( kliknij `Stwórz nową etykietę`), a także je edytować i usuwać (kliknij na ikonkę `ołówka`).
 
-![cardlabel_pl.png](/img/cardlabel_pl.png)![cardlabeledit_pl.png](/img/cardlabeledit_pl.png)
+![cardlabel_pl.png](/img/cardlabels_pl.png)![cardlabelsedit_pl.png](/img/cardlabelsedit_pl.png)
 
 6. Termin: Klikając na `+` możesz dodać termin do swojej karty; jeśli jest już termin, kliknij ikonkę `ołówka` żeby go edytować bądź usunąć. Termin możesz wpisać ręcznie bądź wybrać z kalendarza. Jeśli termin dla karty jest wypada później niż dwa tygodnie będzie on wyświetlony na szaro, jeśli wypada w przeciągu dwóch tygodni - na żółto. Spóźnienie będzie się wyświetlało na czerwono - mało przyjemny widok ;)
 
@@ -91,7 +91,7 @@ Zauważ, że tylko obecni członkowie tablicy mogą zostać dodani do karty. Je�
     - Możesz również włączyć widoczność podzadań dla danej karty w widoku tablicy: aby to zrobić kliknij na ikonkę trójkąta przy pasku zadań na karcie w widoku tablicy.
     - Do zadań mogą być przypisane terminy oraz członkowie: w tym celu należy wybrać odpowiednią opcję po kliknięciu na ikonkę trzech kropek (odpowiednio `Dodaj termin` oraz `Dodaj członków`). Te dodatkowe właściwości zostaną wyświetlone z prawej strony danego zadania (można je edytować/usunąć klikając na nie).
 
-![cardtaskviewed_pl.png](/img/cardtaskviewed_pl.png)
+![cardtaskviewed_pl.png](/img/cardtasksviewed_pl.png)
 
 11. Załączniki: Tutaj możesz dodać różne załączniki do karty, wklejając je przez `Ctrl` + `V`, przeciągając i upuszczając na kartę bądź klikając na przycisk `Dodaj załącznik` wybierając go z dysku. Jeśli załącznik jest obrazkiem możesz ustawić go na okładkę karty widoczną na tablicy. W tym wybierz opcję `Dodaj wyróżnienie`. Aby usunąć okładkę kliknij `Usuń wyróżnienie`. Aby usunąć załącznik najedź na niego myszką, kliknij w ikonkę `ołówka` i wybierz `Usuń załącznik`.
 

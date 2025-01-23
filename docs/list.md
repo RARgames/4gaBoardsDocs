@@ -5,7 +5,7 @@ sidebar_label: 'List'
 # List
 In 4ga Boards, lists are columns on the board representing different stages or categories of the workflow. For example, kanban board template comes with 5 empty lists:
 
-![template_kanban.png](/img/templatekanban_en.png)
+![template_kanban.png](/img/boardkanban_en.png)
 
 ## List navigation
 To move list into different spot on the same board, simply drag and drop it where you want. You can't, however, move a list to different board or project.
