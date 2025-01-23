@@ -34,5 +34,25 @@
   "sidebar.docs.link.4ga Boards Website": {
     "message": "Strona 4ga Boards",
     "description": "The label for link 4ga Boards Website in sidebar docs, linking to https://4gaboards.com/"
+  },
+  "sidebar.docs.category.Getting Started.link.generated-index.description": {
+    "message": "Learn about the most important Docusaurus concepts!",
+    "description": "The generated-index page description for category Getting Started in sidebar docs"
+  },
+  "sidebar.docs.category.For Users.link.generated-index.description": {
+    "message": "Dowiedz się, jak w pełni wykorzystać potencjał 4ga Boards jako użytkownik!",
+    "description": "The generated-index page description for category For Users in sidebar docs"
+  },
+  "sidebar.docs.category.For Administrators.link.generated-index.description": {
+    "message": "Dowiedz się, jak w pełni wykorzystać potencjał 4ga Boards jako administrator!",
+    "description": "The generated-index page description for category For Administrators in sidebar docs"
+  },
+  "sidebar.docs.category.For Developers.link.generated-index.description": {
+    "message": "Dowiedz się, jak w pełni wykorzystać potencjał 4ga Boards jako programista!",
+    "description": "The generated-index page description for category For Developers in sidebar docs"
+  },
+  "sidebar.docs.category.Additional Resources.link.generated-index.description": {
+    "message": "Sprawdź inne przydatne informacje!",
+    "description": "The generated-index page description for category Additional Resources in sidebar docs"
   }
 }

@@ -1,19 +1,7 @@
 {
-  "title": {
-    "message": "4ga Boards",
-    "description": "The title in the navbar"
-  },
   "logo.alt": {
     "message": "4ga Boards Logo",
     "description": "The alt text of navbar logo"
-  },
-  "item.label.Documentation": {
-    "message": "Dokumentacja",
-    "description": "Navbar item with label Documentation"
-  },
-  "item.label.GitHub": {
-    "message": "GitHub",
-    "description": "Navbar item with label GitHub"
   },
   "item.label.Getting Started": {
     "message": "Wprowadzenie",
@@ -30,9 +18,5 @@
   "item.label.For Developers": {
     "message": "Dla developerów",
     "description": "Navbar item with label For Developers"
-  },
-  "item.label.Getting started": {
-    "message": "Wprowadzenie",
-    "description": "Navbar item with label Getting started"
   }
 }

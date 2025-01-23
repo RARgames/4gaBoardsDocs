@@ -4,9 +4,14 @@ export default {
       type: 'category',
       label: 'Getting Started',
       items: [
-        'home',
+        'intro',
         'account'
       ],
+      link: {
+        type: 'generated-index',
+        description: 'Learn about the most important 4ga Boards concepts!',
+        slug: '/getting-started',
+      },
       collapsed: false,
     },
     {
@@ -23,6 +28,11 @@ export default {
         'view',
         'shortcuts',
       ],
+      link: {
+        type: 'generated-index',
+        description: 'Learn how to get the most of 4ga Boards as a user!',
+        slug: '/user-manual',
+      },
     },
     {
       type: 'category',
@@ -32,6 +42,11 @@ export default {
         'instance-settings',
         'project-settings',
       ],
+      link: {
+        type: 'generated-index',
+        description: 'Learn how to get the most of 4ga Boards as an admin!',
+        slug: '/admin-manual',
+      },
     },
     {
       type: 'category',
@@ -40,6 +55,11 @@ export default {
         'developers',
         'developers2',
       ],
+      link: {
+        type: 'generated-index',
+        description: 'Learn how to get the most of 4ga Boards as a developer!',
+        slug: '/developer-manual',
+      },
     },
     {
       type: 'category',
@@ -59,6 +79,11 @@ export default {
           href: 'https://4gaboards.com/contact',
         }
       ],
+      link: {
+        type: 'generated-index',
+        description: 'Explore 4ga Boards additional resources!',
+        slug: '/additional',
+      },
     },
   ],
 };

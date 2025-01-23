@@ -65,7 +65,6 @@ const config = {
       },
       image: 'img/4gaBoards_social_card.webp',
       navbar: {
-        title: 'Documentation',
         logo: {
           alt: '4ga Boards Documentation',
           src: 'img/4gaboards512w-white.webp',
@@ -75,25 +74,22 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'docs',
             position: 'left',
-            label:  'Getting started',
+            label: 'Getting Started',
           },
           {
             to: '/docs/structure',
             position: 'left',
-            label:  'For Users',
-
+            label: 'For Users',
           },
           {
             href: '/docs/admin-settings',
             position: 'left',
-            label:  'For Administrators',
-
-
+            label: 'For Administrators',
           },
           {
             href: '/docs/developers',
             position: 'left',
-            label:  'For Developers',
+            label: 'For Developers',
 
           },
           {
@@ -116,11 +112,9 @@ const config = {
           {
             items: [
               {
-                html: `<div class="footer-custom-logo">
+                html: `<a href="https://4gaboards.com" target="_blank" class="footer-custom-logo">
                         <img src="/img/4gaboards512w-white.webp" alt="4ga Boards Website" />
-                      </div>`,
-                height: '80px',
-                width: '200px',
+                      </a>`,
               },
             ],
           },
@@ -142,7 +136,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Docs',
             items: [
               {
                 label: 'For Users',
@@ -159,7 +153,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 4ga Labs. All rights reserved. All trademarks are property of their respective owners.`,
+        copyright: `&copy; ${new Date().getFullYear()} <a href="https://4galabs.com" target="_blank">4ga Labs</a> · All rights reserved. All trademarks are property of their respective owners.`,
       },
       prism: {
         theme: prismThemes.github,

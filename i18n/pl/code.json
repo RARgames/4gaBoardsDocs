@@ -1,18 +1,12 @@
 {
-  "Getting Started": {
-    "message": "Wprowadzenie"
-  },
   "For Users": {
     "message": "Dla użytkowników"
   },
-  "For Administrators": {
-    "message": "Dla administratorów"
+  "For Admins": {
+    "message": "Dla Administratorów"
   },
   "For Developers": {
     "message": "Dla developerów"
-  },
-  "Additional Resources": {
-    "message": "Dodatkowe informacje"
   },
   "theme.ErrorPageContent.title": {
     "message": "Ta strona uległa awarii.",
@@ -368,9 +362,6 @@
   },
   "Discover how to use the platform to accomplish your goals efficiently.": {
     "message": "Odkryj jak najlepiej wykorzystać potencjał 4ga Boards."
-  },
-  "For Admins": {
-    "message": "Dla Administratorów"
   },
   "Learn how to self host 4ga Boards on your own servers.": {
     "message": "Dowiedz się jak postawić 4ga Boards na własnej infrastrukturze."

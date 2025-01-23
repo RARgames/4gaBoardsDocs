@@ -1,27 +1,19 @@
 {
-  "link.title.Docs": {
-    "message": "Dokumentacja",
-    "description": "The title of the footer links column with title=Docs in the footer"
-  },
   "link.title.Community": {
     "message": "Społeczność",
     "description": "The title of the footer links column with title=Community in the footer"
   },
-  "link.title.More": {
-    "message": "Więcej",
-    "description": "The title of the footer links column with title=More in the footer"
+  "link.title.Docs": {
+    "message": "Dokumentacja",
+    "description": "The title of the footer links column with title=Docs in the footer"
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
     "description": "The label of footer link with label=GitHub linking to https://github.com/RARgames/4gaBoards"
   },
   "copyright": {
-    "message": "Copyright © 4ga Labs. All rights reserved. All trademarks are property of their respective owners.",
+    "message": "&copy; <a href='https://4galabs.com' target='_blank'>4ga Labs</a> · Wszelkie prawa zastrzeżone. Wszystkie znaki towarowe są własnością ich właścicieli.",
     "description": "The footer copyright"
-  },
-  "link.item.label.Start": {
-    "message": "Start",
-    "description": "The label of footer link with label=Start linking to docs/home"
   },
   "link.item.label.Website": {
     "message": "Strona główna",
@@ -40,7 +32,7 @@
     "description": "The label of footer link with label=For Administrators linking to /docs/admin-settings"
   },
   "link.item.label.For Developers": {
-    "message": "Dla developerów",
+    "message": "Dla programistów",
     "description": "The label of footer link with label=For Developers linking to /docs/developers"
   }
 }

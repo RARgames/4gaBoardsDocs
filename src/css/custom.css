@@ -11,6 +11,7 @@
   --dark-background1: #171D25;
   --dark-background2: #0D1117;
   --dark-primary: #D8D4CE;
+  --dark-hover: #bbb7b2;
   --dark-h: #E0DCD7;
   --yellow: #FFBD00;
   --gray: #8B8E92;
@@ -33,21 +34,29 @@
 .footer {
   background: url(/img/4ga_footer.png) center center no-repeat;
   background-size: contain;
-  min-height: 388.25px;
   background-color: var(--dark-background0);
   display: flex;
   align-items: end;
+  padding: 3rem 0.75rem 0 0.75rem;
 }
 
 .footer__col {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 1rem;
+  padding: 0 1.5rem;
 }
 
 .footer a {
   text-decoration: none;
+  color: var(--dark-primary);
+}
+
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+  color: var(--dark-hover);
+  outline: none;
 }
 
 .footer__title {
@@ -55,18 +64,15 @@
 }
 
 .footer__links {
-  max-width: 1200px;
-  margin: 0 auto 20px auto;
-}
-
-.footer__link-item {
-  color: var(--dark-primary);
+  max-width: 1320px;
+  padding: 3rem 0 3rem 0;
+  margin: 0 auto;
 }
 
 .footer__bottom {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 25px 0 0 0;
+  padding: 25px 0;
   font-size: 14px;
   border-top: 1px solid rgba(256, 256, 256, .1);
   font-family: Verdana, sans-serif;
@@ -74,7 +80,8 @@
 }
 
 .footer-custom-logo {
-  width: 400px;
+  max-width: 100%;
+  height: auto;
 }
 
 .header-github svg {
@@ -92,7 +99,10 @@
   white-space: nowrap;
 }
 
-.header-github:hover, .header-github:focus, .header-github:active {
+.header-github:hover,
+.header-github:focus,
+.header-github:active {
+  outline: none;
   color: var(--yellow);
 
   path {
