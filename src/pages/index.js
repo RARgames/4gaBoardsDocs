@@ -13,7 +13,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {<Translate>Documentation for 4ga Boards</Translate>}
+          {<Translate>4ga Boards Documentation</Translate>}
         </Heading>
         <p className="hero__subtitle">{<Translate>Get Advantage. Straightforward boards system for realtime project management.</Translate>}</p>
         <div className={styles.buttons}>
@@ -32,7 +32,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={` ${siteConfig.title}`}
+      title={`Documentation`}
       description="Get Advantage of 4ga Boards by browsing through the documentation.">
       <HomepageHeader />
       <main style={{ padding: '20px' }}>

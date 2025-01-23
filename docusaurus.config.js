@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentation for 4ga Boards',
+  title: '4ga Boards Docs',
   tagline: 'Get Advantage. Straightforward boards system for realtime project management.',
-  favicon: 'img/4ga.png',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://docs.4gaboards.com',

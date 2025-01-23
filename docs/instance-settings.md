@@ -12,7 +12,7 @@ In the table you can see most important information about each user: name, usern
 
 You can manually add new users with the "add user" button here. If you have disabled user registration, new users cannot log into the instance if you didn't add them. To add new user you have to provide an e-mail, password, name and (optional) username.
 
-As an administrator, you have control over users information. When you click on the pencil icon, you can access the all of the personal [settings](/en/settings) of each individual user. You can change them all without knowing their current password. Pretty handy!
+As an administrator, you have control over users information. When you click on the pencil icon, you can access the all of the personal [settings](./settings)  of each individual user. You can change them all without knowing their current password. Pretty handy!
 
 ![instanceusers_en.png](/img/instanceusers_en.png)
 
