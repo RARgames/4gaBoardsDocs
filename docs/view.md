@@ -11,7 +11,7 @@ sidebar_label: 'Views Description'
 
 2. Project 
 
-![projectsviewdesc_en.png](/img/projectsviewdesc_en.png)
+![projectsviewdesc_en.png](/img/projectsview_en.png)
 
 2. Board
 
