@@ -77,17 +77,17 @@ const config = {
             label: 'Getting Started',
           },
           {
-            to: '/docs/structure',
+            to: '/docs/user-manual',
             position: 'left',
             label: 'For Users',
           },
           {
-            href: '/docs/admin-settings',
+            to: '/docs/admin-manual',
             position: 'left',
             label: 'For Administrators',
           },
           {
-            href: '/docs/developers',
+            to: '/docs/developer-manual',
             position: 'left',
             label: 'For Developers',
 
@@ -140,15 +140,15 @@ const config = {
             items: [
               {
                 label: 'For Users',
-                to: '/docs/structure',
+                to: '/docs/user-manual',
               },
               {
                 label: 'For Administrators',
-                to: '/docs/admin-settings',
+                to: '/docs/admin-manual',
               },
               {
                 label: 'For Developers',
-                to: '/docs/developers',
+                to: '/docs/developer-manual',
               },
             ],
           },
