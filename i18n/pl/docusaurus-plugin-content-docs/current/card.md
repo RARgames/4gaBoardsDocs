@@ -47,7 +47,7 @@ Po kliknięciu karty po prawej stronie ekranu pojawi się widok edycji karty. Dl
 
 Możesz dzięki temu podejrzeć jak wygląda twoja karta w trakcie edycji. A może chcesz zobaczyć jak sprawdza się obrazek jako nowa okładka karty?
 
-![cardviewopenboardlogo_pl.png](/img/cardviewopenboardlogo_pl.png)
+![cardviewopenboardlogo_pl.png](/img/cardopenboardviewlogo_pl.png)
 
 Zwróć uwagę, jak różnią się wyglądem poszczególne karty na powyższej tablicy. Jest to wynikiem wybrania różnych opcji dla karty, które zostaną opisane poniżej.
 

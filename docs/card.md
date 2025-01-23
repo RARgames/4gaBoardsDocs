@@ -48,7 +48,7 @@ When you click on the card, the card view will show up at the right side of your
 
 It is quite convenient if you want to rearrange your cards while still writing the description, or to simply appraise you beautiful card cover picture. Isn't it beautiful? 
 
-![card_open_boardview_pumpkin.png](/img/cardopenboardviewpumpkin_en.png)
+![card_open_boardview_pumpkin.png](/img/cardopenboardviewlogo_en.png)
 
 Also, notice that cards have different appearance that is changing with the amount of options and details set.
 
