@@ -35,11 +35,46 @@
   background-size: contain;
   min-height: 388.25px;
   background-color: var(--dark-background0);
+  display: flex;
+  align-items: end;
+}
+
+.footer__col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 1rem;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__title {
+  color: var(--dark-h);
+}
+
+.footer__links {
+  max-width: 1200px;
+  margin: 0 auto 20px auto;
+}
+
+.footer__link-item {
+  color: var(--dark-primary);
+}
+
+.footer__bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px 0 0 0;
+  font-size: 14px;
+  border-top: 1px solid rgba(256, 256, 256, .1);
+  font-family: Verdana, sans-serif;
+  color: var(--dark-primary);
 }
 
 .footer-custom-logo {
-  height: 70px;
-  width: 300px;
+  width: 400px;
 }
 
 .header-github svg {
