@@ -53,6 +53,7 @@ export default {
       type: 'category',
       label: 'For Developers',
       items: [
+        'dev/development',
         {
           type: 'category',
           label: 'Installation',
@@ -121,10 +122,9 @@ export default {
             slug: '/dev/install',
           },
         },
-        'dev/development',
-        'dev/sso',
         'dev/backup-restore',
         'dev/web-server-config',
+        'dev/sso',
         'dev/developers-additional',
       ],
       link: {
