@@ -121,6 +121,7 @@ export default {
             slug: '/install',
           },
         },
+        'development',
       ],
       link: {
         type: 'generated-index',
