@@ -6,7 +6,8 @@ sidebar_label: 'Import/Eksport'
 
 ## Import z Trello
 
-Przechodzisz z innego oprogramowania? Obecnie 4ga Boards wspiera migrację z Trello. Aby to zrobić, wyeksportuj swoją tablicę Trello w formacie `.json` (jedyny dostępny w darmowej wersji Trello) i wykonaj następujące kroki:
+Przechodzisz z innego oprogramowania?\
+ Obecnie 4ga Boards wspiera migrację z Trello. Aby to zrobić, wyeksportuj swoją tablicę Trello w formacie `.json` (jedyny dostępny w darmowej wersji Trello) i wykonaj następujące kroki:
 1. Utwórz nową tablicę i wybierz opcję „Importuj”:
 
 ![Okno tworzenia tablicy](/img/boardcreate_pl.png)
@@ -15,7 +16,7 @@ Przechodzisz z innego oprogramowania? Obecnie 4ga Boards wspiera migrację z Tre
 
 ![Okno importu tablicy](/img/importboard_pl.png)
 
-3. W menedżerze plików wybierz odpowiedni plik `.json`, nazwij swoją nową tablicę i zdecyduj, w którym projekcie ma zostać utworzona. Projekt możesz na razie traktować jako coś na wzór „workspace” z Trello – kontener, który przechowuje tablice. Więcej o projektach znajdziesz (tutaj)[./project].
+3. W menedżerze plików wybierz odpowiedni plik `.json`, nazwij swoją nową tablicę i zdecyduj, w którym projekcie ma zostać utworzona. Projekt możesz na razie traktować jako coś na wzór „workspace” z Trello – kontener, który przechowuje tablice. Więcej o projektach znajdziesz [tutaj](./project).
 
  ![Opcje importu z Trello](/img/importboardtrello_pl.png)
 
@@ -23,7 +24,8 @@ I gotowe! Masz w pełni funkcjonalną tablicę – również z etykietami!
 
  ## Import z 4ga Boards
 
-Zmieniasz instancję lub kopiujesz tablicę od innego użytkownika? Dzięki funkcji importu w 4ga Boards szybko skonfigurujesz swoje środowisko pracy. Upewnij się, że masz odpowiedni plik eksportu z 4ga Boards (powinien mieć format `.tgz`) i wykonaj następujące kroki:
+Zmieniasz instancję lub kopiujesz tablicę od innego użytkownika?\
+Dzięki funkcji importu w 4ga Boards szybko skonfigurujesz swoje środowisko pracy. Upewnij się, że masz odpowiedni plik eksportu z 4ga Boards (powinien mieć format `.tgz`) i wykonaj następujące kroki:
 
  1. Utwórz nową tablicę i wybierz opcję „Importuj”:
 
