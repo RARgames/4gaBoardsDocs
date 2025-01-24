@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Install'
-description: ' '
+description: ''
 ---
 
 # Manual Installation

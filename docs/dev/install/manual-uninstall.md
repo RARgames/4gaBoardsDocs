@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Uninstall'
-description: ' '
+description: ''
 ---
 
 # Manual Uninstall

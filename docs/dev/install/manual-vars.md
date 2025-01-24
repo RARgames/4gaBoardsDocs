@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Variables'
-description: ' '
+description: ''
 ---
 
 # Manual Variables
