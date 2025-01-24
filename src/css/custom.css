@@ -144,10 +144,17 @@
   flex: 1 1 0;
  }
 
+.docMainContainer_TBSr {
+  margin: 0 1rem 0 2rem;
+}
+
 .docMainContainer_TBSr .docItemCol_VOVn {
   flex: 1 1 0;
   max-width: 85% !important;
-  margin: 0 1rem 0 2rem;
+}
+
+.docMainContainer_TBSr .generatedIndexPage_vN6x {
+  max-width: 85% !important;
 }
 
 .admonitionHeading_Gvgb {
