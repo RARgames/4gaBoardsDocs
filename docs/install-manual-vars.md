@@ -29,6 +29,6 @@ TZ=UTC
 - `GOOGLE_CLIENT_SECRET` - _(optional)_ - SSo client secret
 
 Additional Links:\
-[4ga Boards `docker-compose.yml` File](https://github.com/RARgames/4gaBoards/blob/main/server/.env.sample)\
+[4ga Boards `.env` File](https://github.com/RARgames/4gaBoards/blob/main/server/.env.sample)\
 [4ga Boards Professional Hosting](./install-4gaboards)
 
