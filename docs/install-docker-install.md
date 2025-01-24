@@ -7,7 +7,7 @@ sidebar_label: 'Install'
 Requirements: [Docker](https://docs.docker.com/install/), [Docker Compose](https://docs.docker.com/compose/install/)
 :::
 
-**Download `docker-compose.yml`** _(or create `docker-compose.yml` based on [the example](https://raw.githubusercontent.com/RARgames/4gaBoards/main/docker-compose.yml))_
+**Download `docker-compose.yml`** _(or create `docker-compose.yml` based on [the example](https://github.com/RARgames/4gaBoards/blob/main/docker-compose.yml))_
 ```
 curl -L https://raw.githubusercontent.com/RARgames/4gaBoards/main/docker-compose.yml -o docker-compose.yml
 ```
