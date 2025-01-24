@@ -37,7 +37,7 @@ Dzięki funkcji importu w 4ga Boards szybko skonfigurujesz swoje środowisko pra
 
 3. W menedżerze plików wybierz odpowiedni plik `.tgz`, nazwij swoją nową tablicę i zdecyduj, w którym projekcie ma zostać utworzona. Tutaj możesz również zaznaczyć dwie opcje dotyczące użytkowników:
    - `Dodaj moderatorów projektów`: Nowi moderatorzy zostaną dodani do projektu, jeśli pełnili taką samą rolę w eksportowanej tablicy.
-   - `Stwórz konta dla nieistniejących użytkowników`: Zostaną utworzone nowe konta dla użytkowników, którzy nie istnieją w bieżącej instancji 4ga Boards, ale byli członkami tablicy w eksportowanej tablicy.
+   - `Stwórz konta dla nieistniejących użytkowników`: Zostaną utworzone nowe konta dla użytkowników, którzy nie istnieją w bieżącej instancji 4ga Boards, ale byli członkami w eksportowanej tablicy.
 
  ![Opcje importu z 4ga Boards](/img/importboard4ga_pl.png)
 
