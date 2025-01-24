@@ -53,10 +53,9 @@ export default {
       label: 'For Developers',
       items: [
         'developers',
-        'developers2',
         {
           type: 'category',
-          label: 'Install',
+          label: 'Installation',
           items: [
             'install-4gaboards',
             {
@@ -122,6 +121,7 @@ export default {
           },
         },
         'development',
+        'sso',
       ],
       link: {
         type: 'generated-index',
