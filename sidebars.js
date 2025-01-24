@@ -56,7 +56,7 @@ export default {
         'developers2',
         {
           type: 'category',
-          label: 'Installation',
+          label: 'Install',
           items: [
             'install-4gaboards',
             {
@@ -65,6 +65,7 @@ export default {
               items: [
                 'install-docker-install',
                 'install-docker-vars',
+                'install-docker-uninstall',
               ],
               link: {
                 type: 'generated-index',
@@ -77,7 +78,9 @@ export default {
               items: [
                 'install-k8s-install',
                 'install-k8s-vars',
+                'install-k8s-uninstall',
                 'install-k8s-port-forwarding',
+                'install-k8s-additional',
               ],
               link: {
                 type: 'generated-index',
@@ -90,6 +93,7 @@ export default {
               items: [
                 'install-truenas-install',
                 'install-truenas-vars',
+                'install-truenas-uninstall',
               ],
               link: {
                 type: 'generated-index',

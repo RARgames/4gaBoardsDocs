@@ -4,7 +4,7 @@ sidebar_label: 'Variables'
 import K8sValues from './_k8s_values.md';
 import K8sVars from './_k8s_vars.md';
 
-# Kubernetes Helm Chart Variables
+# True NAS Variables
 
 <K8sValues />
 

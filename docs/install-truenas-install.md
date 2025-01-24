@@ -1,8 +1,8 @@
 ---
-sidebar_label: 'Installation'
+sidebar_label: 'Install'
 ---
 
-# Kubernetes Helm Chart Installation
+# True NAS Installation
 :::note
 Make sure you have [True NAS Scale](https://www.truenas.com/download-truenas-scale) installed and operational with Apps Service Running.
 :::
