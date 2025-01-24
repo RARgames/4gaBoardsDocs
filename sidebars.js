@@ -122,6 +122,7 @@ export default {
         },
         'development',
         'sso',
+        'backup-restore',
       ],
       link: {
         type: 'generated-index',
