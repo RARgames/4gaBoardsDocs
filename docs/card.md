@@ -37,10 +37,10 @@ After clicking the three dots in the card you will open a card menu. Here you ca
 3. Add/remove labels to the card (see Card Options below)
 4. Edit due date of the card (see Card Options below)
 5. Edit timer of the card (see Card Options below)
-6. Move card to another project/board/list (note that this is the only way to move the card to another project or board, as drag & dropping the card works only on the lists in a current board).
-7. Duplicate card, which will create exact same copy of the card directly below it in the list.
-8. Copy a link to a card which you can then share with your team.
-9. Delete card.
+6. Move card to another project/board/list (note that this is the only way to move the card to another project or board, as drag & dropping the card works only on the lists in a current board)
+7. Duplicate card, which will create exact same copy of the card directly below it in the list
+8. Copy a link to a card which you can then share with your team
+9. Delete card
 
 ## Card View overview
 When you click on the card, the card view will show up at the right side of your screen. Why not on the centre? The unique feature of 4ga Boards is that you can manipulate the lists and boards while the card view is open.
@@ -93,6 +93,7 @@ Note that only members that are added to the current board can be assigned to th
 
 12. Comments: here you can add (start writing in the box and press `Ctrl` + `Enter` or `Add comment` button), edit (`pencil` icon) or delete (`bin` icon) coments to the card , using the same text editor as in the description field.
 
+![Card comment](/img/cardcomment_en.png)
 
 ## Text editor
 

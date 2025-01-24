@@ -14,7 +14,7 @@ Karty są najniższymi hierarchicznie elementami 4ga Boards i odzwierciedlają p
 Aby utworzyć kartę masz dwie opcje:
 1. Kliknąć na przycisk `+ Dodaj kartę` na dole listy
 2. Poprzez menu edycji listy - trzy kropki w prawym górnym rogu listy: pojawi się okienko tworzenia karty na dole listy.
-![list_menu_pl.png](/img/listmenu_en.png)
+![list_menu_pl.png](/img/listmenu_pl.png)
 
 Kiedy nazwiesz już swoją kartę, kliknij `Enter` albo przycisk `Dodaj kartę` żeby ją utworzyć. Możesz też użyć kombinacji klawiszy `Ctrl` + `Enter` żeby utworzyć kartę i automatycznie otworzyć okno edycji karty. Aby przerwać tworzenie nowej karty kliknij na puste miejsce na tablicy bądź przycisk `Anuluj` (jeśli zacząłeś pisać tytuł karty, kliknięcie w puste miejsce nie zamknie tego okienka; należy wtedy kliknąć przycisk `Anuluj`).
 
@@ -39,7 +39,8 @@ Po kliknięciu w trzy kropki przy karcie otworzy się menu kontekstowe karty. Dz
 5. Zmienić stoper karty (zobacz dział opcję karty)
 6. Przenieść kartę do innego projektu/tablicy/listy (jest to jedyny sposób na przeniesienie karty do innej tablicy czy też projektu, przesuwanie kart działa tylko w obrębie konkretnej tablicy; nazwę projektu/tablicy/listy możesz wpisać ręcznie bądź wybrać z rozwijanej listy)
 7. Duplikować kartę (klon pojawi się bezpośrednio pod tą kartą)
-8. Usunąć kartę (wymaga potwierdzenia w wyskakującym okienku)
+8. Kopiuj link do schowka (dzięki temu możesz bezpośrednio podzielić się linkiem ze swoim zespołem)
+9. Usunąć kartę (wymaga potwierdzenia w wyskakującym okienku)
 ## Ogólny opis widoku edycji karty
 Po kliknięciu karty po prawej stronie ekranu pojawi się widok edycji karty. Dlaczego nie na środku? Jest to unikalna cecha 4GA Boards: w trakcie edycji karty możesz również manipulować swoją tablicą, tworzyć i przesuwać nowe karty, listy itd. Jest to znaczące usprawnienie pracy w porównaniu do innych programów opartych na tablicy kanban.
 
@@ -99,6 +100,7 @@ Zauważ, że tylko obecni członkowie tablicy mogą zostać dodani do karty. Je�
 
 12. Komentarze: tutaj możesz dodać (zacznij pisać, a następnie `Ctrl` + `Enter` bądź kliknij przycisk `Dodaj komentarz`), edytować (ikonka `ołówka`) i usuwać (ikonka `kosza`) komentarze korzystając z tego samego edytora tekstu co w opisie karty. Tutaj również zobaczyć komentarze od innych użytkowników.
 
+![Card comment](/img/cardcomment_pl.png)
 
 ## Edytor tekstu
 4ga Boards używa zaawansowanego edytora typu markdown z dodanymi specjalnymi funkcjami (pogrubione). W prawym dolnym rogu edytora znajdują się trzy małe kropki: przeciągnij je myszką aby dopasować rozmiar edytora tekstu. Opis podczas edycji powinien wyglądać jak powyżej (napis "zmiany lokalne" przypomina o konieczności zapisania zmian aby zostały one zarejestrowane w systemie - w tym celu kliknij przycisk zapisz albo kombinację `Ctrl` + `Enter`).
