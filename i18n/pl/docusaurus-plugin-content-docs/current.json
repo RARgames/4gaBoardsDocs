@@ -54,5 +54,13 @@
   "sidebar.docs.category.Additional Resources.link.generated-index.description": {
     "message": "Sprawdź inne przydatne informacje!",
     "description": "The generated-index page description for category Additional Resources in sidebar docs"
+  },
+  "sidebar.docs.category.Installation": {
+    "message": "Instalacja",
+    "description": "The label for category Installation in sidebar docs"
+  },
+  "sidebar.docs.category.Installation.link.generated-index.description": {
+    "message": "Instalacja 4ga Boards jest bardzo prosta!",
+    "description": "The generated-index page description for category Installation in sidebar docs"
   }
 }

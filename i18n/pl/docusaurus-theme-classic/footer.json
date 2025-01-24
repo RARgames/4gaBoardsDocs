@@ -11,13 +11,9 @@
     "message": "GitHub",
     "description": "The label of footer link with label=GitHub linking to https://github.com/RARgames/4gaBoards"
   },
-  "copyright": {
-    "message": "&copy; <a href='https://4galabs.com' target='_blank'>4ga Labs</a> · Wszelkie prawa zastrzeżone. Wszystkie znaki towarowe są własnością ich właścicieli.",
-    "description": "The footer copyright"
-  },
   "link.item.label.Website": {
     "message": "Strona główna",
-    "description": "The label of footer link with label=Website linking to https://4gaboards.com/"
+    "description": "The label of footer link with label=Website linking to https://4gaboards.com"
   },
   "link.item.label.Contact": {
     "message": "Kontakt",
@@ -25,14 +21,14 @@
   },
   "link.item.label.For Users": {
     "message": "Dla użytkowników",
-    "description": "The label of footer link with label=For Users linking to /docs/structure"
+    "description": "The label of footer link with label=For Users linking to /docs/user-manual"
   },
   "link.item.label.For Administrators": {
     "message": "Dla administratorów",
-    "description": "The label of footer link with label=For Administrators linking to /docs/admin-settings"
+    "description": "The label of footer link with label=For Administrators linking to /docs/admin-manual"
   },
   "link.item.label.For Developers": {
     "message": "Dla programistów",
-    "description": "The label of footer link with label=For Developers linking to /docs/developers"
+    "description": "The label of footer link with label=For Developers linking to /docs/developer-manual"
   }
 }
