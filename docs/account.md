@@ -8,11 +8,11 @@ If you succesfully deployed 4ga Boards or your organization has already provided
 
 To try out 4ga Boards, you can go and register in the [demo instance](https://demo.4gaboards.com/). It's limitations are described here: [Try 4ga Boards](https://4gaboards.com/try).
 
-![login.png](/img/login_en.png)
+![Login screen](/img/login_en.png)
 
 If you don't have an account yet, you can register by clicking "Create an account" button. Remember to choose a strong password and accept the "Terms of service" and Privacy Policy".
 
-![register.png](/img/register_en.png) 
+![Registration screen](/img/register_en.png) 
 
 If you/your organization have enabled SSO sign-in you can register using your Google account (currently, only Google SSO is supported).
 

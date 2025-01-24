@@ -11,12 +11,12 @@ sidebar_label: 'Views Description'
 
 2. Project view
 
-![Projects view](/img/projectview_en.png)
+![Project view](/img/projectview_en.png)
 
 2. Board view
 
-![boardview_en.png](/img/boardview_en.png)
+![Board view](/img/boardview_en.png)
 
 3. Board with opened card view
 
-![cardview_en.png](/img/cardview_en.png)
+![Board view with opened card view](/img/cardview_en.png)
