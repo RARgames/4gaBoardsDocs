@@ -4,7 +4,7 @@ sidebar_label: 'Install'
 
 # Docker Compose Installation
 :::note
-Make sure you have [Docker](https://docs.docker.com/install/) and [Docker Compose](https://docs.docker.com/compose/install/) installed and operational.
+Requirements: [Docker](https://docs.docker.com/install/), [Docker Compose](https://docs.docker.com/compose/install/)
 :::
 
 **Download `docker-compose.yml`** _(or create `docker-compose.yml` based on [the example](https://raw.githubusercontent.com/RARgames/4gaBoards/main/docker-compose.yml))_
@@ -18,7 +18,7 @@ Configure `environment` sections in `docker-compose.yml`:
 
 Edit `BASE_URL` to match your domain name or IP address.\
 Edit `SECRET_KEY` with a random value. You can generate it by `openssl rand -hex 64`.\
-Edit `DATABASE_URL` and `DATABASE_URL` replacing `notpassword` with randomly generated db password.
+Edit `POSTGRES_PASSWORD` and `DATABASE_URL` replacing `notpassword` with randomly generated db password.
 
 
 **Pull images and start 4ga Boards**

@@ -60,7 +60,7 @@ networks:
 - `POSTGRES_DB` - database name
 - `POSTGRES_PASSWORD` - database password
 
-**`4gaBoardss` service `environment` variables:**
+**`4gaBoards` service `environment` variables:**
 
 - `BASE_URL` - domain or ip address used to access 4ga Boards
 - `SECRET_KEY` - session secret key

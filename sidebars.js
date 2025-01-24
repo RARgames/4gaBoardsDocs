@@ -100,6 +100,20 @@ export default {
                 slug: '/install-truenas',
               },
             },
+            {
+              type: 'category',
+              label: 'Manual (🤡)',
+              items: [
+                'install-manual-install',
+                'install-manual-vars',
+                'install-manual-uninstall',
+                'install-manual-additional',
+              ],
+              link: {
+                type: 'generated-index',
+                slug: '/install-truenas',
+              },
+            },
           ],
           link: {
             type: 'generated-index',

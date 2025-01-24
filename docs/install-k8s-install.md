@@ -4,7 +4,7 @@ sidebar_label: 'Install'
 
 # Kubernetes Helm Chart Installation
 :::note
-Make sure you have Kubernetes installed and operational.
+Requirements: [Kubernetes](https://kubernetes.io/docs/setup/)
 :::
 
 **Start your Kubernetes provider (e.g. `minikube`)**
