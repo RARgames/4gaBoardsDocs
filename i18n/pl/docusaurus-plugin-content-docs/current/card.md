@@ -90,7 +90,7 @@ Zauważ, że tylko obecni członkowie tablicy mogą zostać dodani do karty. Je�
     - Kliknij w opis zadania aby go zmienić; zapisz zmiany przez naciśnięcie `Enter` bądź kliknięcie `Zapisz`.
     - Aby usunąć zadanie, najedź na nie i poczekaj aż pojawi się ikonka trzech kropek; kliknij ją i wybierz `Usuń zadanie`.
     - Możesz również włączyć widoczność podzadań dla danej karty w widoku tablicy: aby to zrobić kliknij na ikonkę trójkąta przy pasku zadań na karcie w widoku tablicy.
-    - Do zadań mogą być przypisane terminy oraz członkowie: w tym celu należy wybrać odpowiednią opcję po kliknięciu na ikonkę trzech kropek (odpowiednio `Dodaj termin` oraz `Dodaj członków`). Te dodatkowe właściwości zostaną wyświetlone z prawej strony danego zadania (można je edytować/usunąć klikając na nie).
+    - Do zadań mogą być przypisane terminy oraz członkowie: w tym celu należy wybrać odpowiednią opcję po kliknięciu na ikonkę trzech kropek (odpowiednio `Dodaj termin` oraz `Dodaj członków`). Te dodatkowe właściwości zostaną wyświetlone z prawej strony danego zadania (można je edytować/usunąć klikając na nie). Przypisania można dokonać zarówno w widoku karty jak i bezpośrednio na tablicy (jeśli zadania w danej karcie są rozwninięte).
 
 ![cardtaskviewed_pl.png](/img/cardtasksviewed_pl.png)
 

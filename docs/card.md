@@ -83,7 +83,7 @@ Note that only members that are added to the current board can be assigned to th
     - To rename the task, click on the task description; upon finishing press `Enter` or click `Save`.
     - To delete task, hover over it until `ellipsis` icon appears; click it and select `delete task`.
     - You can toogle tasks visibility on the board: to do this, click on the `triangle` icon near the cards taskbar visible on the list.
-    - Tasks can be assigned with a member or a due date: to do this click on the `ellipsis` icon and choose appriopriate option ("Edit Due Date" or "Edit Members"). This informations will be displayed at the right side of the appriopriate task.
+    - Tasks can be assigned with a member or a due date: to do this click on the `ellipsis` icon and choose appriopriate option ("Edit Due Date" or "Edit Members"). This informations will be displayed at the right side of the appriopriate task. This can be done in both card view and directly on the board view (when tasks are expanded).
 
 ![card_tasksviewed.png](/img/cardtasksviewed_en.png)
 
