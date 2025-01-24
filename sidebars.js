@@ -5,7 +5,8 @@ export default {
       label: 'Getting Started',
       items: [
         'intro',
-        'account'
+        'account',
+        'import-export'
       ],
       link: {
         type: 'generated-index',

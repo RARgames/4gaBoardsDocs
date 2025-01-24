@@ -37,7 +37,7 @@ oraz szablon kanban:
 
 ## Dodatkowe opcje tablicy
 
-Aby edytować bądź usunąć tablicę należy najechać na nią w panelu bocznym i kliknąć w ikonkę trzech kropek. Otworzy się menu podręczne z odpowiednimi opcjami. Reorganizacja tablic w obrębie projektu jest możliwa poprzez przeciąganie strzałek znajdujących się na lewo od nazwy tablicy.
+Aby edytować bądź usunąć tablicę należy najechać na nią w panelu bocznym i kliknąć w ikonkę trzech kropek. Otworzy się menu podręczne z odpowiednimi opcjami. Tutaj możesz również eksportować swoją tablicę do pliku csv. Reorganizacja tablic w obrębie projektu jest możliwa poprzez przeciąganie strzałek znajdujących się na lewo od nazwy tablicy.
 
 ![Menu kontekstowe tablicy](/img/boardmenu_pl.png)
 

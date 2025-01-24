@@ -62,5 +62,21 @@
   "sidebar.docs.category.Installation.link.generated-index.description": {
     "message": "Instalacja 4ga Boards jest bardzo prosta!",
     "description": "The generated-index page description for category Installation in sidebar docs"
+  },
+  "sidebar.docs.category.Docker Compose (Easy)": {
+    "message": "Docker Compose (Easy)",
+    "description": "The label for category Docker Compose (Easy) in sidebar docs"
+  },
+  "sidebar.docs.category.Kubernetes (Hard)": {
+    "message": "Kubernetes (Hard)",
+    "description": "The label for category Kubernetes (Hard) in sidebar docs"
+  },
+  "sidebar.docs.category.True NAS (Hard)": {
+    "message": "True NAS (Hard)",
+    "description": "The label for category True NAS (Hard) in sidebar docs"
+  },
+  "sidebar.docs.category.Manual (🤡)": {
+    "message": "Manual (🤡)",
+    "description": "The label for category Manual (🤡) in sidebar docs"
   }
 }

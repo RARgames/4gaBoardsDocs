@@ -10,7 +10,7 @@ At first you will see that your project contains no boards - to create them, sim
 
 If you are joining to an existing project, here is how it should look like:
 
-![Main view showing the getting started guide](/img/mainviewgettingstarted_en.png)
+![Main view showing the getting started board](/img/mainviewgettingstarted_en.png)
 
 Notice that selected board is highlighted in the sidebar view (in this example it is "Important Project" Board inside "4ga Boards" project).
 
@@ -20,7 +20,7 @@ There can be more than one board per project - simply click the `+Add Board` but
 
 ![Buttons placement for creating a new board](/img/boardaddbutton_en.png)
 
-This will open up a pop-up window in which you can name your board, prefill the lists in the board with templates or import your data from Trello (supporting .json file format).
+This will open up a pop-up window in which you can name your board, prefill the lists in the board with templates or import your data from 4ga Boards (in .csv file format) or from Trello (supporting .json file format).
 
 ![Board creation popup window](/img/boardcreate_en.png)
 
@@ -35,7 +35,7 @@ And kanban:
 
 ## Board additional options
 
-If you want to edit or delete your board, open the ellipsis menu in the sidebar (they will show after you hover over the board name). You can also change the order of the board within the project after clicking and holding the two arrows button that will appear on the left of the board name.
+If you want to edit or delete your board, open the ellipsis menu in the sidebar (they will show after you hover over the board name). You can also change the order of the board within the project after clicking and holding the two arrows button that will appear on the left of the board name. If you wish, you can also export your board in .csv format here.
 
 ![Popup menu with board settings](/img/boardmenu_en.png)
 
@@ -47,7 +47,7 @@ Each board comes with separate settings bar, in which (going from left to right)
 4. Filter cards by labels (also create/edit the labels).
 5. Set up Github integration (WIP).
 
-![Board settings bar with different filters and options](/img/boardfilters_en.png)
+![Board settings bar](/img/boardfilters_en.png)
 
 ## Board permissions
 Each member of the board can have different permission:
