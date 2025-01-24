@@ -123,6 +123,7 @@ export default {
         'development',
         'sso',
         'backup-restore',
+        'web-server-config',
       ],
       link: {
         type: 'generated-index',

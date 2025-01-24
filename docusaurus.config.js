@@ -158,7 +158,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        additionalLanguages: ['nginx', 'docker', 'bash'],
+        additionalLanguages: ['nginx', 'docker', 'bash', 'apacheconf'],
       },
     }),
 };
