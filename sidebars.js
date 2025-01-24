@@ -111,7 +111,7 @@ export default {
               ],
               link: {
                 type: 'generated-index',
-                slug: '/install-truenas',
+                slug: '/install-manual',
               },
             },
           ],
