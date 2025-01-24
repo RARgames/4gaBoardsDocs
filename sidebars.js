@@ -52,7 +52,6 @@ export default {
       type: 'category',
       label: 'For Developers',
       items: [
-        'developers',
         {
           type: 'category',
           label: 'Installation',
@@ -64,6 +63,7 @@ export default {
               items: [
                 'install-docker-install',
                 'install-docker-vars',
+                'install-docker-update',
                 'install-docker-uninstall',
               ],
               link: {
@@ -124,6 +124,7 @@ export default {
         'sso',
         'backup-restore',
         'web-server-config',
+        'developers-additional',
       ],
       link: {
         type: 'generated-index',
