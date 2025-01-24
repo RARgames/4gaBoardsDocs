@@ -4,7 +4,7 @@ sidebar_label: 'Board'
 
 # Board
 The heart of 4ga Boards is, unsuprisingly, a board. Board view is the main view of this app - you will spend here most of your time. Don't worry! It's easy to grasp. 
-At first you will see that your project contains no boards - to create them, simply click the "+Add Board" button that is located at the bottom of the sidebar or at the top-right corner of the screen. 
+At first you will see that your project contains no boards - to create them, simply click the `+Add Board` button that is located at the bottom of the sidebar or at the top-right corner of the screen. 
 
 ![boardview_empty_en.png](/img/boardviewempty_en.png)
 
@@ -16,7 +16,10 @@ Notice that selected board is highlighted in the sidebar view (in this example i
 
 ## Creating a new board
 
-There can be more than one board per project - simply click the "+Add Board" button that is located at the top-right corner of the screen to create new one inside the currently opened project. Alternatively you can add board using three-dot sidebar menu of a [project](./project) (it will create the board inside the selected project). The last option is to click the "+Add Board" button at the bottom of the sidebar. This will enable additional setting - choosing the project in which the board will be created from the dropdown list.
+There can be more than one board per project - simply click the `+Add Board` button that is located at the top-right corner of the screen to create new one inside the currently opened project. Alternatively you can add board using three-dot sidebar menu of a [project](./project) (it will create the board inside the selected project). The last option is to click the `+Add Board` button at the bottom of the sidebar. This will enable additional setting - choosing the project in which the board will be created from the dropdown list.
+
+![boardcreate_en.png](/img/boardaddbutton_en.png)
+
 This will open up a pop-up window in which you can name your board, prefill the lists in the board with templates or import your data from Trello (supporting .json file format).
 
 ![boardcreate_en.png](/img/boardcreate_en.png)
@@ -32,7 +35,7 @@ And kanban:
 
 ## Board additional options
 
-If you want to edit or delete your board, open the three-dot menu in the sidebar (they will show after you hover over the board name). You can also change the order of the board within the project after clicking and holding the two arrows button that will appear on the left of the board name.
+If you want to edit or delete your board, open the ellipsis menu in the sidebar (they will show after you hover over the board name). You can also change the order of the board within the project after clicking and holding the two arrows button that will appear on the left of the board name.
 
 ![boardmenu_en.png](/img/boardmenu_en.png)
 
