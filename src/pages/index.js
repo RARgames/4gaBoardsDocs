@@ -43,7 +43,7 @@ export default function Home() {
             <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/structure">
+            to="/docs/user-manual">
             <Translate>Check documentation</Translate>
           </Link>
         </div>
@@ -57,7 +57,7 @@ export default function Home() {
             <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/admin-settings">
+            to="/docs/admin-manual">
             <Translate>Check documentation</Translate>
           </Link>
         </div>
@@ -71,7 +71,7 @@ export default function Home() {
             <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/developers">
+            to="/docs/developer-manual">
             <Translate>Check documentation</Translate>
           </Link>
         </div>
