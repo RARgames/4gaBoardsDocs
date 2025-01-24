@@ -7,16 +7,16 @@ sidebar_label: 'Przegląd dostępnych widoków'
 
 1. Panel główny (Panel)
 
-![projectsview_en.png](/img/projectsview_pl.png)
+![Widok panelu głównego](/img/projectsview_pl.png)
 
-2. Widok projektów 
+2. Widok projektu
 
-![projectview_en.png](/img/projectview_pl.png)
+![Widok projektów](/img/projectview_pl.png)
 
 3. Widok tablicy
 
-![boardview_pl.png](/img/boardview_pl.png)
+![Widok tablicy](/img/boardview_pl.png)
 
 4. Widok tablicy z otwartym widokiem karty
 
-![cardview_pl.png](/img/cardview_pl.png)
+![Widok tablicy z otwartym widokiem karty](/img/cardview_pl.png)

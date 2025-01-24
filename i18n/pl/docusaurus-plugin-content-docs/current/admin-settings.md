@@ -33,7 +33,7 @@ Panel główny widoczny na samej górze programu pozwala przejść do konkretnyc
 
 Jako administrator albo moderator obecnie otwartego projektu prawy górny róg panelu głównego powinien wyglądać tak:
 
-![dashboardright_en.png](/img/settingsdashboard_en.png)
+![Widok ustawień panelu głównego ](/img/settingsdashboard_en.png)
 
 Od lewej do prawej:
 - Ikona zębatki pozwala na przejście do ustawień użytkownika.
@@ -42,12 +42,12 @@ Od lewej do prawej:
 
 Do wszystkich ustawień możesz przejść również po kliknięciu w ikonkę z twoim zdjęciem/inicjałami:
 
-![settingsprofileclicked_pl.png](/img/settingsprofileclicked_pl.png)
+![Menu ustawień po kliknięciu w zdjęcie profilowe](/img/settingsprofileclicked_pl.png)
 
 
 
 Aby szybko zmieniać panele po przejściu do ustawień skorzystaj z panelu bocznego:
 
-![settingssidebar_pl.png](/img/settingssidebar_pl.png)
+![Panel boczny ustawień](/img/settingssidebar_pl.png)
 
 Jeśli panel boczny został schowany w widoku głównym, należy go odsłonić (ikonka strzałki przy logo w lewym górnym rogu).

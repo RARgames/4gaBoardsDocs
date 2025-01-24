@@ -5,7 +5,7 @@ sidebar_label: 'Project'
 # Project
 Projects are the highest structure of 4ga boards workflow. All of the projects can be accessed from the dashboard view (3) or using the sidebar (2).
 
-![projectsview.png](/img/projectsview_en.png)
+![Dashboard view](/img/projectsview_en.png)
 
 If you ever wish to come back to dashboard view, you can do so by clicking 4ga Boards logo in header (1). In addition, if you have administration rights to any of the projects, you can customize them in [project settings](./project-settings).
 

@@ -5,15 +5,15 @@ sidebar_label: 'Views Description'
 # Views description
 
 
-1. Dashboard
+1. Dashboard view
 
-![projectview_en.png](/img/projectview_en.png)
+![Dashboard view](/img/projectsview_en.png)
 
-2. Project 
+2. Project view
 
-![projectsviewdesc_en.png](/img/projectsview_en.png)
+![Projects view](/img/projectview_en.png)
 
-2. Board
+2. Board view
 
 ![boardview_en.png](/img/boardview_en.png)
 

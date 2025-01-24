@@ -14,13 +14,13 @@ Karty są najniższymi hierarchicznie elementami 4ga Boards i odzwierciedlają p
 Aby utworzyć kartę masz dwie opcje:
 1. Kliknąć na przycisk `+ Dodaj kartę` na dole listy
 2. Poprzez menu edycji listy - trzy kropki w prawym górnym rogu listy: pojawi się okienko tworzenia karty na dole listy.
-![list_menu_pl.png](/img/listmenu_pl.png)
+![Umiejscowienie opcji dodaj kartę](/img/listmenu_pl.png)
 
 Kiedy nazwiesz już swoją kartę, kliknij `Enter` albo przycisk `Dodaj kartę` żeby ją utworzyć. Możesz też użyć kombinacji klawiszy `Ctrl` + `Enter` żeby utworzyć kartę i automatycznie otworzyć okno edycji karty. Aby przerwać tworzenie nowej karty kliknij na puste miejsce na tablicy bądź przycisk `Anuluj` (jeśli zacząłeś pisać tytuł karty, kliknięcie w puste miejsce nie zamknie tego okienka; należy wtedy kliknąć przycisk `Anuluj`).
 
 Najprostszym sposobem na przestawienie karty w wybrane przez nas miejsce jest przeciąganie jej z wciśniętym lewym przyciskiem myszki. W ten sposób możesz przesunąć kartę do innej listy czy też zmienić kolejność kart w liście. W ten sam sposób możesz przesunąć kartę do zwiniętej listy - pojawi się ona wtedy na samym dole. Aby upewnić się do której zwiniętej listy wpadnie trzymana karta, przyjrzyj się tytułowi listy - obniży się on zauważalnie. 
 
-![carddrop_pl.png](/img/carddrop_pl.png)
+![Prezentacja przeciągania karty pomiędzy listami](/img/carddrop_pl.png)
 
 Są jeszcze dwie inne możliwości przesunięcia karty - przez menu kontekstowe karty (zobacz poniżej) oraz w widoku edycji karty, zaraz pod tytułem karty (zobacz [opcje karty](http://localhost:3000/pl/docs/card#opcje-karty)).
 
@@ -28,7 +28,7 @@ Aby usunąć kartę musisz najechać na nią myszką. Pojawią się trzy kropki 
 
 ## Menu kontekstowe karty
 
-![cardmenu_pl.png](/img/cardmenu_pl.png)
+![Menu kontekstowe karty](/img/cardmenu_pl.png)
 
 
 Po kliknięciu w trzy kropki przy karcie otworzy się menu kontekstowe karty. Dzięki niemu możesz:
@@ -44,18 +44,18 @@ Po kliknięciu w trzy kropki przy karcie otworzy się menu kontekstowe karty. Dz
 ## Ogólny opis widoku edycji karty
 Po kliknięciu karty po prawej stronie ekranu pojawi się widok edycji karty. Dlaczego nie na środku? Jest to unikalna cecha 4GA Boards: w trakcie edycji karty możesz również manipulować swoją tablicą, tworzyć i przesuwać nowe karty, listy itd. Jest to znaczące usprawnienie pracy w porównaniu do innych programów opartych na tablicy kanban.
 
-![cardviewopenboard_pl.png](/img/cardopenboardview_pl.png)
+![Widok otwartej karty w widoku tablicy](/img/cardopenboardview_pl.png)
 
 Możesz dzięki temu podejrzeć jak wygląda twoja karta w trakcie edycji. A może chcesz zobaczyć jak sprawdza się obrazek jako nowa okładka karty?
 
-![cardviewopenboardlogo_pl.png](/img/cardopenboardviewlogo_pl.png)
+![Widok otwartej karty z ustawioną okładką w widoku tablicy](/img/cardopenboardviewlogo_pl.png)
 
 Zwróć uwagę, jak różnią się wyglądem poszczególne karty na powyższej tablicy. Jest to wynikiem wybrania różnych opcji dla karty, które zostaną opisane poniżej.
 
 ## Opcje karty
 Widok edycji karty jest najbardziej przyjaznym miejscem do aktualizacji jej informacji i opcji. Część z elementów (opis, zadania, załączniki, komentarze) możesz ukryć przy pomocy znajdującej się przy danym elemencie ikonki minusa. Aby przywrócić domyślny widok elementu, kliknij ikonkę plusa. Za chwilę poznasz je wszystkie, zaczynając od samej góry.
 
-![cardviewmain_pl.png](/img/cardviewmain_pl.png)
+![Główny widok karty](/img/cardviewmain_pl.png)
 
 1. Tytuł: kliknij na tytuł aby go zmienić (`Enter` aby zaakceptować)
 
@@ -65,17 +65,17 @@ Widok edycji karty jest najbardziej przyjaznym miejscem do aktualizacji jej info
 
 4. Członkowie: Kliknij na ikonkę plusa aby dodać/usunąć członków z karty. 
 
-![cardmembers_pl.png](/img/cardmembers_pl.png)
+![Opcje członków karty](/img/cardmembers_pl.png)
 
 Zauważ, że tylko obecni członkowie tablicy mogą zostać dodani do karty. Jeśli nie możesz kogoś znaleźć a jesteś moderatorem projektu, możesz dodać tego użytkownika w [opcjach tablicy](./board).
 
 5. Etykiety: Kliknij na ikonkę plusa aby dodać/usunąć tagi (etykiety) w karcie. W tym samym okienku możesz stworzyć nowe dla danej tablicy etykiety ( kliknij `Stwórz nową etykietę`), a także je edytować i usuwać (kliknij na ikonkę `ołówka`).
 
-![cardlabel_pl.png](/img/cardlabels_pl.png)![cardlabelsedit_pl.png](/img/cardlabelsedit_pl.png)
+![Etykiety karty](/img/cardlabels_pl.png)![Edycja etykiet karty](/img/cardlabelsedit_pl.png)
 
 6. Termin: Klikając na `+` możesz dodać termin do swojej karty; jeśli jest już termin, kliknij ikonkę `ołówka` żeby go edytować bądź usunąć. Termin możesz wpisać ręcznie bądź wybrać z kalendarza. Jeśli termin dla karty jest wypada później niż dwa tygodnie będzie on wyświetlony na szaro, jeśli wypada w przeciągu dwóch tygodni - na żółto. Spóźnienie będzie się wyświetlało na czerwono - mało przyjemny widok ;)
 
-![cardduedate_pl.png](/img/cardduedate_pl.png)
+![Termin karty](/img/cardduedate_pl.png)
 
 7. Stoper: Za jego pomocą możesz mierzyć czas potrzebny do wykonania zadania (albo o nim zapomnieć i zobaczyć 700 godzin...). Kliknij na stoper aby go włączyć/zapauzować, kliknij ikonkę `ołówka` aby edytować czas albo zresetować stoper. Zielony kolor oznacza że stoper jest włączony. 
 
@@ -92,20 +92,20 @@ Zauważ, że tylko obecni członkowie tablicy mogą zostać dodani do karty. Je�
     - Możesz również włączyć widoczność podzadań dla danej karty w widoku tablicy: aby to zrobić kliknij na ikonkę trójkąta przy pasku zadań na karcie w widoku tablicy.
     - Do zadań mogą być przypisane terminy oraz członkowie: w tym celu należy wybrać odpowiednią opcję po kliknięciu na ikonkę trzech kropek (odpowiednio `Dodaj termin` oraz `Dodaj członków`). Te dodatkowe właściwości zostaną wyświetlone z prawej strony danego zadania (można je edytować/usunąć klikając na nie). Przypisania można dokonać zarówno w widoku karty jak i bezpośrednio na tablicy (jeśli zadania w danej karcie są rozwninięte).
 
-![cardtaskviewed_pl.png](/img/cardtasksviewed_pl.png)
+![Widok zadań karty](/img/cardtasksviewed_pl.png)
 
-11. Załączniki: Tutaj możesz dodać różne załączniki do karty, wklejając je przez `Ctrl` + `V`, przeciągając i upuszczając na kartę bądź klikając na przycisk `Dodaj załącznik` wybierając go z dysku. Jeśli załącznik jest obrazkiem możesz ustawić go na okładkę karty widoczną na tablicy. W tym wybierz opcję `Dodaj wyróżnienie`. Aby usunąć okładkę kliknij `Usuń wyróżnienie`. Aby usunąć załącznik najedź na niego myszką, kliknij w ikonkę `ołówka` i wybierz `Usuń załącznik`.
+1.  Załączniki: Tutaj możesz dodać różne załączniki do karty, wklejając je przez `Ctrl` + `V`, przeciągając i upuszczając na kartę bądź klikając na przycisk `Dodaj załącznik` wybierając go z dysku. Jeśli załącznik jest obrazkiem możesz ustawić go na okładkę karty widoczną na tablicy. W tym wybierz opcję `Dodaj wyróżnienie`. Aby usunąć okładkę kliknij `Usuń wyróżnienie`. Aby usunąć załącznik najedź na niego myszką, kliknij w ikonkę `ołówka` i wybierz `Usuń załącznik`.
 
-![cardcover_pl.png](/img/cardcover_pl.png)
+![Załączniki i okładka karty](/img/cardcover_pl.png)
 
-12. Komentarze: tutaj możesz dodać (zacznij pisać, a następnie `Ctrl` + `Enter` bądź kliknij przycisk `Dodaj komentarz`), edytować (ikonka `ołówka`) i usuwać (ikonka `kosza`) komentarze korzystając z tego samego edytora tekstu co w opisie karty. Tutaj również zobaczyć komentarze od innych użytkowników.
+1.  Komentarze: tutaj możesz dodać (zacznij pisać, a następnie `Ctrl` + `Enter` bądź kliknij przycisk `Dodaj komentarz`), edytować (ikonka `ołówka`) i usuwać (ikonka `kosza`) komentarze korzystając z tego samego edytora tekstu co w opisie karty. Tutaj również zobaczyć komentarze od innych użytkowników.
 
-![Card comment](/img/cardcomment_pl.png)
+![Komentarze w karcie](/img/cardcomment_pl.png)
 
 ## Edytor tekstu
 4ga Boards używa zaawansowanego edytora typu markdown z dodanymi specjalnymi funkcjami (pogrubione). W prawym dolnym rogu edytora znajdują się trzy małe kropki: przeciągnij je myszką aby dopasować rozmiar edytora tekstu. Opis podczas edycji powinien wyglądać jak powyżej (napis "zmiany lokalne" przypomina o konieczności zapisania zmian aby zostały one zarejestrowane w systemie - w tym celu kliknij przycisk zapisz albo kombinację `Ctrl` + `Enter`).
 
-![texteditor_pl.png](/img/texteditor_pl.png)
+![Prezentacja edytora tekstu](/img/texteditor_pl.png)
 
 Jest to edytor typu markdown i używa on podobnej składni jak inne tego typu edytory. Jeśli chcesz dowiedzieć się więcej o edytorach markdown, skorzystaj z przewodników: [english guide](https://www.markdownguide.org/basic-syntax/),  [polski przewodnik](https://blog.nayma.pl/podstawy-markdown/)
 

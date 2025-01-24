@@ -7,7 +7,7 @@ Ta dokumentacja pozwoli ci na swobodne poruszanie się po programie 4ga Boards. 
 
 ## Czym właściwie jest program 4ga Boards?
 4ga Boards to czytelny i prosty w obsłudze program do zarządzania projektami oparty o metodę tablicy Kanban. Tablica ta to narzędzie pozwalające na sprawną wizualizację i organizację zadań w firmie. Poszczególne zadania przedstawiane są w formie kart które rozmieszczone są na listach, najczęściej przedstawiających kolejne etapy procesu produckyjnego. Na poniższym obrazku możesz zobaczyć jak prezentuje się główny widok programu - widok tablicy.
-![mainviewgettingstarted_pl.png](/img/mainviewgettingstarted_pl.png)
+![Widok tablicy z otwartym projektem instruktażowym](/img/mainviewgettingstarted_pl.png)
 
 
 
