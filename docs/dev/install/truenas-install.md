@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'Install'
+description: ''
 ---
 
 # True NAS Installation

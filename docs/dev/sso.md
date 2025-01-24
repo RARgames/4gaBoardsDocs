@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'SSO'
+description: 'Setup Google SSO'
 ---
 
 # SSO (Single sign-on)

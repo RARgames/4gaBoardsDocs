@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'Update'
+description: ''
 ---
 
 # Docker Compose Update

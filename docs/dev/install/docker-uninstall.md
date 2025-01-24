@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'Uninstall'
+description: ''
 ---
 
 # Docker Compose Uninstall

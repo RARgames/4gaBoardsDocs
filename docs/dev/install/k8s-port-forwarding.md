@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'Port Forwarding'
+description: ''
 ---
 
 # Kubernetes Helm Chart Port Forwarding

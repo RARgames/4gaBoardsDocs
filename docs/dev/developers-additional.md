@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'Additional Information'
+description: 'Logging, Rotating Logs, Fail2Ban, other'
 ---
 
 # Additional Information

@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'Additional Info'
+description: 'External Postgress Database, Install in a namespace'
 ---
 
 # Kubernetes Helm Chart Additional Info

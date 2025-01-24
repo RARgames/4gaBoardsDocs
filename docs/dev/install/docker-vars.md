@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'Variables'
+description: ''
 ---
 
 # Docker Compose Variables

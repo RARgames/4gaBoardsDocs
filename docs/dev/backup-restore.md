@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'Backup and Restore'
+description: 'Backup 4ga Boards instance'
 ---
 
 # Backup and Restore

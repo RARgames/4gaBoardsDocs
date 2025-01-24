@@ -1,5 +1,6 @@
 ---
 sidebar_label: 'Install'
+description: ''
 ---
 
 # Kubernetes Helm Chart Installation
