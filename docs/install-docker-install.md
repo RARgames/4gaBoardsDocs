@@ -1,10 +1,10 @@
 ---
-sidebar_label: 'Docker Compose (easy)'
+sidebar_label: 'Installation'
 ---
 import DefaultCredentials from './_default_credentials.mdx';
 
 
-# Docker Compose
+# Docker Compose Installation
 :::note
 Make sure you have [Docker](https://docs.docker.com/install/) and [Docker Compose](https://docs.docker.com/compose/install/) installed and operational.
 :::
@@ -18,7 +18,8 @@ curl -L https://raw.githubusercontent.com/RARgames/4gaBoards/main/docker-compose
 
 Edit `BASE_URL` to match your domain name or IP address.\
 Edit `SECRET_KEY` with a random value. You can generate it by `openssl rand -hex 64`.\
-Replace 2 occurrences of `notpassword` with generated db password in `POSTGRES_PASSWORD` and `DATABASE_URL`.
+Edit `DATABASE_URL` and `DATABASE_URL` replacing `notpassword` with randomly generated db password.
+
 
 **Pull images and start 4ga Boards**
 ```

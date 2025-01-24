@@ -59,7 +59,20 @@ export default {
           label: 'Installation',
           items: [
             'install-4gaboards',
-            'install-docker',
+            {
+              type: 'category',
+              label: 'Docker Compose (Easy)',
+              items: [
+                'install-docker-install',
+                'install-docker-vars',
+              ],
+              link: {
+                type: 'generated-index',
+                description: 'Test',
+                slug: '/install-docker',
+              },
+            },
+            'install-k8s',
           ],
           link: {
             type: 'generated-index',
