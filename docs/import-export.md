@@ -37,8 +37,8 @@ Currently 4ga Boards is supporting migration from Trello. To do this, export you
 ![Board import popup window](/img/importboard_en.png)
 
 3. In the file manager select the appriopriate .tgz file, name your new board and choose in which project it should be created. Here you can also check two options regarding users:
-   - `Add project managers`: If a user is not currently a project manager in this instance but held that role in the exported version, they will be automatically assigned as a project manager for the project where the board is created.
-   - `Create accounts for non-existing users`: If a user does not exist in the current instance but was added to the board in the exported version, their account will be created in the current instance.
+   - `Add project managers`: New managers will be added the project if they had the same role in the exported board.
+   - `Create accounts for non-existing users`: New accounts will be created for users that does not exist in the current 4ga Boards instance, but were members of the board in the exported board.
 
  ![4ga Boards import options](/img/importboard4ga_en.png)
 
