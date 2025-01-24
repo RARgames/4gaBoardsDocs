@@ -1,12 +1,10 @@
 ---
 sidebar_label: 'Variables'
 ---
-import DefaultCredentials from './_default_credentials.mdx';
-
 
 # Docker Compose Variables
 
-### Docker Compose Example File
+### Docker Compose Example File `docker-compose.yml`
 ```yml
 services:
   db:

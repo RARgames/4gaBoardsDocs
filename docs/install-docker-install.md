@@ -3,7 +3,6 @@ sidebar_label: 'Installation'
 ---
 import DefaultCredentials from './_default_credentials.mdx';
 
-
 # Docker Compose Installation
 :::note
 Make sure you have [Docker](https://docs.docker.com/install/) and [Docker Compose](https://docs.docker.com/compose/install/) installed and operational.
@@ -15,6 +14,8 @@ curl -L https://raw.githubusercontent.com/RARgames/4gaBoards/main/docker-compose
 ```
 
 **Configure 4ga Boards Instance Variables**
+
+Configure `environment` sections in `docker-compose.yml`:
 
 Edit `BASE_URL` to match your domain name or IP address.\
 Edit `SECRET_KEY` with a random value. You can generate it by `openssl rand -hex 64`.\

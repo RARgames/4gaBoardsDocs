@@ -68,11 +68,22 @@ export default {
               ],
               link: {
                 type: 'generated-index',
-                description: 'Test',
                 slug: '/install-docker',
               },
             },
-            'install-k8s',
+            {
+              type: 'category',
+              label: 'Kubernetes (Hard)',
+              items: [
+                'install-k8s-install',
+                'install-k8s-vars',
+                'install-k8s-port-forwarding',
+              ],
+              link: {
+                type: 'generated-index',
+                slug: '/install-k8s',
+              },
+            },
           ],
           link: {
             type: 'generated-index',
