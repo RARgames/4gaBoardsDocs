@@ -5,7 +5,7 @@ sidebar_label: 'Uninstall'
 # Kubernetes Helm Chart Uninstall
 
 **Uninstall:**
-```
+```bash
 sudo helm uninstall boards
 ```
 

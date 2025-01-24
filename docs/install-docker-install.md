@@ -8,7 +8,7 @@ Requirements: [Docker](https://docs.docker.com/install/), [Docker Compose](https
 :::
 
 **Download `docker-compose.yml`** _(or create `docker-compose.yml` based on [the example](https://github.com/RARgames/4gaBoards/blob/main/docker-compose.yml))_
-```
+```bash
 curl -L https://raw.githubusercontent.com/RARgames/4gaBoards/main/docker-compose.yml -o docker-compose.yml
 ```
 
@@ -22,7 +22,7 @@ Edit `POSTGRES_PASSWORD` and `DATABASE_URL` replacing `notpassword` with randoml
 
 
 **Pull images and start 4ga Boards**
-```
+```bash
 docker compose up -d
 ```
 

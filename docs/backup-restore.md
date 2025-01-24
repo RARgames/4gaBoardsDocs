@@ -9,11 +9,11 @@ sidebar_label: 'Backup and Restore'
 Before executing backup/restore scripts, change current directory to the directory where `docker-compose.yml` is located.
 
 **Backup 4ga Boards instance data**
-```
+```bash
 ./boards-backup.sh
 ```
 **Restore 4ga Boards instance data**
-```
+```bash
 ./boards-restore.sh 4gaBoards-backup.tgz
 ```
 _You can use any relative path._

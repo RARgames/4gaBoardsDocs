@@ -5,12 +5,12 @@ sidebar_label: 'Uninstall'
 # Docker Compose Uninstall
 
 **Uninstall:**
-```
+```bash
 docker compose down
 ```
 
 **Uninstall and remove data:**
-```
+```bash
 docker compose down -v
 ```
 

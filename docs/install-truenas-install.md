@@ -8,11 +8,11 @@ Requirements: [True NAS Scale](https://www.truenas.com/download-truenas-scale) w
 :::
 
 **Clone 4ga Boards Repo** _(or just the helm-chart dir)_
-```
+```bash
 git clone https://github.com/RARgames/4gaBoards.git
 ```
 **Switch dir to `helm-chart`**
-```
+```bash
 cd /4gaBoards/helm-chart
 ```
 **Configure 4ga Boards instance variables**
@@ -30,7 +30,7 @@ Edit `BASE_URL` to match your domain name or IP address (node address).
 **Install helm chart**
 
 Values in `values.truenas.yaml` overrride values in `values.yaml`.
-```
+```bash
 sudo helm install boards . --values values.yaml --values values.truenas.yaml --kubeconfig /etc/rancher/k3s/k3s.yaml
 ```
 

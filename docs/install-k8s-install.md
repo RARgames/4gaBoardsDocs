@@ -8,15 +8,15 @@ Requirements: [Kubernetes](https://kubernetes.io/docs/setup/)
 :::
 
 **Start your Kubernetes provider (e.g. `minikube`)**
-```
+```bash
 minkube start
 ```
 **Clone 4ga Boards Repo** _(or just the helm-chart dir)_
-```
+```bash
 git clone https://github.com/RARgames/4gaBoards.git
 ```
 **Switch dir to `helm-chart`**
-```
+```bash
 cd /4gaBoards/helm-chart
 ```
 **Configure 4ga Boards instance variables**
@@ -28,7 +28,7 @@ Edit `BASE_URL` to match your domain name or IP address.\
 Edit `SECRET_KEY` with a random value. You can generate it by `openssl rand -hex 64`.
 
 **Install helm chart**
-```
+```bash
 sudo helm install boards .
 ```
 

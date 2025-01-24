@@ -11,7 +11,7 @@ To set external postgress set `postgresql.enabled` to `false` and `postgresql.po
 ### Install 4ga Boards in a namespace
 
 You can install 4ga Boards on a namespace `namespace-boards`:
-```
+```bash
 sudo helm install boards . -n namespace-boards
 ```
 

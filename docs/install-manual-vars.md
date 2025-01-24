@@ -5,7 +5,7 @@ sidebar_label: 'Variables'
 # Manual Variables
 
 ### Env File `.env`
-```
+```bash
 ## Required
 BASE_URL=http://localhost:1337
 DATABASE_URL=postgresql://postgres@localhost/4gaBoards
