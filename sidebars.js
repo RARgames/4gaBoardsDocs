@@ -53,7 +53,18 @@ export default {
       type: 'category',
       label: 'For Developers',
       items: [
-        'dev/development',
+        {
+          type: 'category',
+          label: 'Development',
+          items: [
+            'dev/development/install',
+            'dev/development/additional',
+          ],
+          link: {
+            type: 'generated-index',
+            slug: '/dev/development',
+          },
+        },
         {
           type: 'category',
           label: 'Installation',
