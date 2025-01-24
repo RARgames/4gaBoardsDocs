@@ -4,13 +4,9 @@ sidebar_label: 'Installation'
 
 # Kubernetes Helm Chart Installation
 :::note
-Make sure you have Kubernetes installed and operational.
+Make sure you have [True NAS Scale](https://www.truenas.com/download-truenas-scale) installed and operational with Apps Service Running.
 :::
 
-**Start your Kubernetes provider (e.g. `minikube`)**
-```
-minkube start
-```
 **Clone 4ga Boards Repo** _(or just the helm-chart dir)_
 ```
 git clone https://github.com/RARgames/4gaBoards.git
@@ -27,13 +23,19 @@ Edit `password` and `postgresPassword` with generated db passwords.\
 Edit `BASE_URL` to match your domain name or IP address.\
 Edit `SECRET_KEY` with a random value. You can generate it by `openssl rand -hex 64`.
 
+Configure `env` section in `values.truenas.yaml`:
+
+Edit `BASE_URL` to match your domain name or IP address (node address).
+
 **Install helm chart**
+
+Values in `values.truenas.yaml` overrride values in `values.yaml`.
 ```
-sudo helm install boards .
+sudo helm install boards . --values values.yaml --values values.truenas.yaml --kubeconfig /etc/rancher/k3s/k3s.yaml
 ```
 
 :::tip
-Default 4ga Boards url: http://localhost:3000 \
+Default 4ga Boards url: http://localhost:30001 \
 Default user: `demo`\
 Default password: `demo`
 :::

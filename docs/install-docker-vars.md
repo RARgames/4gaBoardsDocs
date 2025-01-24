@@ -68,3 +68,8 @@ networks:
 - `CLIENT_URL` - _(optional)_ - domain or ip address of client url (skip this unless you really need it, might be useful in some configurations)
 - `GOOGLE_CLIENT_ID` - _(optional)_ - SSO client id
 - `GOOGLE_CLIENT_SECRET` - _(optional)_ - SSo client secret
+
+Additional Links:\
+[4ga Boards `docker-compose.yml` File](https://github.com/RARgames/4gaBoards/blob/main/docker-compose.yml)\
+[4ga Boards Professional Hosting](./install-4gaboards)
+

@@ -1,7 +1,6 @@
 ---
 sidebar_label: 'Installation'
 ---
-import DefaultCredentials from './_default_credentials.mdx';
 
 # Docker Compose Installation
 :::note
@@ -13,7 +12,7 @@ Make sure you have [Docker](https://docs.docker.com/install/) and [Docker Compos
 curl -L https://raw.githubusercontent.com/RARgames/4gaBoards/main/docker-compose.yml -o docker-compose.yml
 ```
 
-**Configure 4ga Boards Instance Variables**
+**Configure 4ga Boards instance variables**
 
 Configure `environment` sections in `docker-compose.yml`:
 
@@ -27,9 +26,12 @@ Edit `DATABASE_URL` and `DATABASE_URL` replacing `notpassword` with randomly gen
 docker compose up -d
 ```
 
-<DefaultCredentials />
+:::tip
+Default 4ga Boards url: http://localhost:3000 \
+Default user: `demo`\
+Default password: `demo`
+:::
 
 Additional Links:\
-[4ga Boards Docker Package](https://github.com/RARgames/4gaBoards/pkgs/container/4gaBoards)
-
-Alternatively, install 4ga Boards with ease using [4ga Boards Professional Hosting](./install-4gaboards).
+[4ga Boards Docker Package](https://github.com/RARgames/4gaBoards/pkgs/container/4gaBoards)\
+[4ga Boards Professional Hosting](./install-4gaboards)

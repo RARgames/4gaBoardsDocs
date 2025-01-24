@@ -84,6 +84,18 @@ export default {
                 slug: '/install-k8s',
               },
             },
+            {
+              type: 'category',
+              label: 'True NAS (Hard)',
+              items: [
+                'install-truenas-install',
+                'install-truenas-vars',
+              ],
+              link: {
+                type: 'generated-index',
+                slug: '/install-truenas',
+              },
+            },
           ],
           link: {
             type: 'generated-index',
