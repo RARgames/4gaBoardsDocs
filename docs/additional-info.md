@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'More Informations'
+sidebar_label: 'Additional Information'
 ---
 
 # Additional Information

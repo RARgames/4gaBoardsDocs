@@ -54,6 +54,19 @@ export default {
       items: [
         'developers',
         'developers2',
+        {
+          type: 'category',
+          label: 'Installation',
+          items: [
+            'install-4gaboards',
+            'install-docker',
+          ],
+          link: {
+            type: 'generated-index',
+            description: 'The installation of 4ga Boards is pretty easy!',
+            slug: '/install',
+          },
+        },
       ],
       link: {
         type: 'generated-index',
@@ -84,6 +97,7 @@ export default {
         description: 'Explore 4ga Boards additional resources!',
         slug: '/additional',
       },
+      collapsed: false,
     },
   ],
 };
