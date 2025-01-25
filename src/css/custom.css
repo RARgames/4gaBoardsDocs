@@ -122,11 +122,11 @@
   background: var(--dark-background2);
 }
 
-.hero__title {
+.color-dark-h {
   color: var(--dark-h);
 }
 
-.hero__subtitle {
+.color-dark-primary {
   color: var(--dark-primary);
 }
 
@@ -159,6 +159,10 @@
 
 .admonitionHeading_Gvgb {
   display: none;
+}
+
+.heroBanner_qdFl {
+  padding: 2rem 0 !important;
 }
 
 /* Search - selected option */

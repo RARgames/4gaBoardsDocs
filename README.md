@@ -5,9 +5,9 @@
   </br>
   </br>
   <div>
-    <img src="https://img.shields.io/github/v/release/RARgames/4gaBoards?color=orange&style=flat-square)" alt="GitHub release (latest by date)">
-    <img src="https://img.shields.io/github/license/rargames/4gaBoards?style=flat-square" alt="GitHub">
-    <img src="https://img.shields.io/github/contributors/rargames/4gaboards?style=flat-square" alt="GitHub contributors">
+    <img src="https://img.shields.io/github/v/release/RARgames/4gaBoards?color=orange" alt="4ga Boards Latest Release" />
+    <img src="https://img.shields.io/github/license/rargames/4gaBoards" alt="4ga Boards License" />
+    <img src="https://img.shields.io/github/contributors/rargames/4gaboards" alt="4ga Boards Contributors" />
   </div>
   </br>
   Straightforward boards system for realtime project management

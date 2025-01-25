@@ -12,10 +12,29 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {<Translate>4ga Boards Documentation</Translate>}
-        </Heading>
-        <p className="hero__subtitle">{<Translate>Get Advantage. Straightforward boards system for realtime project management.</Translate>}</p>
+        <div style={{ align: 'center', marginBottom: '2rem' }}>
+          <div style={{ marginBottom: '1rem' }}>
+            <a href="https://4gaboards.com" target="_blank">
+              <img src="/img/4gaboards512w-white.webp" alt="4ga Boards" style={{ maxWidth: '256px' }} />
+            </a>
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '4px', marginBottom: '1rem' }}>
+            <img src="https://img.shields.io/github/v/release/RARgames/4gaBoards?color=orange" alt="4ga Boards Latest Release" />
+            <img src="https://img.shields.io/github/license/rargames/4gaBoards" alt="4ga Boards License" />
+            <img src="https://img.shields.io/github/contributors/rargames/4gaboards" alt="4ga Boards Contributors" />
+          </div>
+          <Heading as="h1" className="color-dark-h">
+            {<Translate>4ga Boards Documentation</Translate>}
+          </Heading>
+          <div style={{ marginBottom: '1rem'}} className="color-dark-primary">
+            {<Translate>Straightforward boards system for realtime project management</Translate>}
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <video style={{ width: '50%' }} autoPlay muted loop>
+              <source src="/img/4gaBoards_Preview_github.mp4" type="video/mp4" /> 4ga Boards Preview Video
+            </video>
+          </div>
+        </div>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
