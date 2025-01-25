@@ -158,7 +158,7 @@ export default {
           href: 'https://4gaboards.com/',
         },
         { type: 'link',
-          label: 'Contact Form',
+          label: 'Contact',
           href: 'https://4gaboards.com/contact',
         }
       ],
@@ -167,7 +167,6 @@ export default {
         description: 'Explore 4ga Boards additional resources!',
         slug: '/additional',
       },
-      collapsed: false,
     },
   ],
 };

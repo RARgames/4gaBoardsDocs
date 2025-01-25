@@ -27,7 +27,7 @@
     "message": "Repozytorium GitHub",
     "description": "The label for link Github Repository in sidebar docs, linking to https://github.com/RARgames/4gaBoards"
   },
-  "sidebar.docs.link.Contact Form": {
+  "sidebar.docs.link.Contact": {
     "message": "Kontakt",
     "description": "The label for link Contact Form in sidebar docs, linking to https://4gaboards.com/contact"
   },
