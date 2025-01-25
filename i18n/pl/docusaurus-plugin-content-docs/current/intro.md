@@ -32,7 +32,7 @@ W tej części dokumentacji znajdziesz informacje na tematy administracyjne oraz
 
 - Dla każdego zalogowanego użytkownika dostępne są:
 [Ustawienia użytkownika](./settings)
-- Dla moderatorów (zarządców) projektu:
+- Dla moderatorów projektu:
 [Ustawienia projektu](./project-settings)
 - Dla administratorów instancji:
 [Ustawienia instancji](./instance-settings)

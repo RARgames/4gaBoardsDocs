@@ -14,18 +14,12 @@ Administrator - can access every settings in the instance and create new project
 
 Each tier is unlocking special settings panel.
 
-For each user:
-
+- For each user:
 [Settings](./settings) will show you your personal settings.
-
-
-For project managers:
-
-[Project settings](./project-settings) will guide you through settings of individual projects inside your instance.
-
-For administrators:
-
-[Instance settings](./instance-settings) will explain the settings of the instance (e.g. demo.4gaboards.com).
+- For project managers:
+[Project settings](./project-settings) will guide you through settings of projects inside your instance
+- For administrators:
+[Instance settings](./instance-settings) will explain the settings of the instance (e.g. demo.4gaboards.com)
 
 ## Dashboard access to settings
 
@@ -44,4 +38,3 @@ To access instance settings click on the users icon (to the right of the cog set
 To quickly navigate the different settings, use the side panel - you can hide/show it using the bar&arrow icon next to 4ga Boards logo:
 
 ![Toggle settings sidebar button](/img/settingssidebar_en.png)
-

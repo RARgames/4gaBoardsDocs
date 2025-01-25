@@ -33,11 +33,11 @@ Each of the levels is thoroughly explained in the respective sections.
 
 Here you will find explanation of all different features in the settings sections and administration panel.
 
-- for each user:
+- For each user:
 [Settings](./settings) will show you your personal settings.
-- for project managers:
+- For project managers:
 [Project settings](./project-settings) will guide you through settings of projects inside your instance
-- for administrators:
+- For administrators:
 [Instance settings](./instance-settings) will explain the settings of the instance (e.g. demo.4gaboards.com)
 
 
