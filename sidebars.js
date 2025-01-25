@@ -101,7 +101,7 @@ export default {
             },
             {
               type: 'category',
-              label: 'True NAS (Hard)',
+              label: 'TrueNAS (Hard)',
               items: [
                 'dev/install/truenas-install',
                 'dev/install/truenas-vars',

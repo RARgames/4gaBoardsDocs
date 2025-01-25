@@ -3,7 +3,7 @@ sidebar_label: 'Uninstall'
 description: ''
 ---
 
-# True NAS Uninstall
+# TrueNAS Uninstall
 
 **Uninstall:**
 ```bash

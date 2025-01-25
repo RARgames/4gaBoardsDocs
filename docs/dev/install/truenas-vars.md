@@ -5,11 +5,11 @@ description: ''
 import K8sValues from './_k8s_values.md';
 import K8sVars from './_k8s_vars.md';
 
-# True NAS Variables
+# TrueNAS Variables
 
 <K8sValues />
 
-### Additional Values For True NAS Example File `values.truenas.yaml`
+### Additional Values For TrueNAS Example File `values.truenas.yaml`
 ```yaml
 service:
   type: NodePort
@@ -28,7 +28,7 @@ env:
 
 **`env` variables in `values.truenas.yaml`:**
 
-- `BASE_URL` - domain or ip address used to access 4ga Boards (Use this only when installing for True NAS)
+- `BASE_URL` - domain or ip address used to access 4ga Boards (Use this only when installing for TrueNAS)
 
 Additional Links:\
 [4ga Boards `values.yaml` File](https://github.com/RARgames/4gaBoards/blob/main/helm-chart/values.yaml)\

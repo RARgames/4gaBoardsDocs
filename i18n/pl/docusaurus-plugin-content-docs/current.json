@@ -71,9 +71,9 @@
     "message": "Kubernetes (Hard)",
     "description": "The label for category Kubernetes (Hard) in sidebar docs"
   },
-  "sidebar.docs.category.True NAS (Hard)": {
-    "message": "True NAS (Hard)",
-    "description": "The label for category True NAS (Hard) in sidebar docs"
+  "sidebar.docs.category.TrueNAS (Hard)": {
+    "message": "TrueNAS (Hard)",
+    "description": "The label for category TrueNAS (Hard) in sidebar docs"
   },
   "sidebar.docs.category.Manual (🤡)": {
     "message": "Manual (🤡)",

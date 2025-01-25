@@ -3,9 +3,9 @@ sidebar_label: 'Install'
 description: ''
 ---
 
-# True NAS Installation
+# TrueNAS Installation
 :::note
-Requirements: [True NAS Scale](https://www.truenas.com/download-truenas-scale) with Apps Service Running
+Requirements: [TrueNAS Scale](https://www.truenas.com/download-truenas-scale) with Apps Service Running
 :::
 
 **Clone 4ga Boards Repo** _(or just the helm-chart dir)_
