@@ -29,7 +29,7 @@
   },
   "sidebar.docs.link.Contact": {
     "message": "Kontakt",
-    "description": "The label for link Contact Form in sidebar docs, linking to https://4gaboards.com/contact"
+    "description": "The label for link Contact in sidebar docs, linking to https://4gaboards.com/contact"
   },
   "sidebar.docs.link.4ga Boards Website": {
     "message": "Strona 4ga Boards",
@@ -78,5 +78,9 @@
   "sidebar.docs.category.Manual (🤡)": {
     "message": "Manual (🤡)",
     "description": "The label for category Manual (🤡) in sidebar docs"
+  },
+  "sidebar.docs.category.Development": {
+    "message": "Development",
+    "description": "The label for category Development in sidebar docs"
   }
 }

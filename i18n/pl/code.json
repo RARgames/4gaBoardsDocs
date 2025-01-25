@@ -366,13 +366,13 @@
   "Learn how to self host 4ga Boards on your own servers.": {
     "message": "Dowiedz się jak postawić 4ga Boards na własnej infrastrukturze."
   },
-  "Get Advantage. Straightforward boards system for realtime project management.": {
-    "message": "Zyskaj przewagę. Intuicyjny system tablic do zarządzania projektami w czasie rzeczywistym."
-  },
   "Manage your team, settings, and workflows with ease.": {
     "message": "Zarządzaj swoimi zespołami i ustawieniami dla twojej instancji."
   },
   "4ga Boards Documentation": {
     "message": "Dokumentacja 4ga Boards "
+  },
+  "Straightforward boards system for realtime project management": {
+    "message": "Intuicyjny system tablic do zarządzania projektami w czasie rzeczywistym"
   }
 }
