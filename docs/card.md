@@ -133,13 +133,14 @@ As the text editor is a markdown editor, it follows typical syntax to other edit
 - **Add colored text**
     - use button to select desired color or type in color name like in the example: `<!--black-->This text wil be black<!--black-end-->`
     - available colors: black, grey, white, brown, red, purple, pink, green, lime, yellow, blue, cyan, orange.
+
+View options:
 - Edit code (ctrl + 7) - shows only the edited text with markdown symbols
 - Live code (ctrl + 8) - shows both markdown symbols (on left) and live preview of the text (on the right)
 - Preview code (ctrl + 9) - shows just the text preview
 - Toggle fullscreen (ctrl + 0)
 
 Some functions that don't have special buttons:
-
 - **Add commit link**  - type:
     - to link commit use (commit hash), e.g. `1d7e95e8d496564ac5f69a06db60df79a6a585c4`
     - to link commit in fork use (fork name)@(commit hash), e.g. `samplefork@1d7e95e8d496564ac5f69a06db60df79a6a585c4`

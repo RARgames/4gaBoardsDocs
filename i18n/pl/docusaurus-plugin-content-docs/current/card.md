@@ -107,56 +107,52 @@ Zauważ, że tylko obecni członkowie tablicy mogą zostać dodani do karty. Je�
 
 ![Prezentacja edytora tekstu](/img/texteditor_pl.png)
 
-Jest to edytor typu markdown i używa on podobnej składni jak inne tego typu edytory. Jeśli chcesz dowiedzieć się więcej o edytorach markdown, skorzystaj z przewodników: [english guide](https://www.markdownguide.org/basic-syntax/),  [polski przewodnik](https://blog.nayma.pl/podstawy-markdown/)
+Jest to edytor typu markdown i używa on podobnej składni jak inne tego typu edytory. Jeśli chcesz dowiedzieć się więcej o edytorach markdown, skorzystaj z przewodników: [english guide](https://www.markdownguide.org/basic-syntax/),  [polski przewodnik](https://blog.nayma.pl/podstawy-markdown/).
 
 Opcje edytora są widoczne na górnym jego pasku są następujące (opisane od lewej do prawej; aby ich użyć wystarczy kliknąć ikonkę bądź użyć kombinacji klawiszy, jeśli istnieje):
 
 Opcje edycji tekstu:
-1. Pogrubiony tekst (CTRL + b)
-2. Pochylony tekst (CTRL + i)
-3. Przekreślony tekst (CTRL+SHIFT+ x)
-4. Wstaw poziomą linię (CTRL + h)
-5. Wstaw tytuł (CTRL + numer od 1 do 6 w zależności od rozmiaru); możesz również wpisać odpowiednią ilość krzyżyków (#)
-6. Dodaj link (CTRL + l)
-7. wstaw cytat (CTRL + q)
-8. wstaw kod (CTRL + j)
-9. wstaw blok kodu (CTRL+SHIFT+ j). Po stworzeniu domyślnego bloku możesz dodać **niestandardowe tagi**:
+- Pogrubiony tekst (CTRL + b)
+- Pochylony tekst (CTRL + i)
+- Przekreślony tekst (CTRL+SHIFT+ x)
+- Wstaw poziomą linię (CTRL + h)
+- Wstaw tytuł (CTRL + numer od 1 do 6 w zależności od rozmiaru); możesz również wpisać odpowiednią ilość krzyżyków (#)
+- Dodaj link (CTRL + l)
+- wstaw cytat (CTRL + q)
+- wstaw kod (CTRL + j)
+- wstaw blok kodu (CTRL+SHIFT+ j). Po stworzeniu domyślnego bloku możesz dodać **niestandardowe tagi**:
     - pierwszy tag zaraz po otwierającym symbolu (` ``` `) ijest skrótkem języka, np. ` ```js ` podświetli składnię języka javascript.
     - drugi tag pozwala wyświetlić numery linii, np.  ` ```js showLineNumbers `
     - trzeci tag pozwala na wybranie, które linie mają być podświetlone ` ```js showLineNumbers {1, 3-4} ` - w tym przypadku linia 1, i od 3 do 4 zostaną wyświetlone.
-10. wstaw komentarz (CTRL + /)
-11. dodaj obrazek (CTRL + k)
-12. dodaj tabelę 
-13. dodaj listę od myślników (CTRL+SHIFT+ u)
-14. add listę numerowaną (CTRL+SHIFT+ o)
-15. dodaj listę ze znacznikami (CTRL+SHIFT+ c)
-16. otwórz pomoc (otwiera [przewodnik po angielsku](https://www.markdownguide.org/basic-syntax/))
+- wstaw komentarz (CTRL + /)
+- dodaj obrazek (CTRL + k)
+- dodaj tabelę 
+- dodaj listę od myślników (CTRL+SHIFT+ u)
+- add listę numerowaną (CTRL+SHIFT+ o)
+- dodaj listę ze znacznikami (CTRL+SHIFT+ c)
+- otwórz pomoc (otwiera [przewodnik po angielsku](https://www.markdownguide.org/basic-syntax/))
 - **Add issue link - ta funkcjonalność pozwala na stworzenie połączenia pomiędzy kartą a issue bądź pull request'em na GitHubie. Można to zrobić na następujące sposoby:**
     - kliknij na przycisk "add issue" (przycisk hashtag) i zapisz numer issue bądź PR albo napisz: #(numer issue), np. `#1`.
     - zamiast hashtaga możesz użyć: GH-(numer issue), np. `GH-1`
     - aby połączyć się z issue bądź PR w forku użyj: (nazwa forku)#(numer issue), e.g. `samplefork#1`
     - aby połączyć issue/PR z repozytorium użyj:(użytkownik bądź organizacja)/(repozytorium)#(numer issue), np. `RARgames/4gaboards#1`
-
 - **Dodaj kolorowy tekst**
     - użyj przycisku i wybierz odpowiedni kolor bądź wpisz nazwę kolorów w ten sposób: `<!--black-->Ten tekst wyświetli się na czarno<!--black-end-->`
     - dostępne kolory: czarny, szary, biały, brązowy, czerwony, fioletowy, różowy, zielony, limonkowy, żółty, niebieski, cyjan, pomarańczowy.
 
 Opcje podglądu:
-1. Podgląd edycji (ctrl + 7) - pokazuje tylko edytowany tekst wraz z symbolami markdown
-2. Podgląd edycji na żywo (ctrl + 8) - po lewej pokazuje edytor z symbolami, po prawej podgląd na żywo wersji ostatecznej tekstu
-3. Podgląd na żywo (ctrl + 9) - pokazuje tylko wersję ostateczną tekstu; opcje edycji tekstu są wyłączone
-4. Toggle fullscreen (ctrl + 0) - przełączanie na cały ekran
+  - Podgląd edycji (ctrl + 7) - pokazuje tylko edytowany tekst wraz z symbolami markdown
+  - Podgląd edycji na żywo (ctrl + 8) - po lewej pokazuje edytor z symbolami, po prawej podgląd na żywo wersji ostatecznej tekstu
+  - Podgląd na żywo (ctrl + 9) - pokazuje tylko wersję ostateczną tekstu; opcje edycji tekstu są wyłączone
+  - Toggle fullscreen (ctrl + 0) - przełączanie na cały ekran
 
 Niektóre funkcje nie posiadają specjalnych przycisków:
-
-**Dodaj link do GitHub commit**  - napisz:
-- dodaj link do commita poprzez użycie (commit hash), np. `1d7e95e8d496564ac5f69a06db60df79a6a585c4`
-- dodaj link do commita w forku poprzez użycie (nazwa forku)@(commit hash), np. `samplefork@1d7e95e8d496564ac5f69a06db60df79a6a585c4`
-- dodaj link do commita w repozytorium używając: (username)/(repository name)@(commit hash), np. `RARgames/4gaBoards@1d7e95e8d496564ac5f69a06db60df79a6a585c4`
-
-
-**Dodaj wzmiankę o użytkowniku (mention)** - napisz:
-- aby wspomnieć użytkownika użyj @(username), np. `@RARgames`
+- **Dodaj link do GitHub commit**  - napisz:
+  - dodaj link do commita poprzez użycie (commit hash), np. `1d7e95e8d496564ac5f69a06db60df79a6a585c4`
+  - dodaj link do commita w forku poprzez użycie (nazwa forku)@(commit hash), np. `samplefork@1d7e95e8d496564ac5f69a06db60df79a6a585c4`
+  - dodaj link do commita w repozytorium używając: (username)/(repository name)@(commit hash), np. `RARgames/4gaBoards@1d7e95e8d496564ac5f69a06db60df79a6a585c4`
+- **Dodaj wzmiankę o użytkowniku (mention)** - napisz:
+  - aby wspomnieć użytkownika użyj @(username), np. `@RARgames`
 
 Możesz również wkleić link aby połączyć commit, issue albo PR, komentarz do commita, issue albo PR , użytkownika.
 
