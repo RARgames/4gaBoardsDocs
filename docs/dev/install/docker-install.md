@@ -35,4 +35,4 @@ Default password: `demo`
 
 Additional Links:\
 [4ga Boards Docker Package](https://github.com/RARgames/4gaBoards/pkgs/container/4gaBoards)\
-[4ga Boards Professional Hosting](./install-4gaboards)
+[4ga Boards Professional Hosting](./4gaboards)

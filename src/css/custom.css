@@ -160,3 +160,26 @@
 .admonitionHeading_Gvgb {
   display: none;
 }
+
+/* Search - selected option */
+.suggestion_fB_2[aria-selected="true"] path,
+.suggestion_fB_2:hover path,
+.suggestion_fB_2:focus path,
+.suggestion_fB_2:active path {
+  stroke: var(--dark-background2) !important;
+}
+
+.suggestion_fB_2[aria-selected="true"] .hitWrapper_sAK8 .hitTitle_vyVt,
+.suggestion_fB_2:hover .hitWrapper_sAK8 .hitTitle_vyVt,
+.suggestion_fB_2:focus .hitWrapper_sAK8 .hitTitle_vyVt,
+.suggestion_fB_2:active .hitWrapper_sAK8 .hitTitle_vyVt,
+.suggestion_fB_2[aria-selected="true"] .hitWrapper_sAK8 mark,
+.suggestion_fB_2:hover .hitWrapper_sAK8 mark,
+.suggestion_fB_2:focus .hitWrapper_sAK8 mark,
+.suggestion_fB_2:active .hitWrapper_sAK8 mark,
+.suggestion_fB_2[aria-selected="true"] .hitWrapper_sAK8 .hitPath_ieM4,
+.suggestion_fB_2:hover .hitWrapper_sAK8 .hitPath_ieM4,
+.suggestion_fB_2:focus .hitWrapper_sAK8 .hitPath_ieM4,
+.suggestion_fB_2:active .hitWrapper_sAK8 .hitPath_ieM4 {
+  color: var(--dark-background2) !important;
+}

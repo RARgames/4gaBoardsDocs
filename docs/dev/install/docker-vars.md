@@ -72,5 +72,5 @@ networks:
 
 Additional Links:\
 [4ga Boards `docker-compose.yml` File](https://github.com/RARgames/4gaBoards/blob/main/docker-compose.yml)\
-[4ga Boards Professional Hosting](./install-4gaboards)
+[4ga Boards Professional Hosting](./4gaboards)
 

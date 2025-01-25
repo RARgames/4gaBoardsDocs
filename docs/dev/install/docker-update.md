@@ -21,4 +21,4 @@ docker image prune -a -f
 ```
 
 Additional Links:\
-[4ga Boards Professional Hosting](./install-4gaboards)
+[4ga Boards Professional Hosting](./4gaboards)

@@ -12,4 +12,4 @@ import K8sVars from './_k8s_vars.md';
 
 Additional Links:\
 [4ga Boards `values.yaml` File](https://github.com/RARgames/4gaBoards/blob/main/helm-chart/values.yaml)\
-[4ga Boards Professional Hosting](./install-4gaboards)
+[4ga Boards Professional Hosting](./4gaboards)

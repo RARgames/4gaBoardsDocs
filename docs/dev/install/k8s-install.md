@@ -41,4 +41,4 @@ Default password: `demo`
 
 Additional Links:\
 [4ga Boards Helm Chart](https://github.com/RARgames/4gaBoards/tree/main/helm-chart)\
-[4ga Boards Professional Hosting](./install-4gaboards)
+[4ga Boards Professional Hosting](./4gaboards)
