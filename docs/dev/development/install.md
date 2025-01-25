@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'Development'
+sidebar_label: 'Install'
 description: ''
 ---
 
-# Development
+# Development Installation
 :::note
 Requirements: [Node.js](https://nodejs.org/en/download)\
 Optional requirements: [Docker](https://docs.docker.com/install/), [Docker Compose](https://docs.docker.com/compose/install/)
