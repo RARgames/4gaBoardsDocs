@@ -118,7 +118,6 @@ As the text editor is a markdown editor, it follows typical syntax to other edit
     - The first tag just after opening symbol (` ``` `) is a language shortcut, e.g. ` ```js ` will highlight javascript syntax.
     - The second tag is for showing line numbers  ` ```js showLineNumbers `
     - The third that indicates which lines should be highlighted ` ```js showLineNumbers {1, 3-4} ` - in this example the lines 1, 3 and 4 highlighted.
-
 - Insert comment (CTRL + /)
 - Add image (CTRL + k)
 - Add table
@@ -126,17 +125,14 @@ As the text editor is a markdown editor, it follows typical syntax to other edit
 - Add ordered list (CTRL + SHIFT + o)
 - Add checked list (CTRL + SHIFT + c)
 - Open help (opens the [basic syntax](https://www.markdownguide.org/basic-syntax/) site)
-
 - **Add issue link - with this feature you create a link from card to GitHub issue or pull request. Some ways to do it:**
     - click the add issue button and type issue or PR number or write: #(number of the issue), e.g. `#1`.
     - instead of hashtag you can use: GH-(number), e.g. `GH-1`
     - to link issue or PR in fork use: (fork name)#(issue number), e.g. `samplefork#1`
     - to link issue or PR in specific repository use:(username or organization name)/(repository name)#(issue number), e.g. `RARgames/4gaboards#1`
-
 - **Add colored text**
     - use button to select desired color or type in color name like in the example: `<!--black-->This text wil be black<!--black-end-->`
     - available colors: black, grey, white, brown, red, purple, pink, green, lime, yellow, blue, cyan, orange.
-
 - Edit code (ctrl + 7) - shows only the edited text with markdown symbols
 - Live code (ctrl + 8) - shows both markdown symbols (on left) and live preview of the text (on the right)
 - Preview code (ctrl + 9) - shows just the text preview
@@ -148,9 +144,7 @@ Some functions that don't have special buttons:
     - to link commit use (commit hash), e.g. `1d7e95e8d496564ac5f69a06db60df79a6a585c4`
     - to link commit in fork use (fork name)@(commit hash), e.g. `samplefork@1d7e95e8d496564ac5f69a06db60df79a6a585c4`
     - to link commit in repository use (username)/(repository name)@(commit hash), e.g. `RARgames/4gaBoards@1d7e95e8d496564ac5f69a06db60df79a6a585c4`
-
-
-**Add mention** - type:
+- **Add mention** - type:
     - to mention user use @(username), e.g. `@RARgames`
 
 Alternatively you can paste links to link commit, commit comment, issue or PR, issue or PR comment, user.
