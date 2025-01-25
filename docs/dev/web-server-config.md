@@ -245,7 +245,7 @@ Replace `demo.4gaboards.com/4gaBoards` with your domain name, and configure SSL 
 File: _/etc/httpd/conf/httpd.conf_
 ```apacheconf
 <VirtualHost *:80>#
-    ServerName http://demo.4gaboards.com
+    ServerName demo.4gaboards.com
 
     RewriteEngine On
         RewriteCond %{HTTP:Upgrade} =websocket [NC]
