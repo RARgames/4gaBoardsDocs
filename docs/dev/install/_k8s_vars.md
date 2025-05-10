@@ -14,4 +14,8 @@
 - `SECRET_KEY` - session secret key
 - `CLIENT_URL` - _(optional)_ - domain or ip address of client url (skip this unless you really need it, might be useful in some configurations)
 - `GOOGLE_CLIENT_ID` - _(optional)_ - SSO client id
-- `GOOGLE_CLIENT_SECRET` - _(optional)_ - SSo client secret
+- `GOOGLE_CLIENT_SECRET` - _(optional)_ - SSO client secret
+- `GITHUB_CLIENT_ID` - _(optional)_ - SSO client id
+- `GITHUB_CLIENT_SECRET` - _(optional)_ - SSO client secret
+- `MICROSOFT_CLIENT_ID` - _(optional)_ - SSO client id
+- `MICROSOFT_CLIENT_SECRET` - _(optional)_ - SSO client secret

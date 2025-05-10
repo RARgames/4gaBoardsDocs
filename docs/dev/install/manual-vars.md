@@ -27,7 +27,12 @@ TZ=UTC
 - `DATABASE_URL` - database url in the following format: `postgresql://<username>:<password>@<host>/<database_name>`
 - `CLIENT_URL` - _(optional)_ - domain or ip address of client url (skip this unless you really need it, might be useful in some configurations)
 - `GOOGLE_CLIENT_ID` - _(optional)_ - SSO client id
-- `GOOGLE_CLIENT_SECRET` - _(optional)_ - SSo client secret
+- `GOOGLE_CLIENT_SECRET` - _(optional)_ - SSO client secret
+- `GITHUB_CLIENT_ID` - _(optional)_ - SSO client id
+- `GITHUB_CLIENT_SECRET` - _(optional)_ - SSO client secret
+- `MICROSOFT_CLIENT_ID` - _(optional)_ - SSO client id
+- `MICROSOFT_CLIENT_SECRET` - _(optional)_ - SSO client secret
+
 
 Additional Links:\
 [4ga Boards `.env` File](https://github.com/RARgames/4gaBoards/blob/main/server/.env.sample)\
