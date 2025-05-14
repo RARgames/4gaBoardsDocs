@@ -90,13 +90,12 @@
 }
 
 .header-github {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   color: var(--dark-primary);
   path {
       fill: var(--gray);
   }
-  white-space: nowrap;
 }
 
 .header-github:hover,
@@ -116,6 +115,28 @@
 
 .navbar {
   background: var(--dark-background0);
+}
+
+.navbar__items {
+  white-space: nowrap;
+}
+
+.navbarSearchContainer_Bca1 {
+  position: relative !important;
+}
+
+@media (max-width: 997px) {
+  .header-github p {
+    display: none;
+  }
+
+  .menu__list-item .header-github p {
+    display: inline-flex;
+  }
+
+  .navbar__search-input {
+    width: 12.5rem;
+  }
 }
 
 .hero--primary {

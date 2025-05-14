@@ -79,17 +79,17 @@ const config = {
           {
             to: '/docs/user-manual',
             position: 'left',
-            label: 'For Users',
+            label: 'Users',
           },
           {
             to: '/docs/admin-manual',
             position: 'left',
-            label: 'For Administrators',
+            label: 'Admins',
           },
           {
             to: '/docs/developer-manual',
             position: 'left',
-            label: 'For Developers',
+            label: 'Devs',
 
           },
           {
