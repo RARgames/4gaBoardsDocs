@@ -2,6 +2,8 @@
 sidebar_label: 'Variables'
 description: ''
 ---
+import VarsYamlOptional from './_vars_yaml_optional.md';
+import VarsDockerRequired from './_vars_docker_required.md';
 
 # Docker Compose Variables
 
@@ -41,6 +43,7 @@ services:
       SECRET_KEY: notsecretkey
       DATABASE_URL: postgresql://postgres:notpassword@db/4gaBoards
       NODE_ENV: production
+      ## Add optional 4ga Boards instance variables here
     depends_on:
       db:
         condition: service_healthy
@@ -54,7 +57,7 @@ networks:
   boards-network:
 ```
 
-### 4ga Boards Instance Variables
+### 4ga Boards - Required Instance Variables
 
 **`db` service `environment` variables:**
 
@@ -63,17 +66,13 @@ networks:
 
 **`4gaBoards` service `environment` variables:**
 
-- `BASE_URL` - domain or ip address used to access 4ga Boards
-- `SECRET_KEY` - session secret key
-- `DATABASE_URL` - database url in the following format: `postgresql://<username>:<password>@<host>/<database_name>`
-- `CLIENT_URL` - _(optional)_ - domain or ip address of client url (skip this unless you really need it, might be useful in some configurations)
-- `GOOGLE_CLIENT_ID` - _(optional)_ - SSO client id
-- `GOOGLE_CLIENT_SECRET` - _(optional)_ - SSO client secret
-- `GITHUB_CLIENT_ID` - _(optional)_ - SSO client id
-- `GITHUB_CLIENT_SECRET` - _(optional)_ - SSO client secret
-- `MICROSOFT_CLIENT_ID` - _(optional)_ - SSO client id
-- `MICROSOFT_CLIENT_SECRET` - _(optional)_ - SSO client secret
+<VarsDockerRequired />
 
+### 4ga Boards - Optional Instance Variables
+
+**`4gaBoards` service `environment` variables:**
+
+<VarsYamlOptional />
 
 Additional Links:\
 [4ga Boards `docker-compose.yml` File](https://github.com/RARgames/4gaBoards/blob/main/docker-compose.yml)\

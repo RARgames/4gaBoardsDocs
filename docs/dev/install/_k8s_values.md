@@ -64,14 +64,9 @@ env:
   required:
     SECRET_KEY: notsecretkey
     BASE_URL: http://localhost:80
-  optional:
+ optional:
     CLIENT_URL: http://localhost:80
-    GOOGLE_CLIENT_ID: googleClientId
-    GOOGLE_CLIENT_SECRET: googleClientSecret
-    GITHUB_CLIENT_ID: githubClientId
-    GITHUB_CLIENT_SECRET: githubClientSecret
-    MICROSOFT_CLIENT_ID: microsoftClientId
-    MICROSOFT_CLIENT_SECRET: microsoftClientSecret
+    # Add optional 4ga Boards instance variables here
 
 pv:
   storageClass: standard

@@ -28,6 +28,8 @@ env:
 
 **`env` variables in `values.truenas.yaml`:**
 
+All variables configured here override values from `values.yaml`
+
 - `BASE_URL` - domain or ip address used to access 4ga Boards (Use this only when installing for TrueNAS)
 
 Additional Links:\

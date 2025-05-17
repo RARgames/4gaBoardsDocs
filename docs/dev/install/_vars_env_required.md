@@ -1,0 +1,3 @@
+- `BASE_URL` - domain or ip address used to access 4ga Boards
+- `DATABASE_URL` - database url in the following format: `postgresql://<username>:<password>@<host>/<database_name>`
+- `SECRET_KEY` - session secret key
