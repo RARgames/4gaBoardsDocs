@@ -34,3 +34,15 @@ Configure 4ga Boards instance variables in the appropriate config file _(check y
 MICROSOFT_CLIENT_ID: microsoftClientId
 MICROSOFT_CLIENT_SECRET: microsoftClientSecret
 ```
+
+### OIDC SSO
+
+Create an app on OIDC provider website.\
+Create OIDC Client ID and Client Secret.\
+Configure 4ga Boards instance variables in the appropriate config file _(check your install method docs for details)_ - set Client ID and Client Secret to `OIDC_CLIENT_ID` and `OIDC_CLIENT_SECRET` to the values from the app.
+```yml
+OIDC_CLIENT_ID: oidcClientId
+OIDC_CLIENT_SECRET: oidcClientSecret
+OIDC_ISSUER_URL: https://oidcIssuer.com
+OIDC_STATE_SECRET: stateSecret
+```
