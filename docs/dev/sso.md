@@ -46,3 +46,5 @@ OIDC_CLIENT_SECRET: oidcClientSecret
 OIDC_ISSUER_URL: https://oidcIssuer.com
 OIDC_STATE_SECRET: stateSecret
 ```
+
+`REDIRECT_URL` that you should use to get back to 4ga Boards instance after authentication by OIDC provider is e.g. `https://instance.domain.com/auth/oidc/callback"`
