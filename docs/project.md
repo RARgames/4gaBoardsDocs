@@ -18,7 +18,7 @@ To create a project, simply click on the "+Add project" button. This button is l
 
 NOTE: If you don't see the option to create project it means you lack the administrator rights. In this case you can only use the projects you were already added to by the administrator.
 
-To access quick menu for the projects (available for project managers) hover over the project name and click three dot button. In this menu you can rename your project, go to [project settings](./project-settings) or add a new [board](./board).
+To access context menu for the projects (available for project managers) hover over the project name and click `ellipsis` button. In this menu you can rename your project, go to [project settings](./project-settings), check activity for the project (when it was created and last updated) or add a new [board](./board).
 
 ![Project context menu](/img/projectsmenu_en.png)
 

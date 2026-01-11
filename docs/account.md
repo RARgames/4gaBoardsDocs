@@ -14,6 +14,6 @@ If you don't have an account yet, you can register by clicking "Create an accoun
 
 ![Registration screen](/img/register_en.png) 
 
-If you/your organization have enabled SSO sign-in you can register using your Google account (currently, only Google SSO is supported).
+If you/your organization have enabled SSO sign-in you can register with your SSO provider (4ga Boards supports Google, Microsoft, GitHub and generic OIDC).
 
 If you cannot register with both methods, it means the administrator of your instance disabled the registration. Ask your administrator to add you manually.

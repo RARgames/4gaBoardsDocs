@@ -19,8 +19,16 @@ You can hide/unhide all lists (empty or with cards) by clicking on the little tr
 ![List visibility toggle](/img/listhide_en.png)
 
 ## Creating, editing and deleting the list
-To create a list, click on the "+add list" button on the board, write a name and confirm it by clicking on the green "Add List" button. It will automatically open a new pop-up window to create a next list. If you don't want to do it, simply click "Cancel" or start doing anything else and it will automatically close.
+To create a list, click on the `+add list` button on the board, write a name and confirm it by clicking on the green `Add List` button. It will automatically open a new pop-up window to create a next list. If you don't want to do it, simply click `Cancel` or start doing anything else and it will automatically close.
 
-You can edit the list name by clicking on the three dots in the top-right corner of a list. It will open a menu, in which you can also add card and delete list (clicking it will open an additional confirmation pop-up). By clicking on "Add Card" you can create a new card at the bottom of the list.
+You can edit the list name by clicking on the `ellipsis` in the top-right corner of a list. It will open a context menu, in which you can also add card and delete list (clicking it will open an additional confirmation pop-up). In the same menu you can check activity of the list (when it was created and last updated). By clicking on `Add Card` you can create a new card at the bottom of the list.
 
 ![List context menu](/img/listmenu_en.png)
+
+## List in list view
+
+Lists do not magically disappear when you switch from the board view to the list view. To see which list a card belongs to, refer to the "List" column. You can also move cards between lists here by clicking on it.
+
+![List changing in list menu](/img/listinlistview_en.png)
+
+Sorting the lists in this view *does not* change its placement in the board view.

@@ -22,6 +22,8 @@ export default {
         'structure',
         'project',
         'board',
+        'board-view',
+        'list-view',
         'list',
         'card',
         'sidebar',

@@ -13,6 +13,9 @@ Jeśli wchodzisz do już istniejącego i wypełnionego projektu będzie on wygl�
 
 ![Widok tablicy z otwartym projektem instruktażowym](/img/mainviewgettingstarted_pl.png)
 
+Lub, w zależności od wybranej w ustawieniach osobistych opcji, otworzy się w widoku listy: 
+![Tablica w widoku listy](/img/listview_pl.png)
+
 Aktualnie otwarta tablica będzie podświetlona na panelu bocznym.
 
 ## Tworzenie nowej tablicy
@@ -49,7 +52,7 @@ Każda tablica posiada osobny panel z ustawieniami, w którym (zaczynając od le
 4. Filtrować istniejące karty po przypisanych do nich tagach. W tym miejscu można także tworzyć, edytować i usuwać tagi.
 5. Zarządzać integracją z GitHubem (w trakcie implementacji)
 
-![Panel tablicy z opcjami filtrowania](/img/boardfilters_pl.png)
+![Panel tablicy z opcjami filtrowania](/img/boardtoolbar_pl.png)
 
 ## Uprawnienia tablicy
 Każdy użytkownik przypisany bądź zarządzający tablicą ma różne uprawnienia w zależności od roli:

@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Board'
+sidebar_label: 'Board: General'
 ---
 
 # Board
@@ -10,9 +10,13 @@ At first you will see that your project contains no boards - to create them, sim
 
 If you are joining to an existing project, here is how it should look like:
 
-![Main view showing the getting started board](/img/mainviewgettingstarted_en.png)
+![Board view showing "New website" board](/img/mainviewgettingstarted_en.png)
 
-Notice that selected board is highlighted in the sidebar view (in this example it is "Important Project" Board inside "4ga Boards" project).
+If you have set the default view as list view, here is what you will see:
+
+![List view showing the "New website" board](/img/listview_en.png)
+
+Notice that selected board is highlighted in the sidebar view (in this case, it is "New Website" from "Marketing" project).
 
 ## Creating a new board
 
@@ -39,15 +43,30 @@ If you want to edit or delete your board, open the ellipsis menu in the sidebar 
 
 ![Popup menu with board settings](/img/boardmenu_en.png)
 
-Each board comes with separate settings bar, in which (going from left to right) you can:
+## Board toolbar
 
-1. See the number of cards after filtering,
-2. Add members to the board, 
-3. Filter existing cards by members attached to them,
-4. Filter cards by labels (also create/edit the labels).
-5. Set up Github integration (WIP).
+Each board comes with separate toolbar, in which (going from left to right) you can:
 
-![Board settings bar](/img/boardfilters_en.png)
+1. Set up GitHub integration (click GitHub icon),
+2. See the number of cards after filtering,
+3. Add members to the board `+Add member` icon, delete or edit permissions of members (click on the appriopriate member icon to change it), 
+4. Filter cards (more below the image),
+5. Change view (Board view/List view)
+
+![Board toolbar](/img/boardtoolbar_en.png)
+
+## Board Filtering
+
+Board filtering is a powerful tool that let's you quickly find what you are looking for. For even quicker navigation, you can select appriopriate option (explained below) by clicking or using key combination when you are clicked in the `Filter cards` type box (presented below).
+
+You can filter board using different techniques:
+1. `Aa`: Match Case (`Alt` + `C`): will filter based on letter case (Example: typing "create" will not return cards with the title "Create")
+2. `~`: Any Match (`Alt` + `V`): "inclusive search"; Enable this option to show cards that match any of your selected filters.\
+ (Example: If you select multiple members, the search will return every card that has at least one of the selected members assigned. If `Any Match` is off, only cards that have all selected members assigned will appear.)
+3. Filter by members: Select/Remove members you want to filter.
+4. Filter by labels: Select/Remove labels you want to filter.
+5. Filter by due date: Select the due date to filter: search will return all the cards that are *before* selected due date; if `Show Cards Just For Selected Day` option is enabled, it will show cards with only the *exact* due date. 
+
 
 ## Board permissions
 Each member of the board can have different permission:
