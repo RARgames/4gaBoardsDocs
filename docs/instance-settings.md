@@ -25,7 +25,7 @@ Here is the picture of all columns selected:
 ![instanceusers_en.png](/img/usersfull_en.png)
 
 ## Instance options
-- Users registration: turn off if you want to retain full control over new users (they will have to be added manually, see below).
+- Users registration: turn off if you want to retain full control over new users (they will have to be added manually).
 - Local User registration: Turn on if you want new users to be able to register using e-mail and password.
 - SSO User Registration: Turn on if you want to enable registration with SSO.
 - Project Creation For All Users: Enable or disable project creation for all users. If you disable project creation for all users, only admins will be able to create new projects. Select this options if you want all your users to be able to create personal projects.

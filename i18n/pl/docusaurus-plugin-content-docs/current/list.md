@@ -20,6 +20,16 @@ Ważnym usprawnieniem w 4ga Boards jest możliwość ukrywania/zwijania list. Za
 
 Aby utworzyć listę kliknij na przycisk "dodaj listę", nazwij ją i zatwierdź klikając przycisk `Dodaj listę`. Automatycznie otworzy się okienko pozwalające na stworzenie kolejnej listy - jeśli nie chcesz jej tworzyć, kliknij `Anuluj` albo zignoruj to i zacznij robić coś innego - okienko zniknie wtedy automatycznie.
 
-Możesz zmienić lub usunąć listę klikając na ikonkę trzech kropek w prawym górnym rogu i wybierając odpowiednią opcję (usunięcie listy będzie wymagało dodatkowego potwierdzenia w osobnym okienku). Opcja `Dodaj kartę` utworzy nową kartę na dole listy.
+Możesz zmienić lub usunąć listę klikając na ikonkę trzech kropek w prawym górnym rogu i wybierając odpowiednią opcję (usunięcie listy będzie wymagało dodatkowego potwierdzenia w osobnym okienku). W tym samym menu możesz sprawdzić aktywność listy (kiedy została utworzona, kiedy była ostatnio aktualizowana oraz szczegółową aktywność użytkowników w danej liście).
+
+Opcja `Dodaj kartę` utworzy nową kartę na dole listy.
 
 ![Menu kontekstowe listy](/img/listmenu_pl.png)
+
+## Lista w widoku listy
+
+Listy nie znikają po przełączeniu z widoku tablicy na widok listy. Aby sprawdzić, do której listy należy dana karta, skorzystaj z kolumny „Lista”. W tym miejscu możesz również przenosić karty między listami, klikając w tę kolumnę.
+
+![Zmiana listy w widoku listy](/img/listinlistview_en.png)
+
+Sortowanie list w tym widoku *nie zmienia* ich położenia w widoku tablicy.

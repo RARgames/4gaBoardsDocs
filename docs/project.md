@@ -10,7 +10,7 @@ Projects are the highest structure of 4ga boards workflow. All of the projects c
 If you ever wish to come back to dashboard view, you can do so by clicking 4ga Boards logo in header (1). In addition, if you have administration rights to any of the projects, you can customize them in [project settings](./project-settings).
 
 
-To create a project, simply click on the "+Add project" button. This button is located at the bottom of the sidebar or at the top-right corner while you are in the dashboard. After clicking one of the buttons, the prompt for naming the project will appear.
+To create a project, simply click on the `+Add project` button. This button is located at the bottom of the sidebar or at the top-right corner while you are in the dashboard. After clicking one of the buttons, the prompt for naming the project will appear.
 
 
 

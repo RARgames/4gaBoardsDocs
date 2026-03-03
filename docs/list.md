@@ -10,7 +10,7 @@ In 4ga Boards, lists are columns on the board representing different stages or c
 ## List navigation
 To move list into different spot on the same board, simply drag and drop it where you want. You can't, however, move a list to different board or project.
 
-If you have many lists that don't fit in a browser window, you can move around by using `Ctrl` + `Scroll`, holding on an empty space in the board (when a hand icon is visible) or by using scrollbar at the bottom.
+If you have many lists that don't fit in a browser window, you can move around by using `Shift` + `Scroll`, holding on an empty space in the board (when a hand icon is visible) or by using scrollbar at the bottom.
 
 If the list is full of cards, you can scroll through them using mouse scroll (while hovering over the list) or with scrollbar at the right side of the list.
 

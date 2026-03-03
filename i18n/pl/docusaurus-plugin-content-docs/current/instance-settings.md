@@ -18,10 +18,14 @@ Jako administrator masz również pełną kontrolę nad informacjami użytkownik
 ![instanceusers_pl.png](/img/instanceusers_pl.png)
 
 ## Opcje logowania
-Rejestracja użytkowników: Włącz lub wyłącz wszystkie metody rejestracji użytkowników. Jeśli wyłączysz wszystkie metody rejestracji, tylko administratorzy będą mogli tworzyć nowych użytkowników.
 
-Lokalna rejestracja użytkowników: Włącz lub wyłącz lokalną rejestrację użytkowników. Ta metoda rejestracji umożliwia użytkownikom utworzenie konta przy użyciu nazwy użytkownika i hasła.
+- Rejestracja użytkowników: wyłącz, jeśli chcesz zachować pełną kontrolę nad nowymi użytkownikami (będą musieli być dodani ręcznie).
+- Lokalna rejestracja użytkowników: włącz, jeśli chcesz, aby nowi użytkownicy mogli rejestrować się za pomocą e-maila i hasła.
+- Rejestracja przez SSO: włącz, jeśli chcesz umożliwić rejestrację przez SSO.
+- Tworzenie projektów dla wszystkich użytkowników: włącz lub wyłącz tworzenie projektów dla wszystkich użytkowników. Jeśli wyłączysz tę opcję, tylko administratorzy będą mogli tworzyć nowe projekty. Wybierz tę opcję, jeśli chcesz, aby wszyscy użytkownicy mogli tworzyć projekty osobiste.
+- Synchronizuj dane SSO podczas uwierzytelniania: włącz lub wyłącz synchronizację danych użytkownika z dostawcą SSO podczas uwierzytelniania.
+- Synchronizuj administratora SSO podczas uwierzytelniania: włącz lub wyłącz synchronizację administratora z dostawcą SSO podczas uwierzytelniania. Włączenie tej opcji może automatycznie przyznawać lub odbierać prawa administratora na podstawie danych SSO.
+- Dozwolone domeny rejestracji: lista dozwolonych domen e-mail dla rejestracji użytkowników, oddzielona średnikami. Pozostaw puste, aby zezwolić na dowolną domenę.
 
-Rejestracja przez SSO: Włącz lub wyłącz rejestrację użytkownika przez SSO. Ten sposób rejestracji pozwala użytkownikom na utworzenie konta przy pomocy konta zewnętrznego np. poprzez konto zewnętrzne (obecnie możliwa jest rejestracja przez konto Google).
 
 ![instancesettings_pl.png](/img/instancesettings_pl.png)

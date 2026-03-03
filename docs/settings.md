@@ -18,9 +18,26 @@ This section lets you customize 4ga Boards to your, well, preferences.
 
 ![User preferences settings](/img/settingspreferences_en.png)
 
-1. "Subscribe to my own cards": set if you want to be automatically subscribed to the cards created by you (see [card](./card#card-options), card options section).
+### General
 
-2. "Compact Sidebar": choose the style of your sidebar (applicable for both settings and board sidebars). 
+1.  "Language": Select the language you want to use in 4ga Boards.
+2. "Theme": Select the color theme of the application. Currently available themes: default (which is used in this documentation), and "GitHub Dark", and even create custom theme! (see pictures below)
+
+![Github dark rounded showcase](/img/githubdarkrounded_en.png)
+
+![Light theme showcase](/img/themelight_en.png)
+
+![Custom theme selection](/img/themecustomselect_en.png)
+
+![Custom theme editor](/img/themecustom_en.png)
+
+3. "Theme Shape": Select the shape of the application theme. Choose from default square shape or rounded shape on elements (see picture below)  
+
+4. "Preferred Details Font": Select the font (default or monospace) you want to use in card description and comments; in this documentation, the default version is used.
+
+5. "Default View": Set if you want boards to open in board view or list view by default.
+
+6. "Compact Sidebar": choose the style of your sidebar (applicable for both settings and board sidebars). 
 If you enable it, you sidebar will be slim. This option is great if you prefer minimalistic design and more room for your lists in the board view. 
 
 ![Compact sidebar width](/img/sidebarslim_en.png)
@@ -29,24 +46,33 @@ If you disable it, the sidebar will be bulkier, which might be useful if you hav
 
 ![Normal sidebar width](/img/sidebarnormal_en.png)
 
-3. "Default View": Set if you want boards to open in board view or list view by default.
+7. "List View Style": Set if you want a compact or bigger (default) version of list view; in this documentation, the compact version is visible.
 
-4. "List View Style": Set if you want a compact or bigger (default) version of list view; in this documentation, the compact version is visible.
+8. "Users Settings Style": Set if you want a compact or bigger (default) version of User Settings;
 
-5. "Users Settings Style": Set if you want a compact or bigger (default) version of User Settings;
-
-6. "Preferred Details Font": Select the font (default or monospace) you want to use in card description and comments; in this documentation, the default version is used.
-
-7. "Hide Card Modal Activity": Enable to hide activity log (creation and last update time) in card view.
+9. "Hide Card Modal Activity": Enable to hide activity log (creation and last update time) in card view.
    
-8. "Hide Closest Due Date": Hide closest/earliest due date in card modal.
-   
-9.  "Language": Select the language you want to use in 4ga Boards.
-    
-10. "Theme": Select the color theme of the application. Currently available themes: default (which is used in this documentation), and "GitHub Dark" (see picture below)
-11. "Theme Shape": Select the shape of the application theme. Choose from default square shape or rounded shape on elements (see picture below)
+10. "Hide Closest Due Date": Hide closest/earliest due date in card modal.
 
-![Github dark rounded showcase](/img/githubdarkrounded_en.png)
+### Notifications
+
+11. "Subscribe to my own cards": set if you want to be automatically subscribed to the cards created by you (see [card](./card#card-options), card options section).
+
+12. "Subscribe to new boards": set if you want to be automatically subscribed to boards you join
+
+13. "Subscribe to new projects": set if you want to be automatically subscribed to projects you join.
+
+(ADMIN ONLY BELOW)
+
+14. "Subscribe to users notifications": set if you want to be automatically subscribed to notifications about other users (change e-mail, username).
+
+15.  "Subscribe to instance notifications": set if you want to be automatically subscribed to instance-wide notifications.
+
+
+
+   
+
+
 
 ## Account
 Here you can change your username and/or e-mail adress. For both changes you will need to input your current password.

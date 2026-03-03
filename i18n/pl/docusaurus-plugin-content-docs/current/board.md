@@ -21,7 +21,7 @@ Aktualnie otwarta tablica będzie podświetlona na panelu bocznym.
 ## Tworzenie nowej tablicy
 
 
-Możesz mieć wiele tablic w projekcie - wystarczy że dodasz je klikając na przycisk "+ Dodaj tablicę" w prawym górnym rogu w widoku projektu, w dolnej części panelu bocznego bądź też w menu podręcznym projektu. Odpowiednie przyciski zostały zaznaczone na poniższym obrazku. 
+Możesz mieć wiele tablic w projekcie - wystarczy że dodasz je klikając na przycisk `+ Dodaj tablicę` w prawym górnym rogu w widoku projektu, w dolnej części panelu bocznego bądź też w menu podręcznym projektu. Odpowiednie przyciski zostały zaznaczone na poniższym obrazku. 
 
 ![Umiejscowienie przycisków dodaj tablicę](/img/boardaddbutton_pl.png)
 
@@ -44,13 +44,27 @@ Aby edytować bądź usunąć tablicę należy najechać na nią w panelu boczny
 
 ![Menu kontekstowe tablicy](/img/boardmenu_pl.png)
 
+## Pasek zadań tablicy
 
-Każda tablica posiada osobny panel z ustawieniami, w którym (zaczynając od lewej) możemy:
-1. Zobaczyć ilość kart po filtrowaniu (ilość kart odfiltrowanych z ilości wszystkich kart).
-2. Dodać lub usunąć członków (jeśli jesteśmy administratorami albo moderatorami projektu)
-3. Filtrować istniejące karty po przypisanych do nich użytkownikach.
-4. Filtrować istniejące karty po przypisanych do nich tagach. W tym miejscu można także tworzyć, edytować i usuwać tagi.
-5. Zarządzać integracją z GitHubem (w trakcie implementacji)
+Każda tablica posiada osobny pasek zadań, w którym (zaczynając od lewej) możemy:
+1. Ustawić integrację z GitHub (ikonka GitHub),
+2. Zobaczyć ilość kart po filtrowaniu,
+3. Dodać członków do tablicy poprzez przycisk `+ Dodaj członka`, usunąć członka bądź zmienić jego uprawnienia po kliknięciu na jego ikonę,
+4. Filtrowanie kart (więcej poniżej),
+5. Zmienić widok (Widok tablicy/Widok listy)
+
+## Filtrowanie tablicy
+
+Filtrowanie tablicy to potężne narzędzie, które pozwala szybko znaleźć to, czego szukasz. Aby nawigacja była jeszcze szybsza, możesz wybrać odpowiednią opcję (wyjaśnioną poniżej), klikając ją lub używając skrótu klawiszowego, gdy jesteś w polu `Filtruj karty...`.
+
+Możesz filtrować tablicę na różne sposoby:
+
+1. `Aa`: Rozróżnianie wielkości liter (`Alt` + `C`): będzie filtrować z uwzględnieniem wielkości liter (Przykład: wpisanie „create” nie zwróci kart z tytułem „Create”)
+2. `~`: Dowolne dopasowanie (`Alt` + `V`): „wyszukiwanie inkluzywne”; włącz tę opcję, aby wyświetlać karty, które spełniają dowolny z wybranych filtrów.
+(Przykład: jeśli wybierzesz wielu członków, wyszukiwanie zwróci każdą kartę, która ma przypisanego przynajmniej jednego z wybranych członków. Jeśli opcja Dowolne dopasowanie jest wyłączona, pojawią się tylko karty, które mają przypisanych wszystkich wybranych członków.)
+3. Filtrowanie według członków: Wybierz/Usuń członków, według których chcesz filtrować.
+4. Filtrowanie według etykiet: Wybierz/Usuń etykiety, według których chcesz filtrować.
+5. Filtrowanie według terminu wykonania: Wybierz termin wykonania do filtrowania: wyszukiwanie zwróci wszystkie karty z terminem przed wybraną datą; jeśli opcja `Pokaż karty tylko dla wybranego dnia` jest włączona, wyświetlone zostaną wyłącznie karty z *dokładnie* tym terminem. To wyszukiwanie zwraca również karty z odpowiednim terminem podzadań.
 
 ![Panel tablicy z opcjami filtrowania](/img/boardtoolbar_pl.png)
 

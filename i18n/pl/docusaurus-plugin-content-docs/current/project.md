@@ -13,7 +13,7 @@ Jeśli chcesz powrócić do widoku projektów, wystarczy że klikniesz w logo 4g
 Aby utworzyć projekt wystarczy kliknąć przycisk `+ Dodaj projekt`, dostępny w prawym górnym rogu bądź też w dolnej części panelu bocznego. Po kliknięciu pojawi się okienko w którym trzeba wpisać tytuł i zatwierdzić stworzenie projektu. 
 UWAGA: Jeśli nie widzisz opcji utworzenia projektu oznacza to że nie masz uprawnień administratora. W takim wypadku możesz wyłącznie używać projektów do których zostałeś dodany jako członek przez administratora.
 
-Aby otworzyć menu podręczne projektu (dostępne dla moderatora projektu) należy najechać myszką na nazwę projektu a następnie kliknąć w ikonkę trzech kropek. Za pomocą tego menu możliwa jest zmiana nazwy projektu, przejście do [ustawień projektu](./project-settings) oraz dodać nową [tablicę](./board).
+Aby otworzyć menu podręczne projektu (dostępne dla moderatora projektu) należy najechać myszką na nazwę projektu a następnie kliknąć w ikonkę trzech kropek. Za pomocą tego menu możliwa jest zmiana nazwy projektu, przejście do [ustawień projektu](./project-settings), sprawdzenie aktywności w projekcie (m.in. kiedy został stworzony, ostatnio zaktualizowany oraz szczegółową aktywność użytkowników) oraz dodanie nowej [tablicy](./board).
 
 ![Menu kontekstowe projektu](/img/projectsmenu_pl.png)
 

@@ -13,6 +13,6 @@ Jeśli nie masz jeszcze konta, możesz się zarejestrować za pomocą przycisku 
 
 ![Widok rejestracji](/img/register_pl.png)
 
-Jeśli w twojej instancji zostało włączone pojedyncze logowanie (SSO) możesz zarejestrować się przy użyciu konta Google (więcej w sekcji [ustawienia instancji](./instance-settings); obecnie tylko logowanie Google jest dostępne)
+Jeśli w twojej instancji zostało włączone pojedyncze logowanie (SSO) możesz zarejestrować się przy użyciu SSO (4ga Boards wspiera Google, Microsoft, Github oraz generic OIDC).
 
-Jeśli nie możesz się zarejestrować przy pomocy żadnej z tych metod, oznacza to że możliwość rejestracji została wyłączona przez administratora. Skontaktuj się ze swoim administratorem w celu rejestracji manualnej.
+Jeśli nie możesz się zarejestrować przy pomocy żadnej z tych metod, oznacza to że możliwość rejestracji została wyłączona przez administratora. Skontaktuj się ze swoim administratorem w celu rejestracji.

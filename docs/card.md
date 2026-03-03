@@ -46,7 +46,7 @@ After clicking the ellipsis menu in the card you will open a card menu. Here you
 6. Move card to another project/board/list (note that this is the only way to move the card to another project or board, as drag & dropping the card works only on the lists in a current board)
 7. Duplicate card, which will create exact same copy of the card directly below it in the list
 8. Copy a link to a card which you can then share with your team
-9. Check activity on the card (creation and last edit time)
+9. Check activity on the card (creation, last edit time)
 10. Delete card
 
 ## Card View overview
@@ -60,7 +60,7 @@ It is quite convenient if you want to rearrange your cards while still writing t
 
 Also, notice that cards have different appearance that is changing with the amount of options and details set.
 
-In the list view, the card is also opening at the left side, squeezing the table to fit the screen (no worries, it will be back at normal size once you close the card).
+In the list view, the card is also opening at the right side, squeezing the table to fit the screen (no worries, it will be back at normal size once you close the card).
 
 ![List view with card opened](/img/listviewcard_en.png)
 
@@ -86,9 +86,9 @@ Note that only members that are added to the current board can be assigned to th
 
 ![Card due date](/img/cardduedate_en.png)
 
-8. Earliest due date.
-9. Activity log (Created/Last updated time). Only visible if not disabled in the personal preferences.
-10. Timer: Using timer you can track the time it takes you to complete the task. Click on the timer to start/pause it, and click `pencil` button to edit the time manually or reset timer. When the timer runs it appears green. 
+8. Timer: Using timer you can track the time it takes you to complete the task. Click on the timer to start/pause it, and click `pencil` button to edit the time manually or reset timer. When the timer runs it appears green.
+9. Earliest due date, from both main due date and all the subtasks due dates.
+10. Activity log (Created/Last updated time). Only visible if not disabled in the personal preferences. 
 11. Description: Write the description for your card (to save click `Save` button or press `Ctrl` + `Enter`). See "Text editor" section below for a detailed guide.
 12. Tasks: In this section you can add/edit tasks in your card or mark them complete. A small line indicates the portion of tasks completed, ranging from red to green. It remains empty if there are no finished tasks or when there are no tasks added.
     - To add tasks, click the `+` icon or `Add Task` button.
