@@ -17,3 +17,7 @@ Use this to quickly create multiple cards while adding a new one.
 `Shift` + `Scroll`
 
 Hold shift to scroll across the board horizontally. Very useful when a board has a lot of lists that don't fit in the browser window.
+
+`Tab`
+
+While typing, use this to switch between filtering types (notifications, sidebar)

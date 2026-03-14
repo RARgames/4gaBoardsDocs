@@ -40,7 +40,7 @@ Użyj ikony `podwójnej strzałki`, aby zmienić typ filtrowania:
 - **Tablica** – powiadomienia dla konkretnej tablicy
 - **Użytkownik** – powiadomienia związane z użytkownikiem
 - **Karta** – powiadomienia związane z kartą
-- **Tekst/typ aktywności** – przeszukuje tylko tekst powiadomień (np. ignoruje nazwy tablic i projektów) lub typ aktywności (np. wpisanie "pro" wyszuka wszystkie powiadomienia dotyczące projektów)
+- **Tekst/typ aktywności** – przeszukuje tylko pola tekstowe powiadomień (np. treść komentarza) lub typ aktywności (np. wpisanie "taskcreate" wyszuka wszystkie powiadomienia dotyczące stworzenia zadania)
   
 ![Menu powiadomień](/img/notificationsellipsis_pl.png)
 

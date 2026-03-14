@@ -42,7 +42,7 @@ Use the `double arrow` icon to change the filter type:
 - **Board** – notifications for a specific board
 - **User** – notifications related to a user
 - **Card** – notifications related to a card
-- **Text/type of activity** – searches notification text only (e.g., ignores board and project names) or activity type (e.g. typing "pro" will result in showing all project related notifications)
+- **Text/type of activity** – searches notification text fields (e.g. comment text) or activity type (e.g. typing "taskcreate" will result in showing all task creation notifications)
   
 ![Notification Ellipsis Menu](/img/notificationsellipsis_en.png)
 
