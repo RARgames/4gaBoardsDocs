@@ -6,7 +6,7 @@ description: ''
 # Docker Compose Update
 
 :::warning
-Remember to backup before update: [Backup and restore](../backup-restore)
+Remember to backup before updating: [Backup and restore](../backup-restore)
 :::
 
 
