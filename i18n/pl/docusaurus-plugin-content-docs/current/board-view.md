@@ -2,7 +2,7 @@
 sidebar_label: 'Tablica: Widok Tablicy'
 ---
 
-# Board View
+# Notifications
 
 Klasyczny widok tablicy Kanban, z [listami](./list) oraz [kartami](./card).
 

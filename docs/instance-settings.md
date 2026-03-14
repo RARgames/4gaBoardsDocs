@@ -12,7 +12,8 @@ In the table you can see most important information about each user: name, usern
 
 You can manually add new users with the "add user" button here. If you have disabled user registration, new users cannot log into the instance if you didn't add them. To add new user you have to provide an e-mail, password, name and (optional) username.
 
-As an administrator, you have control over users information. When you click on the pencil icon, you can access the all of the personal [settings](./settings)  of each individual user. You can change them all without knowing their current password. Pretty handy! You can also check their activity - when the user was created and its last update.
+As an administrator, you have control over users information. When you click on the pencil icon, you can access the all of the personal [settings](./settings)  of each individual user. You can change them all without knowing their current password. Pretty handy! You can also check account activity — including when the user account was created and when the user’s information was last updated (for example, after a password change).
+You can also view the user’s activity log, which lists all actions performed across projects and boards.
 
 ![instanceusers_en.png](/img/instanceusers_en.png)
 

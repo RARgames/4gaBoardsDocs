@@ -5,6 +5,11 @@ description: ''
 
 # Docker Compose Update
 
+:::warning
+Remember to backup before update: [Backup and restore](../backup-restore)
+:::
+
+
 **Update:**
 ```bash
 docker compose pull

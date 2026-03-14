@@ -31,7 +31,7 @@ function HomepageHeader() {
           </div>
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             <video style={{ width: '50%' }} autoPlay muted loop>
-              <source src="/img/4gaBoards_Preview_github.mp4" type="video/mp4" /> 4ga Boards Preview Video
+              <source src="/img/4gaBoards_Preview.mp4" type="video/mp4" /> 4ga Boards Preview Video
             </video>
           </div>
         </div>

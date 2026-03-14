@@ -27,6 +27,7 @@ export default {
         'list',
         'card',
         'sidebar',
+        'notifications',
         'settings',
         'view',
         'shortcuts',
