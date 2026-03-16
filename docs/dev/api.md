@@ -40,4 +40,4 @@ You need approperiate permissions - in this case `cards.create`.\
 You need to fetch listId using another API call, or just for testing using browser inspect.
 
 Additional Links:\
-[API Endpoints](https://github.com/RARgames/4gaBoards/blob/main/server/config/routes.js)
+[API Endpoints](https://raw.githubusercontent.com/RARgames/4gaBoards/refs/heads/main/server/config/routes.js)
