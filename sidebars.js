@@ -139,6 +139,7 @@ export default {
         'dev/backup-restore',
         'dev/web-server-config',
         'dev/sso',
+        'dev/api',
         'dev/developers-additional',
       ],
       link: {
