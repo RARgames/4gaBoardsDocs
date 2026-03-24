@@ -1,11 +1,11 @@
 ---
 sidebar_label: 'Web Server Configuration'
-description: 'Nginx, Apache, SSL'
+description: 'Nginx, Apache, Caddy, SSL'
 ---
 
 # Web Server Configuration
 
-Examples for Nginx/Apache with/without SSL.
+Examples for Nginx/Apache/Caddy with/without SSL.
 
 ### Nginx with SSL (Recommended)
 
@@ -262,6 +262,91 @@ File: _/etc/httpd/conf/httpd.conf_
 
 </VirtualHost>
 ```
+
+### Caddy with SSL
+
+In this example `BASE_URL=https://demo.4gaboards.com` is used as 4ga Boards instance variable.\
+Replace `demo.4gaboards.com` with your domain name.
+
+```
+demo.4gaboards.com {
+    reverse_proxy 4gaBoards:1337
+}
+```
+
+Notice: This example is for Caddy launched via docker compose:\
+- Remove `ports: - 3000:1337` from the default docker-compose.yml
+- Add caddy container
+
+After that `docker-compose.yml` should look like this - differences from the default marked in comments:
+
+```yml
+services:
+  db:
+    image: postgres:16-alpine
+    restart: always
+    networks:
+      - boards-network
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: 4gaBoards
+      POSTGRES_PASSWORD: notpassword
+      POSTGRES_INITDB_ARGS: "-A scram-sha-256"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d 4gaBoards"]
+      interval: 1s
+      timeout: 5s
+      retries: 50
+
+  4gaBoards:
+    image: ghcr.io/rargames/4gaboards:latest
+    restart: always
+    networks:
+      - boards-network
+    volumes:
+      - user-avatars:/app/public/user-avatars
+      - project-background-images:/app/public/project-background-images
+      - attachments:/app/private/attachments
+    # REMOVED
+    # ports:
+    #   - 3000:1337
+    environment:
+      BASE_URL: https://demo.4gaboards.com
+      SECRET_KEY: notsecretkey
+      DATABASE_URL: postgresql://postgres:notpassword@db/4gaBoards
+      NODE_ENV: production
+    depends_on:
+      db:
+        condition: service_healthy
+  # ADDED BEGIN
+  caddy:
+    image: caddy:2
+    restart: always
+    networks:
+      - boards-network
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      - 4gaBoards
+  # ADDED END
+
+volumes:
+  user-avatars:
+  project-background-images:
+  attachments:
+  db-data:
+  caddy-data: # ADDED
+  caddy-config: # ADDED
+networks:
+  boards-network:
+```
+
 
 ### SSL Certificate
 
