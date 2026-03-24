@@ -274,7 +274,7 @@ demo.4gaboards.com {
 }
 ```
 
-Notice: This example is for Caddy launched via docker compose:\
+Notice: This example is for Caddy launched via docker compose:
 - Remove `ports: - 3000:1337` from the default docker-compose.yml
 - Add caddy container
 
