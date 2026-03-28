@@ -18,13 +18,13 @@ cd /var/www/4gaBoards
 ```bash
 git clone https://github.com/RARgames/4gaBoards.git .
 ```
-**Install dependencies** _(You can use `yarn` or `pnpm` instead of `npm`)_
+**Install dependencies**
 ```bash
-npm i
+pnpm i
 ```
 **Build client**
 ```bash
-npm run client:build
+pnpm client:build
 ```
 **Copy build to the `server` directory**
 ```bash
