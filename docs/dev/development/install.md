@@ -44,7 +44,7 @@ pnpm server:db:init
 ```
 **Start the development server**
 ```bash
-pnpm start
+pnpm dev
 ```
 
 :::tip
