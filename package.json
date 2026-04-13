@@ -47,7 +47,8 @@
     }
   },
   "engines": {
-    "node": "^24.11"
+    "node": "^24.11",
+    "pnpm": "^10.33.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
