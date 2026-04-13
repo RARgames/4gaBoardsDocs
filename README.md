@@ -49,27 +49,27 @@ git clone https://github.com/RARgames/4gaBoardsDocs.git .
 ```
 Install dependencies
 ```
-npm i
+pnpm i
 ```
 Start development preview (website changes in realtime after your changes)
 ```
-npm start
+pnpm start
 ```
 Start development preview in other language (e.g. pl for Polish)
 ```
-npm start -- --locale pl
+pnpm start -- --locale pl
 ```
 Regenerate translation files for locale (e.g. pl for Polish)
 ```
-npm run write-translations -- --locale pl
+pnpm write-translations -- --locale pl
 ```
 Build Docs Locally
 ```
-npm run build
+pnpm build
 ```
 View build in the browser
 ```
-npm run serve
+pnpm serve
 ```
 
 ## License
