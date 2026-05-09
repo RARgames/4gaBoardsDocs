@@ -45,6 +45,23 @@
 - `OIDC_SKIP_ACCOUNT_SELECTION=false` - don't send `select_account` or `login` prompt to OIDC provider, defaults to `false`
 - `OIDC_SKIP_ACCOUNT_SELECTION_HINT_*=false` - don't send `select_account` or `login` prompt to OIDC provider (only for some method) e.g. `OIDC_SKIP_ACCOUNT_SELECTION_HINT_GITHUB=false`, defaults to `false`
 
+#### Notifications (Email Notifications, Email Verifications, Email-to-Card, Email-to-Board)
+
+- `NOTIFICATIONS_HOST_URL=http://localhost:3223` - notifications host URL, defaults to `null`, all notification variables have to be configured in order for notifications to work
+- `NOTIFICATIONS_CLIENT_ID=notificationsClientId` - noitifications client id
+- `NOTIFICATIONS_CLIENT_SECRET=notificationsClientSecret` - notifications client secret
+- `MAIL_SERVICE_INBOUND_EMAIL=localhost@inbound.4gaboards.com` - inbound email address (used mainly as a hint for correct email addresses for Email-to-Card and Email-to-Board)
+- `INSTANCE_NAME=localhost` - instance name (used mainly for notifications email subject)
+
+#### HyperDx
+- `HYPERDX_ENABLED=false` - enable HyperDx integration, defaults to `false`
+- `HYPERDX_API_KEY=hyperdxApiKey` - HyperDx api key
+- `HYPERDX_INSTANCE_NAME=4gaboards.com` - HyperDx instance name, defaults to `INSTANCE_NAME` or `4gaboards.com` if instance name is not available
+- `HYPERDX_TRACE_PROPAGATION_TARGETS=string` - HyperDx trace propagation targets (string), defaults to `null`
+- `OTEL_URL=https://otel.prod.4gacore.com` - HyperDx Otel URL, defaults to `null`
+- `OTEL_URL_FORMAT=http/protobuf` - HyperDx Otel URL format, defaults to `http/protobuf`
+
+
 #### Other settings
 
 - `CLIENT_URL=http://localhost:3000` - main client URL - usually not needed, if running production defaults to `BASE_URL`, if development defaults to `http://localhost:3000` (skip this unless you really need it)
@@ -52,3 +69,6 @@
 - `LOG_LEVEL=warn` - log levels from highest to lowest - error, warn, info, http, verbose, debug, silly, defaults to `warn`
 - `TRUST_PROXY=0` - trust proxy used only if 4ga Boards are behind a proxy/load balancer, defaults to `0`
 - `TOKEN_EXPIRES_IN=365` - token expiration in days, defaults to `365`
+- `AUTH_RATE_LIMIT_ENABLED=true` - login rate limit disabled if false, defaults to `true`
+- `AUTH_RATE_LIMIT_MAX_ATTEMPTS=5` - login rate limit max attempts in window, defaults to `5`
+- `AUTH_RATE_LIMIT_WINDOW_MS=60000` - login rate limit window, defaults to `60000` - 10 minutes
