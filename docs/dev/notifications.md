@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'APNotificationsI'
+sidebar_label: 'Notifications'
 description: '4ga Boards Notifications'
 ---
 
