@@ -28,6 +28,7 @@ After creating email address in 4ga Boards (for list or board), anyone can send 
 Other ways to get 4ga Boards Notifications:
 - make a [donation](https://4gaboards.com/contribute#donate) and send us donation confirmation via [contact form](https://4gaboards.com/contact)
 - do some promotional activities (you might be requested to repeat the activities after some time) and send us proof via [contact form](https://4gaboards.com/contact)
+
 This helps us promote the product and cover server costs.
 
 If you want to setup email notifications on your private instance here are the steps:
