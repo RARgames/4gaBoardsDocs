@@ -140,6 +140,7 @@ export default {
         'dev/web-server-config',
         'dev/sso',
         'dev/api',
+        'dev/notifications',
         'dev/developers-additional',
       ],
       link: {

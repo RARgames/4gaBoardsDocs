@@ -45,12 +45,12 @@
 - `OIDC_SKIP_ACCOUNT_SELECTION=false` - don't send `select_account` or `login` prompt to OIDC provider, defaults to `false`
 - `OIDC_SKIP_ACCOUNT_SELECTION_HINT_*=false` - don't send `select_account` or `login` prompt to OIDC provider (only for some method) e.g. `OIDC_SKIP_ACCOUNT_SELECTION_HINT_GITHUB=false`, defaults to `false`
 
-#### Notifications (Email Notifications, Email Verifications, Email-to-Card, Email-to-Board)
+#### Notifications (Email Notifications, Email Verifications, Email-to-Card)
 
 - `NOTIFICATIONS_HOST_URL=http://localhost:3223` - notifications host URL, defaults to `null`, all notification variables have to be configured in order for notifications to work
 - `NOTIFICATIONS_CLIENT_ID=notificationsClientId` - noitifications client id
 - `NOTIFICATIONS_CLIENT_SECRET=notificationsClientSecret` - notifications client secret
-- `MAIL_SERVICE_INBOUND_EMAIL=localhost@inbound.4gaboards.com` - inbound email address (used mainly as a hint for correct email addresses for Email-to-Card and Email-to-Board)
+- `MAIL_SERVICE_INBOUND_EMAIL=localhost@inbound.4gaboards.com` - inbound email address (used mainly as a hint for correct email addresses for Email-to-Card)
 - `INSTANCE_NAME=localhost` - instance name (used mainly for notifications email subject)
 
 #### HyperDx
