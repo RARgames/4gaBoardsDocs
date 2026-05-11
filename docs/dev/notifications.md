@@ -43,10 +43,10 @@ If you want to setup email notifications on your private instance here are the s
 - Prepare `postfix-accounts.cf`, `postfix-virtual.cf`, `sni.map`, `dovecot/conf.d`, `opendkim configuration` via e.g. `user-patches.sh`
 - Prepare simple scripts to handle `NOTIFICATIONS_HOST_URL/api/clients/self`, `NOTIFICATIONS_HOST_URL/api/notifications/email-verification/request` `NOTIFICATIONS_HOST_URL/api/notifications/email` (you can simplify the flow by verifying every user request, hardcoding `self` request to skip Email-to-Card and just properly redirecting an email using email api).
 
-We are aware that this selfhosted process is not that easy, we cannot simplify DNS and mailserver config as it is required to reduce spam by external servers.\
-However, we'll try to expand this guide to provide detailed example of how to set up DNS records and provide a docker compose file with scripts that auto configure the mailserver.\
-We'll also provide the files needed to do this without writing your own scripts.\
+We are aware that this selfhosted process is not that easy!
+- We'll provide the files needed to setup notifications without writing any scripts
+- We'll also try to expand this guide to provide detailed example of how to set up DNS records and provide a docker compose file with scripts that auto configure the mailserver
+- Unfortunately, we cannot simplify DNS and mailserver config as it is required to reduce spam by external servers
 
-We have some parts of it, but it is not yet automated for public release. (any docs PR are welcome). Right now, we have to focus on other feature requests.
-
-
+However, right now we need to focus on other feature requests.\
+Some parts of the solution are already ready internally, but the setup is not yet automated enough for a public release. Any documentation PRs are welcome.
