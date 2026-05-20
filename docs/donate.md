@@ -2,6 +2,8 @@
 sidebar_label: 'Donate'
 ---
 
+# Donate
+
 If you find this project useful for you, please consider [donating](https://4gaboards.com/contribute#donate).\
 Donations are highly appreciated and help us spend more time improving 4ga Boards.
 

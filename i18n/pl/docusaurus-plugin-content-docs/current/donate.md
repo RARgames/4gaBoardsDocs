@@ -1,6 +1,8 @@
 ---
-sidebar_label: 'Donate'
+sidebar_label: 'Wesprzyj'
 ---
+
+# Wsparcie
 
 Jeśli uważasz ten projekt za przydatny, rozważ proszę [wsparcie finansowe](https://4gaboards.com/contribute#donate).\
 Darowizny są bardzo mile widziane i pomagają nam poświęcać więcej czasu na rozwój 4ga Boards.
