@@ -154,6 +154,7 @@ export default {
       label: 'Additional Resources',
       items: [
         'additional-info',
+        'donate',
         { type: 'link',
           label: 'Github Repository',
           href: 'https://github.com/RARgames/4gaBoards',
