@@ -17,8 +17,7 @@ jobs:
       - name: Read versions from package.json engines
         id: versions
         run: |
-          echo "node=$(node -p \"require('./package.json').engines.node\")" >> "$GITHUB_OUTPUT"
-          echo "pnpm=$(node -p \"require('./package.json').engines.pnpm\")" >> "$GITHUB_OUTPUT"
+          node -e "const p=require('./package.json'); console.log('node=' + p.engines.node); console.log('pnpm=' + p.engines.pnpm);" >> "$GITHUB_OUTPUT"
 
       - name: Setup Node.js
         uses: actions/setup-node@v6.4.0
