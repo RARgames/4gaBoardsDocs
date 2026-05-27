@@ -14,13 +14,21 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4.1.1
 
+      - name: Read versions from package.json engines
+        id: versions
+        run: |
+          echo "node=$(node -p \"require('./package.json').engines.node\")" >> "$GITHUB_OUTPUT"
+          echo "pnpm=$(node -p \"require('./package.json').engines.pnpm\")" >> "$GITHUB_OUTPUT"
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version-file: 'package.json'
+          node-version: ${{ steps.versions.outputs.node }}
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v5.0.0
+        with:
+          version: ${{ steps.versions.outputs.pnpm }}
 
       - name: Install dependencies
         run: pnpm i
