@@ -12,7 +12,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v6.0.2
 
       - name: Read versions from package.json engines
         id: versions
@@ -21,12 +21,12 @@ jobs:
           echo "pnpm=$(node -p \"require('./package.json').engines.pnpm\")" >> "$GITHUB_OUTPUT"
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v6.4.0
         with:
           node-version: ${{ steps.versions.outputs.node }}
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v5.0.0
+        uses: pnpm/action-setup@v6.0.8
         with:
           version: ${{ steps.versions.outputs.pnpm }}
 
@@ -37,7 +37,7 @@ jobs:
         run: pnpm build
 
       - name: FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
           server: docs.4gaboards.com
           username: ${{ secrets.FTP_USERNAME }}
