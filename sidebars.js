@@ -142,6 +142,7 @@ export default {
         'dev/api',
         'dev/notifications',
         'dev/developers-additional',
+        'dev/data-shared-with-us',
       ],
       link: {
         type: 'generated-index',
