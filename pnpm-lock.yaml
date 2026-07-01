@@ -8,7 +8,7 @@ overrides:
   qs@>=6.11.1 <=6.15.1: ^6.15.2
   serialize-javascript@<7.0.5: ^7.0.5
   serialize-javascript@<=7.0.2: ^7.0.3
-  uuid@<11.1.1: ^11.1.1
+  uuid@<11.1.1: ^14.0.0
 
 importers:
 
@@ -5206,8 +5206,8 @@ packages:
     resolution: {integrity: sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==}
     engines: {node: '>= 0.4.0'}
 
-  uuid@11.1.1:
-    resolution: {integrity: sha512-vIYxrBCC/N/K+Js3qSN88go7kIfNPssr/hHCesKCQNAjmgvYS2oqr69kIufEG+O4+PfezOH4EbIeHCfFov8ZgQ==}
+  uuid@14.0.1:
+    resolution: {integrity: sha512-6ZxzVpzDXDa3bJWaHilVayA+BH/1zmxCJoVgvmqJnid/gPoKHxUrS/aC/T6LGQtNHT+XHG9fXPJB4d+IrU30Ew==}
     hasBin: true
 
   value-equal@1.0.1:
@@ -8188,7 +8188,7 @@ snapshots:
   '@types/react-router@5.1.20':
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 19.2.14
+      '@types/react': 19.2.17
 
   '@types/react@19.2.14':
     dependencies:
@@ -11787,7 +11787,7 @@ snapshots:
   sockjs@0.3.24:
     dependencies:
       faye-websocket: 0.11.4
-      uuid: 11.1.1
+      uuid: 14.0.1
       websocket-driver: 0.7.4
 
   sort-css-media-queries@2.2.0: {}
@@ -12104,7 +12104,7 @@ snapshots:
 
   utils-merge@1.0.1: {}
 
-  uuid@11.1.1: {}
+  uuid@14.0.1: {}
 
   value-equal@1.0.1: {}
 
