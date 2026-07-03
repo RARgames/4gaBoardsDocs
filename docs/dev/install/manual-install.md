@@ -50,7 +50,7 @@ Edit `BASE_URL` to match your domain name or IP address.\
 Edit `SECRET_KEY` with a random value. You can generate it by `openssl rand -hex 64`.\
 Edit `DATABASE_URL` with database url in the following format: `postgresql://<username>:<password>@<host>/<database_name>`.
 
-**Note**: Before continuing, make sure your selected database is created and running.
+**Note**: Before continuing, make sure your selected database is created and running.\
 [Manual Postgres Installation and Setup](./manual-postgres)
 
 **Copy start script from the root directory to the `server` directory and start the server.**

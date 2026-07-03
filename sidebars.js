@@ -123,6 +123,7 @@ export default {
                 'dev/install/manual-vars',
                 'dev/install/manual-uninstall',
                 'dev/install/manual-additional',
+                'dev/install/manual-postgres',
               ],
               link: {
                 type: 'generated-index',
