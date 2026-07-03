@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Manual Postgres Installation and Setup'
+sidebar_label: 'Postgres Installation and Setup'
 description: ''
 ---
 
