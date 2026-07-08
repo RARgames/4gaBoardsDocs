@@ -13,7 +13,7 @@ This guide is for docker installation only and it explains how to migrate an exi
 Create a full PostgreSQL backup:
 
 ``` bash
-docker compose exec -T db bash -c 'PGPASSWORD=$POSTGRES_PASSWORD pg_dumpall -U postgres' > backup.sql
+docker compose exec -T db bash -c 'PGPASSWORD=$POSTGRES_PASSWORD pg_dumpall -c -U postgres' > backup.sql
 ```
 
 Verify that the backup file was created:
