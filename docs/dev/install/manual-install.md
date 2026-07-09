@@ -44,7 +44,7 @@ pnpm client:build
 ```
 **Copy build to the `server` directory**
 ```bash
-cp -r client/build server/public
+cp -r client/build/. server/public
 ```
 ```bash
 cp client/build/index.html server/views/index.ejs
