@@ -17,6 +17,10 @@ git clone https://github.com/RARgames/4gaBoards.git .
 ```bash
 pnpm i
 ```
+**Build deps**
+```bash
+pnpm packages:build
+```
 **Copy .env**
 ```bash
 cp server/.env.sample server/.env
