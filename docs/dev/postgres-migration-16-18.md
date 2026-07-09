@@ -12,13 +12,13 @@ This guide is for docker installation only and it explains how to migrate an exi
 
 Create a full PostgreSQL backup:
 
-``` bash
+```bash
 docker compose exec -T db bash -c 'PGPASSWORD=$POSTGRES_PASSWORD pg_dumpall -c -U postgres' > backup.sql
 ```
 
 Verify that the backup file was created:
 
-``` bash
+```bash
 head -50 backup.sql
 ```
 
@@ -26,7 +26,7 @@ head -50 backup.sql
 
 Stop all containers:
 
-``` bash
+```bash
 docker compose down
 ```
 
@@ -55,7 +55,7 @@ db:
 
 Start only the database service:
 
-``` bash
+```bash
 docker compose up -d db
 ```
 
@@ -63,7 +63,7 @@ docker compose up -d db
 
 Import the previous database:
 
-``` bash
+```bash
 docker compose exec -T db bash -c 'PGPASSWORD=$POSTGRES_PASSWORD psql -U postgres' < backup.sql
 ```
 
@@ -71,8 +71,10 @@ docker compose exec -T db bash -c 'PGPASSWORD=$POSTGRES_PASSWORD psql -U postgre
 
 Restart all services:
 
-``` bash
+```bash
 docker compose down
+```
+```bash
 docker compose up -d
 ```
 

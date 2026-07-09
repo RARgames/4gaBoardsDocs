@@ -15,8 +15,20 @@ mkdir -p /var/www/4gaBoards
 ```bash
 cd /var/www/4gaBoards
 ```
+Clone latest version (Not recommended - `beta-latest` version)
 ```bash
 git clone https://github.com/RARgames/4gaBoards.git .
+```
+Clone specific version (e.g. 3.3.11)
+```bash
+git clone --branch v3.3.11 https://github.com/RARgames/4gaBoards.git .
+```
+To later update it to next version, use:
+```bash
+git fetch --tags
+```
+```bash
+git checkout v3.3.12
 ```
 **Install dependencies**
 ```bash
