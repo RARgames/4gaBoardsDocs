@@ -65,6 +65,12 @@ Edit `DATABASE_URL` with database url in the following format: `postgresql://<us
 **Note**: Before continuing, make sure your selected database is created and running.\
 [Manual Postgres Installation and Setup](./manual-postgres)
 
+If you want to use Redis for upload rate limiting, also configure these variables in `.env`:
+- `UPLOAD_RATE_LIMIT_STORE=redis`
+- `UPLOAD_RATE_LIMIT_REDIS_URL=redis://:<password>@<host>:6379/0`
+
+For Redis deployment, run Redis on your server and ensure it is reachable from 4ga Boards.
+
 **Copy start script from the root directory to the `server` directory and start the server.**
 ```bash
 cp start.sh server

@@ -11,21 +11,35 @@ import VarsDockerRequired from './_vars_docker_required.md';
 ```yml
 services:
   db:
-    image: postgres:16-alpine
+    image: postgres:18-alpine
     restart: always
     networks:
       - boards-network
     volumes:
-      - db-data:/var/lib/postgresql/data
+      - db-data-18:/var/lib/postgresql
     environment:
       POSTGRES_DB: 4gaBoards
       POSTGRES_PASSWORD: notpassword
-      POSTGRES_INITDB_ARGS: "-A scram-sha-256"
+      POSTGRES_INITDB_ARGS: '-A scram-sha-256'
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres -d 4gaBoards"]
-      interval: 1s
+      test: ['CMD-SHELL', 'pg_isready -U postgres -d 4gaBoards']
+      interval: 5s
       timeout: 5s
-      retries: 50
+      retries: 20
+
+  redis:
+    image: redis:8-alpine
+    restart: always
+    networks:
+      - boards-network
+    volumes:
+      - redis-data-8:/data
+    command: ['redis-server', '--appendonly', 'yes', '--requirepass', 'notredispassword']
+    healthcheck:
+      test: ['CMD-SHELL', 'redis-cli -a "notredispassword" ping | grep PONG']
+      interval: 5s
+      timeout: 5s
+      retries: 20
 
   4gaBoards:
     image: ghcr.io/rargames/4gaboards:latest
@@ -43,16 +57,21 @@ services:
       SECRET_KEY: notsecretkey
       DATABASE_URL: postgresql://postgres:notpassword@db/4gaBoards
       NODE_ENV: production
+      UPLOAD_RATE_LIMIT_STORE: redis
+      UPLOAD_RATE_LIMIT_REDIS_URL: redis://:notredispassword@redis:6379/0
       ## Add optional 4ga Boards instance variables here
     depends_on:
       db:
+        condition: service_healthy
+      redis:
         condition: service_healthy
 
 volumes:
   user-avatars:
   project-background-images:
   attachments:
-  db-data:
+  db-data-18:
+  redis-data-8:
 networks:
   boards-network:
 ```

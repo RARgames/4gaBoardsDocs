@@ -61,6 +61,28 @@
 - `OTEL_URL: https://otel.prod.4gacore.com` - HyperDx Otel URL, defaults to `null`
 - `OTEL_URL_FORMAT: http/protobuf` - HyperDx Otel URL format, defaults to `http/protobuf`
 
+#### Uploads, Attachments and Image Processing
+- `UPLOAD_RATE_LIMIT_ENABLED: true` - upload rate limit disabled if false, defaults to `true`
+- `UPLOAD_RATE_LIMIT_MAX_ATTEMPTS: 30` - upload rate limit max attempts in window, defaults to `30`
+- `UPLOAD_RATE_LIMIT_WINDOW_MS: 60000` - upload rate limit window in milliseconds, defaults to `60000` - 1 minute
+- `UPLOAD_RATE_LIMIT_STORE: memory` - upload rate limit store (`memory` or `redis`), defaults to `memory`
+- `UPLOAD_RATE_LIMIT_REDIS_URL: redis://:notredispassword@localhost:6379/0` - upload rate limit redis url, required if `UPLOAD_RATE_LIMIT_STORE: redis`
+- `UPLOAD_RATE_LIMIT_REDIS_CONNECT_TIMEOUT_MS: 500` - upload rate limit redis connect timeout in milliseconds, defaults to `500`
+- `UPLOAD_RATE_LIMIT_KEY_PREFIX: rl:upload` - upload rate limit redis key prefix, defaults to `rl:upload`
+- `ATTACHMENT_MAX_BYTES: 26214400` - max attachment file size in bytes, defaults to `26214400` - 25 MB
+- `AVATAR_MAX_BYTES: 26214400` - max avatar image size in bytes, defaults to `26214400` - 25 MB
+- `PROJECT_BACKGROUND_IMAGE_MAX_BYTES: 26214400` - max project background image size in bytes, defaults to `26214400` - 25 MB
+- `BOARD_IMPORT_MAX_BYTES: 104857600` - max board import file size in bytes, defaults to `104857600` - 100 MB
+- `BOARD_IMPORT_MAX_COMPRESSED_BYTES: 104857600` - max compressed board import size in bytes, defaults to `104857600` - 100 MB
+- `BOARD_IMPORT_MAX_UNCOMPRESSED_BYTES: 524288000` - max uncompressed board import size in bytes, defaults to `524288000` - 500 MB
+- `BOARD_IMPORT_MAX_ENTRIES: 5000` - max extracted entries in board import archive, defaults to `5000`
+- `BOARD_IMPORT_MAX_EXTRACTION_MS: 30000` - max extraction time for board import in milliseconds, defaults to `30000` - 30 seconds
+- `SHARP_MAX_INPUT_PIXELS: 40000000` - Sharp max input pixels, defaults to `40000000`
+- `SHARP_CONCURRENCY: 2` - Sharp concurrency, defaults to `2`
+- `SHARP_CACHE_MEMORY_MB: 50` - Sharp cache memory in MB, defaults to `50`
+- `SHARP_CACHE_ITEMS: 100` - Sharp cache item count, defaults to `100`
+- `SHARP_CACHE_FILES: 20` - Sharp cache file count, defaults to `20`
+
 #### Other settings
 
 - `CLIENT_URL: http://localhost:3000` - main client URL - usually not needed, if running production defaults to `BASE_URL`, if development defaults to `http://localhost:3000` (skip this unless you really need it)
