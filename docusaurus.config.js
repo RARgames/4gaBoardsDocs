@@ -21,6 +21,7 @@ const config = {
   baseUrl: '/',
 
   onBrokenLinks: 'warn',
+  trailingSlash: false,
   markdown: {
     hooks: {
       onBrokenMarkdownLinks: 'warn',
