@@ -21,7 +21,7 @@ Edit `BASE_URL` to match your domain name or IP address.\
 Edit `SECRET_KEY` with a random value. You can generate it by `openssl rand -hex 64`.\
 Edit `POSTGRES_PASSWORD` and `DATABASE_URL` replacing `notpassword` with randomly generated db password.
 
-If you want to use Redis for upload rate limiting, see [Redis Upload Rate Limiting](./docker-redis).
+If you want to use Redis for upload rate limiting, see [Redis Upload Rate Limiting](../docker-redis).
 
 **Pull images and start 4ga Boards**
 ```bash
@@ -36,4 +36,4 @@ Default password: `demo`
 
 Additional Links:\
 [4ga Boards Docker Package](https://github.com/RARgames/4gaBoards/pkgs/container/4gaBoards)\
-[4ga Boards Professional Hosting](./4gaboards)
+[4ga Boards Professional Hosting](../4gaboards)
