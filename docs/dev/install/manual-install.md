@@ -63,7 +63,7 @@ Edit `SECRET_KEY` with a random value. You can generate it by `openssl rand -hex
 Edit `DATABASE_URL` with database url in the following format: `postgresql://<username>:<password>@<host>/<database_name>`.
 
 **Note**: Before continuing, make sure your selected database is created and running.\
-[Manual Postgres Installation and Setup](./manual-postgres)
+[Manual Postgres Installation and Setup](./manual-postgres.md)
 
 If you want to use Redis for upload rate limiting, also configure these variables in `.env`:
 - `UPLOAD_RATE_LIMIT_STORE=redis`
@@ -92,4 +92,4 @@ Default password: `demo`
 :::
 
 Additional Links:\
-[4ga Boards Professional Hosting](./4gaboards)
+[4ga Boards Professional Hosting](./4gaboards.md)

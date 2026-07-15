@@ -15,11 +15,11 @@ Administrator - can access every settings in the instance and create new project
 Each tier is unlocking special settings panel.
 
 - For each user:
-[Settings](./settings) will show you your personal settings.
+[Settings](./settings.md) will show you your personal settings.
 - For project managers:
-[Project settings](./project-settings) will guide you through settings of projects inside your instance
+[Project settings](./project-settings.md) will guide you through settings of projects inside your instance
 - For administrators:
-[Instance settings](./instance-settings) will explain the settings of the instance (e.g. demo.4gaboards.com)
+[Instance settings](./instance-settings.md) will explain the settings of the instance (e.g. demo.4gaboards.com)
 
 ## Dashboard access to settings
 

@@ -16,7 +16,7 @@ Przechodzisz z innego oprogramowania?\
 
 ![Okno importu tablicy](/img/importboard_pl.png)
 
-3. W menedżerze plików wybierz odpowiedni plik `.json`, nazwij swoją nową tablicę i zdecyduj, w którym projekcie ma zostać utworzona. Projekt możesz na razie traktować jako coś na wzór „workspace” z Trello – kontener, który przechowuje tablice. Więcej o projektach znajdziesz [tutaj](./project).
+3. W menedżerze plików wybierz odpowiedni plik `.json`, nazwij swoją nową tablicę i zdecyduj, w którym projekcie ma zostać utworzona. Projekt możesz na razie traktować jako coś na wzór „workspace” z Trello – kontener, który przechowuje tablice. Więcej o projektach znajdziesz [tutaj](./project.md).
 
  ![Opcje importu z Trello](/img/importboardtrello_pl.png)
 

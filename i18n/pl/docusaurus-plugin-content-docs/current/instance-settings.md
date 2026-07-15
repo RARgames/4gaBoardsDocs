@@ -13,7 +13,7 @@ Panel ten pozwala na pełną kontrolę nad użytkownikami oraz zawiera najważni
 
 Możesz tu również dodać manualnie nowych użytkowników dzięki przyciskowi "dodaj użytkownika". Jeśli wyłączyłeś możliwość rejestracji w panelu "opcje logowania", jest to jedyny sposób aby nowi użytkownicy mogli dołączyć do twojej instancji. Aby dodać nowego użytkownika potrzebujesz jego adresu e-mail, hasła, imienia oraz opcjonalnie loginu.
 
-Jako administrator masz również pełną kontrolę nad informacjami użytkowników. Jeśli klikniesz w ikonkę ołówka będziesz mieć dostęp do [ustawień danego użytkownika](./settings). Przydatne jeśli ktoś zapomni hasła!
+Jako administrator masz również pełną kontrolę nad informacjami użytkowników. Jeśli klikniesz w ikonkę ołówka będziesz mieć dostęp do [ustawień danego użytkownika](./settings.md). Przydatne jeśli ktoś zapomni hasła!
 
 ![instanceusers_pl.png](/img/instanceusers_pl.png)
 

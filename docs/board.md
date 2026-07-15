@@ -20,7 +20,7 @@ Notice that selected board is highlighted in the sidebar view (in this case, it 
 
 ## Creating a new board
 
-There can be more than one board per project - simply click the `+Add Board` button that is located at the top-right corner of the screen to create new one inside the currently opened project. Alternatively you can add board using three-dot sidebar menu of a [project](./project) (it will create the board inside the selected project). The last option is to click the `+Add Board` button at the bottom of the sidebar. This will enable additional setting - choosing the project in which the board will be created from the dropdown list.
+There can be more than one board per project - simply click the `+Add Board` button that is located at the top-right corner of the screen to create new one inside the currently opened project. Alternatively you can add board using three-dot sidebar menu of a [project](./project.md) (it will create the board inside the selected project). The last option is to click the `+Add Board` button at the bottom of the sidebar. This will enable additional setting - choosing the project in which the board will be created from the dropdown list.
 
 ![Buttons placement for creating a new board](/img/boardaddbutton_en.png)
 

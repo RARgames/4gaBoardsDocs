@@ -82,7 +82,7 @@ Widok edycji karty jest najbardziej przyjaznym miejscem do aktualizacji jej info
 
 ![Opcje członków karty](/img/cardmembers_pl.png)
 
-Zauważ, że tylko obecni członkowie tablicy mogą zostać dodani do karty. Jeśli nie możesz kogoś znaleźć a jesteś moderatorem projektu, możesz dodać tego użytkownika w [opcjach tablicy](./board).
+Zauważ, że tylko obecni członkowie tablicy mogą zostać dodani do karty. Jeśli nie możesz kogoś znaleźć a jesteś moderatorem projektu, możesz dodać tego użytkownika w [opcjach tablicy](./board.md).
 
 6. Etykiety: Kliknij na ikonkę plusa aby dodać/usunąć tagi (etykiety) w karcie. W tym samym okienku możesz stworzyć nowe dla danej tablicy etykiety ( kliknij `Stwórz nową etykietę`), a także je edytować i usuwać (kliknij na ikonkę `ołówka`).
 

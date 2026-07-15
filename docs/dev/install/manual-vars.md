@@ -30,4 +30,4 @@ TZ=UTC
 
 Additional Links:\
 [4ga Boards `.env` File](https://github.com/RARgames/4gaBoards/blob/main/server/.env.sample)\
-[4ga Boards Professional Hosting](./4gaboards)
+[4ga Boards Professional Hosting](./4gaboards.md)

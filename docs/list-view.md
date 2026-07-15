@@ -28,7 +28,7 @@ From left to right:
 12. Tasks attached to the card
 13. `Ellipsis` menu of the card.
 
-For additional info, please refer to [Card description](./card).
+For additional info, please refer to [Card description](./card.md).
 
 You can interact with each of them directly form the list view or by opening the appriopriate card. To do this, click on an empty spot in a card row (for ease of navigation, we recommend clicking on the description/attachment/comment field - they will not open a popup window).
 
@@ -38,7 +38,7 @@ This is the default column selection. To add or remove columns, use the `Ellipsi
 
 ![List view menu](/img/listviewmenu_en.png)
 
-At the bottom of the list is another navigation pane, in which you can select how many cards are visible per page (default: 100), change pages with the arrows on the left and access list menu with the `cog` icon. On the right side you can add [List](./list) and [Card](./card) - they will also appear on the board view.
+At the bottom of the list is another navigation pane, in which you can select how many cards are visible per page (default: 100), change pages with the arrows on the left and access list menu with the `cog` icon. On the right side you can add [List](./list.md) and [Card](./card.md) - they will also appear on the board view.
 
 ![List view bottom menu](/img/listviewbottom_en.png)
 

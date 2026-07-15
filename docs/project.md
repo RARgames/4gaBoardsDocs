@@ -7,7 +7,7 @@ Projects are the highest structure of 4ga boards workflow. All of the projects c
 
 ![Dashboard view](/img/projectsview_en.png)
 
-If you ever wish to come back to dashboard view, you can do so by clicking 4ga Boards logo in header (1). In addition, if you have administration rights to any of the projects, you can customize them in [project settings](./project-settings).
+If you ever wish to come back to dashboard view, you can do so by clicking 4ga Boards logo in header (1). In addition, if you have administration rights to any of the projects, you can customize them in [project settings](./project-settings.md).
 
 
 To create a project, simply click on the `+Add project` button. This button is located at the bottom of the sidebar or at the top-right corner while you are in the dashboard. After clicking one of the buttons, the prompt for naming the project will appear.
@@ -18,9 +18,9 @@ To create a project, simply click on the `+Add project` button. This button is l
 
 NOTE: If you don't see the option to create project it means you lack the administrator rights. In this case you can only use the projects you were already added to by the administrator.
 
-To access context menu for the projects (available for project managers) hover over the project name and click `ellipsis` button. In this menu you can rename your project, go to [project settings](./project-settings), check activity for the project (when it was created and last updated) or add a new [board](./board).
+To access context menu for the projects (available for project managers) hover over the project name and click `ellipsis` button. In this menu you can rename your project, go to [project settings](./project-settings.md), check activity for the project (when it was created and last updated) or add a new [board](./board.md).
 
 ![Project context menu](/img/projectsmenu_en.png)
 
 
-After you create your first project, click on its tile in the dashboard or on its name in the sidebar to see the [board view](./board).
+After you create your first project, click on its tile in the dashboard or on its name in the sidebar to see the [board view](./board.md).

@@ -19,10 +19,10 @@ Po wybraniu projektu pojawi się ekran ustawień w którym możesz:
 
 1. Zmienić tytuł (kliknij "Zapisz" aby system zarejestrował zmianę).
 2. Dodać lub usunąć moderatorów do projektu (kliknij w ikonę człowieka z plusem).
-3. Zmienić tło projektu (widoczne w [ekranie wyboru projektu](./project)). Możesz skorzystać z dostępnych kolorów bądź też wgrać np. logo swojej firmy.
+3. Zmienić tło projektu (widoczne w [ekranie wyboru projektu](./project.md)). Możesz skorzystać z dostępnych kolorów bądź też wgrać np. logo swojej firmy.
 4. Usunąć projekt. Opcja ta została umieszczona w dobrze oznaczonej strefie ustawień krytycznych. Dodatkowo usunięcie wymaga dodatkowego potwierdzenia w wyskakującym okienku. Zabezpieczamy przed przypadkowymi kliknięciami!
 
 ![Ustawienia projektu](/img/projectsettings_pl.png)
 
 
-Aby wrócić do projektu kliknij na strzałkę w prawym górnym rogu albo kliknij w logo 4ga Boards żeby przejść do [ekranu początkowego wyboru projektu](./project).
+Aby wrócić do projektu kliknij na strzałkę w prawym górnym rogu albo kliknij w logo 4ga Boards żeby przejść do [ekranu początkowego wyboru projektu](./project.md).

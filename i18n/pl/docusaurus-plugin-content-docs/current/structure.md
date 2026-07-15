@@ -9,15 +9,15 @@ W poniższej sekcji zaprezentowano logiczną strukturę organizacji pracy w prog
 A mówiąc o projektach...
 
 
-[Projekt](./project) to najwyższy poziom organizacji w 4ga Boards zawierający tablice.\
-[Tablica](./board) to przestrzeń robocza w obrębie projektu gdzie zadania są zorganizowane i zobrazowane na następujące sposoby:\
-[Widok Listy](./list-view), gdzie zadania przedstawione są w tabeli/liście zadań,\
-[Widok Tablicy](./board-view), czyli klasyczna tablica Kanban z listami oraz kartami.
+[Projekt](./project.md) to najwyższy poziom organizacji w 4ga Boards zawierający tablice.\
+[Tablica](./board.md) to przestrzeń robocza w obrębie projektu gdzie zadania są zorganizowane i zobrazowane na następujące sposoby:\
+[Widok Listy](./list-view.md), gdzie zadania przedstawione są w tabeli/liście zadań,\
+[Widok Tablicy](./board-view.md), czyli klasyczna tablica Kanban z listami oraz kartami.
 
-[Lista](./list) to kolumna reprezentująca poszczególne etapy procesu produkcyjnego ("Zadania otwarte", "W trakcie" itd.), w których to kolumnach znajdują się poszczególne karty.\
-[Karta](./card) to graficzna reprezentacja pojedynczego zadania (wraz z opcjonalnymi podzadaniami), która może być swobodnie umieszczana i przenoszona pomiędzy listami.
+[Lista](./list.md) to kolumna reprezentująca poszczególne etapy procesu produkcyjnego ("Zadania otwarte", "W trakcie" itd.), w których to kolumnach znajdują się poszczególne karty.\
+[Karta](./card.md) to graficzna reprezentacja pojedynczego zadania (wraz z opcjonalnymi podzadaniami), która może być swobodnie umieszczana i przenoszona pomiędzy listami.
 
 Odnośniki prowadzą do szczegółowego opisu każdego z tych elementów.
 
-[Panel boczny](./sidebar) pozwala na sprawne zarządzanie elementami programu 4ga Boards.
+[Panel boczny](./sidebar.md) pozwala na sprawne zarządzanie elementami programu 4ga Boards.
 

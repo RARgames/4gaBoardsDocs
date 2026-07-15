@@ -15,11 +15,11 @@ W strukturze użytkowników 4ga Boards wyróżnia się trzy poziomy uprawnień:
 Każdy kolejny poziom dostępu odblokowuje nowy panel ustawień.
 
 - Dla każdego użytkownika:
-[Ustawienia użytkownika](./settings) pozwalają na zmianę ustawień i preferencji dla danego użytkownika.
+[Ustawienia użytkownika](./settings.md) pozwalają na zmianę ustawień i preferencji dla danego użytkownika.
 - Dla moderatora projektu:
-[Ustawienia projektu](./project-settings) pozwalają na zmianę ustawień dla pojedynczego projektu w instancji.
+[Ustawienia projektu](./project-settings.md) pozwalają na zmianę ustawień dla pojedynczego projektu w instancji.
 - Dla administratorów instancji:
-[Ustawienia instancji](./instance-settings) pozwalają na zmianę globalnych ustawień instancji (np. demo.4gaboards.com).
+[Ustawienia instancji](./instance-settings.md) pozwalają na zmianę globalnych ustawień instancji (np. demo.4gaboards.com).
 
 ## Dostęp do ustawień przez panel główny
 

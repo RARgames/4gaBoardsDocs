@@ -17,7 +17,7 @@ Currently 4ga Boards is supporting migration from Trello. To do this, export you
 
 ![Board import popup window](/img/importboard_en.png)
 
-3. In the file manager select the appriopriate `.json` file, name your new board and choose in which project it should be created. Think of the project for now as kind of Trello's workspaces - a container that holds boards. More on project [here](./project).
+3. In the file manager select the appriopriate `.json` file, name your new board and choose in which project it should be created. Think of the project for now as kind of Trello's workspaces - a container that holds boards. More on project [here](./project.md).
 
  ![Trello import options](/img/importboardtrello_en.png)
 

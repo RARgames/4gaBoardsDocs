@@ -43,4 +43,4 @@ postgresql://username:password@localhost/boards
 ```
 
 Additional Links:\
-[4ga Boards Professional Hosting](./4gaboards)
+[4ga Boards Professional Hosting](./4gaboards.md)

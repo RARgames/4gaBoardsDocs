@@ -18,4 +18,4 @@ If you want to use Redis for upload rate limiting in Docker Compose, configure t
 You can generate a password with: `openssl rand -hex 32`
 :::
 
-See also: [Docker Compose Variables](./docker-vars)
+See also: [Docker Compose Variables](./docker-vars.md)

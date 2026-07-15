@@ -29,7 +29,7 @@ Od lewej do prawej:
 12. Zadania przypisane do karty
 13. Menu `wielokropka` karty
 
-Aby uzyskać dodatkowe informacje, przejdź do [opisu karty](./card).
+Aby uzyskać dodatkowe informacje, przejdź do [opisu karty](./card.md).
 
 Możesz wchodzić w interakcję z każdym z tych elementów bezpośrednio z poziomu widoku listy lub otwierając odpowiednią kartę.
 Aby to zrobić, kliknij w puste miejsce w wierszu karty (dla wygodniejszej nawigacji zalecamy kliknięcie w pole opisu/załącznika/komentarza — nie otworzą one wyskakującego okna).
@@ -44,7 +44,7 @@ To jest domyślny zestaw kolumn. Aby dodać lub usunąć kolumny, użyj menu `wi
 
 Na dole listy znajduje się dodatkowy panel nawigacyjny, w którym możesz wybrać liczbę kart widocznych na stronę (domyślnie: 100), zmieniać strony za pomocą strzałek po lewej stronie oraz uzyskać dostęp do menu listy poprzez ikonę `koła zębatego`.
 
-Po prawej stronie możesz dodać [Listę](./list) oraz [Kartę](./card) — pojawią się one również w widoku tablicy.
+Po prawej stronie możesz dodać [Listę](./list.md) oraz [Kartę](./card.md) — pojawią się one również w widoku tablicy.
 
 
 ![Dolne menu widoku listy](/img/listviewbottom_en.png)

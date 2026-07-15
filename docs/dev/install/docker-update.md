@@ -6,7 +6,7 @@ description: ''
 # Docker Compose Update
 
 :::warning
-Remember to backup before updating: [Backup and restore](../backup-restore)
+Remember to backup before updating: [Backup and restore](../backup-restore.md)
 :::
 
 
@@ -26,4 +26,4 @@ docker image prune -a -f
 ```
 
 Additional Links:\
-[4ga Boards Professional Hosting](./4gaboards)
+[4ga Boards Professional Hosting](./4gaboards.md)

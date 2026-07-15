@@ -77,7 +77,7 @@ The card view is the best way to change all the informations, options and detail
 
 ![Card members option](/img/cardmembers_en.png)
 
-Note that only members that are added to the current board can be assigned to the card. If you don't see a member that should be available here and you are a project manager, add the member in [board options](./board).
+Note that only members that are added to the current board can be assigned to the card. If you don't see a member that should be available here and you are a project manager, add the member in [board options](./board.md).
 6. Labels: Click on the plus icon to add labels to your card. Tick symbol indicates whether or not the label is used. You can also manage your labels here: create new labels (click on `Create new label`) or editing existing ones (click on the `pencil` icon). 
 
 ![Card labels](/img/cardlabels_en.png) ![Card labels edit](/img/cardlabelsedit_en.png)

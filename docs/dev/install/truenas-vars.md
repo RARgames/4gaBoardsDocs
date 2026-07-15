@@ -35,4 +35,4 @@ All variables configured here override values from `values.yaml`
 Additional Links:\
 [4ga Boards `values.yaml` File](https://github.com/RARgames/4gaBoards/blob/main/helm-chart/values.yaml)\
 [4ga Boards `values.truenas.yaml` File](https://github.com/RARgames/4gaBoards/blob/main/helm-chart/values.truenas.yaml)\
-[4ga Boards Professional Hosting](./4gaboards)
+[4ga Boards Professional Hosting](./4gaboards.md)

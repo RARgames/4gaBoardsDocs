@@ -56,7 +56,7 @@ If you disable it, the sidebar will be bulkier, which might be useful if you hav
 
 ### Notifications
 
-11. "Subscribe to my own cards": set if you want to be automatically subscribed to the cards created by you (see [card](./card#card-options), card options section).
+11. "Subscribe to my own cards": set if you want to be automatically subscribed to the cards created by you (see [card](./card.md#card-options), card options section).
 
 12. "Subscribe to new boards": set if you want to be automatically subscribed to boards you join
 
