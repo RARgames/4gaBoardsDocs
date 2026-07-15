@@ -93,4 +93,4 @@
 - `AUTH_RATE_LIMIT_ENABLED: true` - login rate limit disabled if false, defaults to `true`
 - `AUTH_RATE_LIMIT_MAX_ATTEMPTS: 5` - login rate limit max attempts in window, defaults to `5`
 - `AUTH_RATE_LIMIT_WINDOW_MS: 60000` - login rate limit window, defaults to `60000` - 10 minutes
-- `SYSTEM_NOTIFICATIONS_DISABLED: true` - stop receiving system notifications, we honor it and do not send notifications except important security update releases to admins
+- `SYSTEM_NOTIFICATIONS_DISABLED: true` - stop receiving system notifications, we honor it and do not send notifications except important security update releases to admins. We recommend using `Suppressed System Notification Tags` in user preferences instead as it allows more control e.g. leaving one admin with update notifications
