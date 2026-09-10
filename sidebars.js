@@ -75,6 +75,17 @@ export default {
             'dev/install/4gaboards',
             {
               type: 'category',
+              label: 'Easypanel (Easy)',
+              items: [
+                'dev/install/easypanel-install',
+              ],
+              link: {
+                type: 'generated-index',
+                slug: '/dev/install/easypanel',
+              },
+            },
+            {
+              type: 'category',
               label: 'Docker Compose (Easy)',
               items: [
                 'dev/install/docker-install',
