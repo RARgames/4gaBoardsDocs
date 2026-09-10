@@ -17,6 +17,8 @@ Requirements: an [Easypanel](https://easypanel.io/) instance
 3. Search for **4ga Boards** and select it
 4. Click **Create** to deploy the service
 
+![4ga Boards deployed on Easypanel](/img/easypanel_deployed.jpg)
+
 Easypanel provisions the PostgreSQL database automatically and runs the [official 4ga Boards Docker image](https://github.com/RARgames/4gaBoards/pkgs/container/4gaBoards) for you, exposing it through a domain.
 
 :::tip
