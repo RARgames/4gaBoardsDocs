@@ -44,6 +44,7 @@
 - `OIDC_DISABLE_HINT_*=false` - disable one of the methods supported by OIDC provider e.g. `OIDC_DISABLE_HINT_GITHUB=false`, defaults to `false`
 - `OIDC_SKIP_ACCOUNT_SELECTION=false` - don't send `select_account` or `login` prompt to OIDC provider, defaults to `false`
 - `OIDC_SKIP_ACCOUNT_SELECTION_HINT_*=false` - don't send `select_account` or `login` prompt to OIDC provider (only for some method) e.g. `OIDC_SKIP_ACCOUNT_SELECTION_HINT_GITHUB=false`, defaults to `false`
+- `OIDC_PKCE_ENABLED=true` - use PKCE (S256) in OIDC authentication flow, when using this option `OIDC_CLIENT_SECRET` is optional, defaults to `true`
 
 #### Notifications (Email Notifications, Email Verifications, Email-to-Card)
 
