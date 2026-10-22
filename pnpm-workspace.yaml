@@ -2,7 +2,7 @@ allowBuilds:
   core-js: true
 overrides:
   baseline-browser-mapping@>=2.0.0 <2.11.0: ^2.11.0
-  brace-expansion@<1.1.21: ^1.1.21
+  brace-expansion@<1.1.21: ^5.0.0
   browserslist@<=4.28.6: ^4.28.7
   colord@<2.9.4: ^2.9.4
   compression@<1.8.2: ^1.8.2
