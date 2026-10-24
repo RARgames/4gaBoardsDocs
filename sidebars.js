@@ -81,6 +81,7 @@ export default {
                 'dev/install/docker-vars',
                 'dev/install/docker-update',
                 'dev/install/docker-redis',
+                'dev/install/docker-user',
                 'dev/install/docker-uninstall',
               ],
               link: {
