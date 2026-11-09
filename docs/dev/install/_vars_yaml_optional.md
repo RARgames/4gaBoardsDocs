@@ -8,7 +8,7 @@
 
 ##### Other settings:
 
-- `DEFAULT_PROJECT_CREATION_ALL: true` - only admins can create projects if true, defaults to `true`
+- `DEFAULT_PROJECT_CREATION_ALL: true` - only admins can create projects if false, defaults to `true`
 - `DEFAULT_REGISTRATION_ENABLED: true` - registration enabled if true, defaults to `true`
 - `DEFAULT_LOCAL_REGISTRATION_ENABLED: true` - local registration emabled if true, defaults to `true`
 - `DEFAULT_SSO_REGISTRATION_ENABLED: true` - sso registration enabled if true, defaults to `true`
