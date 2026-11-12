@@ -67,6 +67,8 @@ Build Docs Locally
 ```
 pnpm build
 ```
+The build downloads the API specification from the `main` branch of `RARgames/4gaBoards` by default. Set `OPENAPI_REF` to a branch, tag, or commit to use that revision instead. The API page includes the main specification and any `packages/api-docs/openapi/<version>/openapi.yaml` files present at that revision. `OPENAPI_URL` overrides this behavior and builds the API page with only the specified URL.
+
 View build in the browser
 ```
 pnpm serve

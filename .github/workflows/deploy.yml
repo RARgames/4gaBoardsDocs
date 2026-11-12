@@ -4,6 +4,12 @@ on:
     branches:
       - main
   workflow_dispatch:
+  repository_dispatch:
+    types: [api-docs-updated]
+
+concurrency:
+  group: docs-deploy
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -35,6 +41,10 @@ jobs:
 
       - name: Build project
         run: pnpm build
+        env:
+          # Spec revision to document: the commit sent by repository_dispatch, otherwise main
+          OPENAPI_REF: ${{ github.event.client_payload.ref }}
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.4.0

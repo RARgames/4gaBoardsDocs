@@ -1,0 +1,228 @@
+.version {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.versionSelect {
+  position: relative;
+  display: inline-flex;
+  max-width: 100%;
+}
+
+.versionSelect::after {
+  position: absolute;
+  top: 50%;
+  right: 0.8rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-right: 2px solid var(--yellow);
+  border-bottom: 2px solid var(--yellow);
+  content: '';
+  pointer-events: none;
+  transform: translateY(-70%) rotate(45deg);
+}
+
+.swagger :global(.swagger-ui) .version select {
+  appearance: none;
+  max-width: 100%;
+  padding: 0.4rem 2rem 0.4rem 0.6rem;
+  color: var(--ifm-font-color-base);
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--yellow);
+  border-radius: 4px;
+  accent-color: var(--yellow);
+}
+
+.version select:focus-visible {
+  outline: 2px solid var(--yellow);
+  outline-offset: 2px;
+}
+
+.swagger {
+  background: var(--dark-background1);
+  color: var(--dark-primary);
+  padding: 0;
+}
+
+.swagger :global(.swagger-ui) {
+  color: var(--dark-primary);
+}
+
+.swagger :global(.swagger-ui .information-container .info) {
+  margin: 0 0 1rem;
+}
+
+.settingsTitle {
+  margin: 0;
+  color: var(--dark-h);
+  font-size: 1.25rem;
+}
+
+.swagger :global(.swagger-ui .info__license) {
+  display: none;
+}
+
+.swagger :global(.swagger-ui .wrapper) {
+  max-width: none;
+  padding-inline: 0;
+}
+
+.swagger :global(.swagger-ui .scheme-container) {
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.swagger :global(.swagger-ui .schemes) {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 8px;
+}
+
+.swagger :global(.swagger-ui .schemes-server-container) {
+  width: 100%;
+  min-width: 0;
+}
+
+.swagger :global(.swagger-ui .schemes-server-container > div) {
+  width: 100%;
+}
+
+.swagger :global(.swagger-ui .servers-title),
+.swagger :global(.swagger-ui .servers > label:has(option:only-child)),
+.swagger :global(.swagger-ui .servers > div > h4) {
+  display: none;
+}
+
+.swagger :global(.swagger-ui .servers > div) {
+  display: flex;
+  flex-direction: column;
+}
+
+.swagger :global(.swagger-ui .servers .computed-url) {
+  order: 1;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  overflow-wrap: anywhere;
+}
+
+.swagger :global(.swagger-ui .servers .computed-url code) {
+  margin-left: 4px;
+}
+
+.swagger :global(.swagger-ui .servers table) {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.swagger :global(.swagger-ui .servers table tbody) {
+  display: block;
+  width: 100%;
+}
+
+.swagger :global(.swagger-ui .servers table tr) {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 0;
+  background: transparent;
+}
+
+.swagger :global(.swagger-ui .servers table td) {
+  border: 0;
+  max-width: none;
+  padding: 0 0.5rem 0 0;
+}
+
+.swagger :global(.swagger-ui .servers table td:last-child) {
+  flex: 1;
+  min-width: 0;
+}
+
+.swagger :global(.swagger-ui .servers input) {
+  width: min(100%, 28rem);
+}
+
+.swagger :global(.swagger-ui :is(h1, h2, h3, h4, h5, p, li, label, td, th, div)),
+.swagger :global(.swagger-ui .opblock :is(h1, h2, h3, h4, h5, p, li, label, td, th, div)) {
+  color: var(--dark-primary);
+}
+
+.swagger :global(.swagger-ui :is(.info .title, .opblock-tag, .opblock-summary-path, .opblock-summary-path__deprecated, .parameter__name, .parameter__type, .response-col_status, .model-title, .model, .prop-type)) {
+  color: var(--dark-h);
+}
+
+.swagger :global(.swagger-ui :is(.scheme-container, .opblock-section-header, .model-box, section.models, .dialog-ux .modal-ux)) {
+  background: var(--dark-background0);
+  color: var(--dark-primary);
+}
+
+.swagger :global(.swagger-ui :is(input, select, textarea)) {
+  background: var(--dark-background2);
+  color: var(--dark-primary);
+  border-color: var(--gray);
+}
+
+.swagger :global(.swagger-ui :is(.btn, .tab li button.tablinks, .model-toggle, .expand-operation, .opblock-control-arrow)) {
+  color: var(--dark-primary);
+}
+
+.swagger :global(.swagger-ui :is(.btn, .dialog-ux .modal-ux-header)) {
+  border-color: var(--gray);
+}
+
+.swagger :global(.swagger-ui :is(.expand-operation, .opblock-control-arrow, .model-toggle, .authorization__btn, .close-modal) svg) {
+  fill: var(--dark-primary);
+}
+
+.swagger :global(.swagger-ui .authorization__btn svg),
+.swagger :global(.swagger-ui .authorize svg) {
+  color: var(--yellow);
+  fill: var(--yellow);
+  opacity: 1;
+}
+
+.swagger :global(.swagger-ui .dialog-ux .modal-ux :is(h3, h4, p, label, span)) {
+  color: var(--dark-primary);
+}
+
+.swagger :global(.swagger-ui section.models .models-control) {
+  color: var(--dark-h);
+}
+
+.swagger :global(.swagger-ui section.models .json-schema-2020-12 :is(strong, span, p, li, button)) {
+  color: var(--dark-primary);
+}
+
+.swagger :global(.swagger-ui section.models .json-schema-2020-12 .json-schema-2020-12__title) {
+  color: var(--dark-h);
+}
+
+.swagger :global(.swagger-ui section.models .json-schema-2020-12 .json-schema-2020-12__attribute) {
+  color: #a9cce6;
+}
+
+.swagger :global(.swagger-ui section.models .json-schema-2020-12 button) {
+  background: transparent;
+}
+
+.swagger :global(.swagger-ui :is(a, .link, .info a)) {
+  color: var(--yellow);
+}
+
+.swagger :global(.swagger-ui :not(pre) > code) {
+  color: #b6d5aa;
+}
+
+.swagger :global(.swagger-ui .opblock .opblock-summary-method) {
+  color: var(--dark-background1);
+}
+
+.swagger :global(.swagger-ui .info) {
+  margin-bottom: 2rem;
+}

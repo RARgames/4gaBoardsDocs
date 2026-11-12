@@ -1,5 +1,10 @@
 allowBuilds:
+  '@scarf/scarf': false
+  '@tree-sitter-grammars/tree-sitter-yaml': false
   core-js: true
+  core-js-pure: false
+  tree-sitter: false
+  tree-sitter-json: false
 overrides:
   baseline-browser-mapping@>=2.0.0 <2.11.0: ^2.11.0
   brace-expansion@<1.1.21: ^1.1.21
