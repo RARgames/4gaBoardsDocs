@@ -14,7 +14,7 @@ function VersionSelector() {
       API version
       <span className={styles.versionSelect}>
         <select value={selected} onChange={(event) => setSelected(event.target.value)}>
-          {versions.map((version) => <option key={version.file} value={version.file}>{version.name}</option>)}
+          {versions.map((version) => <option key={version.file} value={version.file}>{version.file === 'openapi.yaml' ? 'Beta Latest' : version.name}</option>)}
         </select>
       </span>
     </label>
