@@ -47,6 +47,14 @@ if (!process.env.OPENAPI_URL) {
   }
 }
 
+const releaseVersion = /^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$/;
+specs.sort((first, second) => {
+  const firstIsRelease = releaseVersion.test(first.name);
+  const secondIsRelease = releaseVersion.test(second.name);
+  if (firstIsRelease !== secondIsRelease) return firstIsRelease ? -1 : 1;
+  return firstIsRelease ? second.name.localeCompare(first.name, 'en', { numeric: true }) : 0;
+});
+
 rmSync(outDir, { recursive: true, force: true });
 mkdirSync(outDir, { recursive: true });
 
