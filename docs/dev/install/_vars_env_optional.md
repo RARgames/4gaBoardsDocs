@@ -45,6 +45,7 @@
 - `OIDC_SKIP_ACCOUNT_SELECTION=false` - don't send `select_account` or `login` prompt to OIDC provider, defaults to `false`
 - `OIDC_SKIP_ACCOUNT_SELECTION_HINT_*=false` - don't send `select_account` or `login` prompt to OIDC provider (only for some method) e.g. `OIDC_SKIP_ACCOUNT_SELECTION_HINT_GITHUB=false`, defaults to `false`
 - `OIDC_PKCE_ENABLED=true` - use PKCE (S256) in OIDC authentication flow, when using this option `OIDC_CLIENT_SECRET` is optional, defaults to `true`
+- `PERMISSIVE_OIDC_PROXY=false` - allow other than canonical redirect URLs defined in `CLIENT_URLS`, defaults to `false`
 
 #### Notifications (Email Notifications, Email Verifications, Email-to-Card)
 
@@ -88,6 +89,7 @@
 #### Other settings
 
 - `CLIENT_URL=http://localhost:3000` - main client URL - usually not needed, if running production defaults to `BASE_URL`, if development defaults to `http://localhost:3000` (skip this unless you really need it)
+- `CLIENT_URLS=https://app.example.com, https://app.example0.com` - alternative client URLs - needed when you want 4ga Boards instance to be accessible from different URLs, defaults to `null`
 - `DEMO_MODE=false` - demo mode enabled if true, defaults to `false`
 - `LOG_LEVEL=warn` - log levels from highest to lowest - error, warn, info, http, verbose, debug, silly, defaults to `warn`
 - `TRUST_PROXY=0` - trust proxy used only if 4ga Boards are behind a proxy/load balancer, defaults to `0`
